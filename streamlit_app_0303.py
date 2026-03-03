@@ -621,19 +621,23 @@ if 'pipeline' in st.session_state:
                 if len(gene_list) < 3:
                     st.warning("분석을 위해 최소 3개 이상의 유전자 심볼이 필요합니다.")
                 else:
-                    with st.spinner("g:Profiler API 호출 중..."):
+                    with st.spinner("g:Profiler 분석 중..."):
+                        
+                        results = None
+                        
                         try:
                             gp = GProfiler()  # 괄호 안을 비워주세요.
-                            # profile 함수 안에 return_pandas=True를 추가합니다.
-                            enr = gp.profile(organism='hsapiens',query=gene_list, sources=['GO:BP', 'GO:MF', 'KEGG'], return_pandas=True)
+                            
+                            results = gp.profile(organism='hsapiens',query=gene_list, sources=['GO:BP', 'GO:MF', 'KEGG'])
 
-                            if enr is not None and not enr.empty:
+                            if results is not None and len(results) > 0:
+                                enr = pd.DataFrame(results)
+                                
                                 # p-value 기준 상위 15개 시각화
                                 enr = enr.sort_values('p_value').head(15)
-                                enr['-log10(p)'] = -np.log10(enr['p_value'])
-                                
-                                
-                                
+                                enr['-log10(p)'] = -np.log10(enr['p_value']).astype(float))
+                                                               
+                                # 시각화
                                 fig_enr = px.bar(
                                     enr, 
                                     x='-log10(p)', 
@@ -647,13 +651,13 @@ if 'pipeline' in st.session_state:
                                 fig_enr.update_layout(yaxis={'categoryorder':'total ascending'}, height=450)
                                 st.plotly_chart(fig_enr, use_container_width=True)
                                 
-                                # 상세 결과 테이블
                                 with st.expander("View full enrichment table"):
                                     st.dataframe(enr[['source', 'native', 'name', 'p_value']], use_container_width=True)
                             else:
                                 st.info("유의미한(p < 0.05) 분석 결과가 없습니다.")
                         except Exception as e:
                             st.error(f"분석 중 오류 발생: {e}")
+                            st.info("Tip: 네트워크 연결 상태 확인하거나 requirements.txt에 gprofiler-official이 있는지 확인하세요.")
 
 
     # -------------------------
