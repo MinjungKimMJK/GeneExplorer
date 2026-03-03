@@ -1,5 +1,5 @@
 # streamlit_app.py
-# All-in-Python: HGNC hierarchy-aware gene clustering + UMAP + Text summaries (no network view)
+# All-in-Python: HGNC hierarchy-aware gene clustering + UMAP + Text summaries 
 # Requirements: pip install streamlit plotly pandas numpy scipy python-igraph leidenalg umap-learn
 
 import os, sys, math, subprocess, hashlib
@@ -74,16 +74,18 @@ def build_name_map(hgnc_df: pd.DataFrame) -> Dict[str, str]:
 st.sidebar.header("1) Data")
 UPLOAD_MODE = st.sidebar.radio("Data source", ["Upload files", "Path mode (read from folder)"], index=0)
 
-if UPLOAD_MODE == "Upload files":
-    hgnc_file = st.sidebar.file_uploader("hgnc_complete_set.txt (TSV)", type=["txt", "tsv"])
-    clos_file = st.sidebar.file_uploader("hierarchy_closure.csv", type=["csv"])
-    curated_file = st.sidebar.file_uploader("APAP_Healyth_apap_human(fold_chamge).csv", type=["csv"])
-else:
-    base = st.sidebar.text_input("Folder path (contains the 3 files)", value="/content/drive/MyDrive/HGNC") ### pathway 바꾸기!
-    hgnc_file = Path(base) / "hgnc_complete_set.txt"
-    clos_file  = Path(base) / "hierarchy_closure.csv"
-    curated_file = Path(base) / "APAP_Healyth_apap_human(fold_chamge).csv"
+ase_path = Path("./")
 
+hgnc_file = base_path / "hgnc_complete_set.txt"
+clos_file  = base_path / "hierarchy_closure.csv"
+curated_file = base_path / "APAP_healthy_apap_human(fold_change).csv"
+
+st.sidebar.info("📊 **Example Mode Active**")
+st.sidebar.caption(f"Using default HGNC & APAP datasets from repository.")
+
+if st.sidebar.button("🚀 Run Analysis Pipeline", type="primary"):
+    st.session_state['run_pipeline'] = True
+    
 st.sidebar.divider()
 st.sidebar.header("2) Parameters")
 
