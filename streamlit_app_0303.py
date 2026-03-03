@@ -623,11 +623,10 @@ if 'pipeline' in st.session_state:
                 else:
                     with st.spinner("g:Profiler API 호출 중..."):
                         try:
-                            gp = GProfiler(return_pandas=True)
-                            # hsapiens(인간), 유의미한 결과만 필터링
-                            enr = gp.profile(organism='hsapiens', query=gene_list, 
-                                            sources=['GO:BP', 'GO:MF', 'KEGG'])
-                            
+                            gp = GProfiler()  # 괄호 안을 비워주세요.
+                            # profile 함수 안에 return_pandas=True를 추가합니다.
+                            enr = gp.profile(organism='hsapiens',query=gene_list, sources=['GO:BP', 'GO:MF', 'KEGG'], return_pandas=True)
+
                             if enr is not None and not enr.empty:
                                 # p-value 기준 상위 15개 시각화
                                 enr = enr.sort_values('p_value').head(15)
