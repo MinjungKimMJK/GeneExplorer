@@ -74,7 +74,7 @@ def build_name_map(hgnc_df: pd.DataFrame) -> Dict[str, str]:
 st.sidebar.header("1) Data")
 UPLOAD_MODE = st.sidebar.radio("Data source", ["Upload files", "Path mode (read from folder)"], index=0)
 
-ase_path = Path("./")
+base_path = Path("./")
 
 hgnc_file = base_path / "hgnc_complete_set.txt"
 clos_file  = base_path / "hierarchy_closure.csv"
