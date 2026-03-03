@@ -635,7 +635,7 @@ if 'pipeline' in st.session_state:
                                 
                                 # p-value 기준 상위 15개 시각화
                                 enr = enr.sort_values('p_value').head(15)
-                                enr['-log10(p)'] = -np.log10(enr['p_value']).astype(float))
+                                enr['-log10(p)'] = -np.log10(enr['p_value']).astype(float)
                                                                
                                 # 시각화
                                 fig_enr = px.bar(
