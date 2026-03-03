@@ -1,0 +1,9 @@
+streamlit
+plotly
+pandas
+numpy
+scipy
+python-igraph
+leidenalg
+umap-learn
+gprofiler-official
