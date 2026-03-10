@@ -136,7 +136,7 @@ st.sidebar.divider()
 
 st.sidebar.header("Curated file settings")
 COUNT_COLUMN_NAME = st.sidebar.text_input(
-    "Curated file의 count 열 이름 (예: fold change, count, etc.)",
+    "Enter the header name of the column containing numeric data to be used for enrichment analysis (e.g., count, fold change)",
     value="count"
 )
 st.sidebar.divider()
@@ -618,7 +618,7 @@ if 'pipeline' in st.session_state:
 
         with col_enr:
             st.markdown("### Functional Enrichment")
-            st.caption("g:Profiler를 사용하여 GO Term 및 KEGG Pathway를 분석합니다.")
+            st.caption("Conducts GO term and KEGG pathway enrichment analysis using g:Profiler.")
             
             if st.button(f"Run Enrichment Analysis", key="btn_enr"):
                 # 유전자 심볼 리스트 추출 (공백 제외)
@@ -626,9 +626,9 @@ if 'pipeline' in st.session_state:
                 gene_list = [g for g in gene_list if str(g).strip() != "" and str(g).upper() != "NAN"]
                 
                 if len(gene_list) < 3:
-                    st.warning("분석을 위해 최소 3개 이상의 유전자 심볼이 필요합니다.")
+                    st.warning("At least 3 gene symbols are required for analysis.")
                 else:
-                    with st.spinner("g:Profiler 분석 중..."):
+                    with st.spinner("Analyzing with g:Profiler..."):
                         
                         results = None
                         
@@ -661,10 +661,10 @@ if 'pipeline' in st.session_state:
                                 with st.expander("View full enrichment table"):
                                     st.dataframe(enr[['source', 'native', 'name', 'p_value']], use_container_width=True)
                             else:
-                                st.info("유의미한(p < 0.05) 분석 결과가 없습니다.")
+                                st.info("No statistically significant results found ($p < 0.05$).)
                         except Exception as e:
-                            st.error(f"분석 중 오류 발생: {e}")
-                            st.info("Tip: 네트워크 연결 상태 확인하거나 requirements.txt에 gprofiler-official이 있는지 확인하세요.")
+                            st.error(f"An error occurred during analysis: {e}")
+                            st.info("Tip: Please check your internet connection or ensure 'gprofiler-official' is properly installed in your requirements.txt..")
 
 
     # -------------------------
