@@ -664,7 +664,7 @@ if 'pipeline' in st.session_state:
                                 st.info("No statistically significant results found ($p < 0.05$).)
                         except Exception as e:
                             st.error(f"An error occurred during analysis: {e}")
-                            st.info("Tip: Please check your internet connection or ensure 'gprofiler-official' is properly installed in your requirements.txt..")
+                            st.info("Tip: Please check your internet connection or ensure 'gprofiler-official' is properly installed in your requirements.txt.")
 
 
     # -------------------------
