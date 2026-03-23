@@ -220,6 +220,7 @@ def attach_groups_for_curated(hgnc: pd.DataFrame, cur: pd.DataFrame,
 # -------------------------
 # Similarity / Clustering / UMAP
 # -------------------------
+                         
 def build_similarity(genes_df: pd.DataFrame, g2g_df: pd.DataFrame, clos: pd.DataFrame,
                      use_exp=False, alpha=0.5, lmbda=1.0, DMAX=3, TOPK=25):
     gene_ids = sorted(genes_df['GeneID'].unique().tolist())
@@ -228,7 +229,7 @@ def build_similarity(genes_df: pd.DataFrame, g2g_df: pd.DataFrame, clos: pd.Data
     groups = sorted(g2g_df['GeneGroupID'].dropna().astype(str).unique().tolist())
     grp_to_idx = {g:i for i,g in enumerate(groups)}
 
-    # Genes x Groups membership with group-size normalization
+    # Genes x Groups membership
     gsize = g2g_df.groupby('GeneGroupID')['GeneID'].nunique().to_dict()
     row, col, data = [], [], []
     for _, r in g2g_df.dropna(subset=['GeneGroupID']).iterrows():
@@ -237,6 +238,45 @@ def build_similarity(genes_df: pd.DataFrame, g2g_df: pd.DataFrame, clos: pd.Data
         w = 1.0 / math.sqrt(max(1, gsize.get(str(r['GeneGroupID']), 1)))
         row.append(gi); col.append(gj); data.append(w)
     A = sparse.csr_matrix((data, (row, col)), shape=(len(gene_ids), len(groups)), dtype=np.float32)
+
+    # calculate Hierarchy W 
+    clos_use = clos[clos['distance'] <= int(DMAX)].copy()
+    if use_exp:
+        clos_use['w'] = np.exp(-float(lmbda) * clos_use['distance'].astype(float))
+    else:
+        clos_use['w'] = (float(alpha) ** clos_use['distance'].astype(float))
+
+    row_w, col_w, data_w = [], [], []
+    for _, r in clos_use.iterrows():
+        p = str(r['ParentGroupID']); c = str(r['ChildGroupID']); w = float(r['w'])
+        if p in grp_to_idx and c in grp_to_idx:
+            i = grp_to_idx[p]; j = grp_to_idx[c]
+            row_w += [i,j]; col_w += [j,i]; data_w += [w,w]
+    for g in groups:
+        i = grp_to_idx[g]
+        row_w.append(i); col_w.append(i); data_w.append(1.0)
+    W = sparse.csr_matrix((data_w, (row_w, col_w)), shape=(len(groups), len(groups)), dtype=np.float32)
+
+    # calculate final similarity S and Return
+    S = (A @ W @ A.T).tocsr()
+    S.setdiag(0.0)
+
+    # Sparsify (Top-K)
+    def _topk_internal(M, k):
+        M = M.tolil()
+        for i in range(M.shape[0]):
+            row_data = M.data[i]; row_idx = M.rows[i]
+            if len(row_idx) > k:
+                order = np.argsort(row_data)[::-1][:k]
+                M.rows[i] = list(np.array(row_idx)[order])
+                M.data[i] = list(np.array(row_data)[order])
+        return M.tocsr()
+
+    S = _topk_internal(S, int(TOPK))
+    S = S.maximum(S.T).tocsr()
+    S.setdiag(0.0)
+    
+    return S, gene_ids 
 
 def build_ablation_baseline(genes_df, TOPK=25):
     """
@@ -268,7 +308,9 @@ def build_ablation_baseline(genes_df, TOPK=25):
     S_baseline = S_baseline.maximum(S_baseline.T).tocsr()
     S_baseline.setdiag(0.0)
     
-    return S_baseline
+    gene_ids = sorted(genes_df['GeneID'].unique().tolist())
+    return S_baseline, gene_ids
+    
 
     # Groups x Groups W with decay, within D<=DMAX
     clos_use = clos[clos['distance'] <= int(DMAX)].copy()
