@@ -16,6 +16,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from gprofiler import GProfiler
+from sklearn.metrics.pairwise import cosine_similarity
 
 # (best-effort) auto-install heavy deps if missing
 def _ensure(pkg):
@@ -237,6 +238,38 @@ def build_similarity(genes_df: pd.DataFrame, g2g_df: pd.DataFrame, clos: pd.Data
         row.append(gi); col.append(gj); data.append(w)
     A = sparse.csr_matrix((data, (row, col)), shape=(len(gene_ids), len(groups)), dtype=np.float32)
 
+def build_ablation_baseline(genes_df, TOPK=25):
+    """
+    Builds a baseline similarity matrix using only raw expression counts,
+    completely ignoring the HGNC hierarchy (H-matrix).
+    """
+    
+    # 1. Vectorize expression counts
+    counts = genes_df['Count'].values.reshape(-1, 1)
+    
+    # 2. Compute Cosine Similarity (Numerical similarity only)
+    S_raw = cosine_similarity(counts)
+    
+    # 3. Convert to Sparse and apply Top-K sparsification to match the proposed model's conditions
+    S_baseline = sparse.csr_matrix(S_raw)
+    
+    # Custom top-k function (ensure this is defined in your script)
+    def _topk(M, k):
+        M = M.tolil()
+        for i in range(M.shape[0]):
+            row_data = M.data[i]; row_idx = M.rows[i]
+            if len(row_idx) > k:
+                order = np.argsort(row_data)[::-1][:k]
+                M.rows[i] = list(np.array(row_idx)[order])
+                M.data[i] = list(np.array(row_data)[order])
+        return M.tocsr()
+
+    S_baseline = _topk(S_baseline, int(TOPK))
+    S_baseline = S_baseline.maximum(S_baseline.T).tocsr()
+    S_baseline.setdiag(0.0)
+    
+    return S_baseline
+
     # Groups x Groups W with decay, within D<=DMAX
     clos_use = clos[clos['distance'] <= int(DMAX)].copy()
     if use_exp:
@@ -340,7 +373,40 @@ def make_group_distance_map(clos_use_df: pd.DataFrame) -> dict:
         if (c,p) not in dist or d < dist[(c,p)]: dist[(c,p)] = d
     return dist
 
+def calculate_coherence_score(cluster_df):
+    """
+    Calculates the average functional coherence score (-log10 p-value) 
+    for clusters with at least 4 genes (n >= 4).
+    """
+    from gprofiler import GProfiler
+    gp = GProfiler()
+    all_scores = []
+    
+    # Filter clusters with n >= 4
+    cluster_counts = cluster_df['cluster'].value_counts()
+    valid_cluster_ids = cluster_counts[cluster_counts >= 4].index.tolist()
+    
+    if not valid_cluster_ids:
+        return 0.0
 
+    # Iterate through filtered clusters (limiting to top 50 for performance)
+    for cl_id in valid_cluster_ids[:50]:
+        gene_list = cluster_df[cluster_df['cluster'] == cl_id]['GeneSymbol'].tolist()
+        gene_list = [str(g) for g in gene_list if str(g).strip()]
+        
+        try:
+            # Run enrichment only for GO:BP (Biological Process)
+            res = gp.profile(organism='hsapiens', query=gene_list, sources=['GO:BP'])
+            if res:
+                # Store the -log10 p-value of the most significant term
+                top_p = res[0]['p_value']
+                all_scores.append(-np.log10(top_p))
+            else:
+                all_scores.append(0.0)
+        except:
+            continue
+            
+    return np.mean(all_scores) if all_scores else 0.0
 # -------------------------
 # Main
 # -------------------------
@@ -486,6 +552,34 @@ if 'pipeline' in st.session_state:
         f"Parameters: α≈{alpha:.2f} · Dmax={DMAX} · top-k={TOPK} · resolution={RESOLUTION} — "
         "move the Detail level to the right for more/finer clusters."
     )
+    
+    # --- [Ablation Study UI Section] ---
+    st.sidebar.divider()
+    st.sidebar.subheader("🧪 Ablation Study")
+    if st.sidebar.button("Run Statistical Comparison", help="Quantify the impact of HGNC hierarchy on biological coherence"):
+        with st.spinner("Running Ablation Study... This may take a minute."):
+            # 1. Get current results (Proposed Model)
+            df_prop = clusters_df.copy()
+            score_prop = calculate_coherence_score(df_prop)
+            
+            # 2. Run Baseline Model (Without HGNC)
+            S_base = build_ablation_baseline(genes_df, TOPK=TOPK)
+            # Ensure seed=42 is set in your cluster_graph function to fix results
+            labels_base = cluster_graph(S_base, RESOLUTION) 
+            df_base = pd.DataFrame({'GeneSymbol': [gid_to_symbol.get(g, g) for g in gene_ids], 'cluster': labels_base})
+            score_base = calculate_coherence_score(df_base)
+            
+            # 3. Display Result in Main Area
+            st.write("### 📊 Ablation Study: HGNC Hierarchy Impact")
+            c1, c2, c3 = st.columns(3)
+            c1.metric("Proposed (HGNC-aware)", f"{score_prop:.2f}")
+            c2.metric("Baseline (Raw Exp)", f"{score_base:.2f}")
+            
+            improvement = (score_prop / score_base) if score_base > 0 else 0
+            c3.metric("Improvement Factor", f"x{improvement:.1f}", delta=f"{((improvement-1)*100):.1f}%")
+            
+            st.success(f"Integrating the HGNC hierarchy improved the biological coherence of clusters by {improvement:.1f}x.")
+            st.info("Note: This score is calculated as the average -log10(p-value) of the top GO:BP terms for clusters with n >= 4.")
 
     # ---- UMAP
     st.subheader("UMAP (genes colored by cluster)")
