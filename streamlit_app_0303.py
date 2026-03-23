@@ -605,8 +605,9 @@ if 'pipeline' in st.session_state:
             score_prop = calculate_coherence_score(df_prop)
             
             # 2. Run Baseline Model (Without HGNC)
-            S_base = build_ablation_baseline(genes_df, TOPK=TOPK)
-            # Ensure seed=42 is set in your cluster_graph function to fix results
+            S_base, _ = build_ablation_baseline(genes_df, TOPK=TOPK) 
+            
+            # Seed=42가 적용된 cluster_graph 함수를 사용하여 결과를 고정합니다.
             labels_base = cluster_graph(S_base, RESOLUTION) 
             df_base = pd.DataFrame({'GeneSymbol': [gid_to_symbol.get(g, g) for g in gene_ids], 'cluster': labels_base})
             score_base = calculate_coherence_score(df_base)
@@ -622,7 +623,7 @@ if 'pipeline' in st.session_state:
             
             st.success(f"Integrating the HGNC hierarchy improved the biological coherence of clusters by {improvement:.1f}x.")
             st.info("Note: This score is calculated as the average -log10(p-value) of the top GO:BP terms for clusters with n >= 4.")
-
+            
     # ---- UMAP
     st.subheader("UMAP (genes colored by cluster)")
     umap_df = clusters_df.copy()
