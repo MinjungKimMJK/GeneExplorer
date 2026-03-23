@@ -297,7 +297,7 @@ def cluster_graph(S_sym: sparse.csr_matrix, RESOLUTION: float) -> np.ndarray:
     g = ig.Graph(n=S_sym.shape[0], edges=edges, directed=False)
     g.es['weight'] = weights
     part = leidenalg.find_partition(g, leidenalg.RBConfigurationVertexPartition,
-                                    weights='weight', resolution_parameter=float(RESOLUTION))
+                                    weights='weight', resolution_parameter=float(RESOLUTION), seed=42)
     return np.array(part.membership, dtype=int)
 
 def umap_embedding(S_sym: sparse.csr_matrix, base_neighbors: int = 15) -> np.ndarray:
