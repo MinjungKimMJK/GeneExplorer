@@ -731,8 +731,7 @@ if 'pipeline' in st.session_state:
             size[mask] = smin + (smax - smin) * t
         return size
 
-    umap_df['size'] = _sizes_from_count(umap_df['Count'], float(SIZE_MIN), float(SIZE_MAX),
-                                        float(COUNT_SIZE_TH), float(SIZE_BASE), SIZE_SCALE_MODE)
+    umap_df['size'] = _sizes_from_count(umap_df['Count'], smin=1.0, smax=18.0, th=5.0, base=2.0, mode='log')
 
     nclust = int(np.unique(labels).size)
     colors = (px.colors.qualitative.Plotly * ((nclust // len(px.colors.qualitative.Plotly)) + 1))[:nclust]
@@ -741,7 +740,7 @@ if 'pipeline' in st.session_state:
         x='x', y='y',
         color=umap_df['cluster'].astype(str),
         hover_name='GeneSymbol',
-        size=('size' if SIZE_BY_COUNT else None),
+        size='size',
         color_discrete_sequence=colors,
         height=600,
         hover_data={'Count': True}
