@@ -651,6 +651,20 @@ if 'pipeline' in st.session_state:
     
     # count_map = dict(genes_df[['GeneID','Count']].values)
     # umap_df['Count'] = umap_df['GeneID'].map(count_map).fillna(1.0).astype(float)
+    def _sizes_from_count(cnt_series, smin, smax, th, base, mode):
+        cnt = cnt_series.astype(float).fillna(1.0).to_numpy()
+        size = np.full(cnt.shape, float(base), dtype=float)
+        mask = cnt >= float(th)
+        if mask.any():
+            above = cnt[mask]
+            vals = (above - float(th)) if mode == 'linear' else np.log1p(above - float(th) + 1.0)
+            lo, hi = np.quantile(vals, [0.05, 0.95]) if vals.size > 1 else (vals.min(), vals.max()+1e-9)
+            denom = (hi - lo) if (hi - lo) > 1e-9 else 1.0
+            t = np.clip((vals - lo) / denom, 0, 1)
+            size[mask] = smin + (smax - smin) * t
+        return size
+
+    
     # ---- UMAP (Comparative Visualization)
     st.subheader("UMAP (genes colored by cluster)")
     
@@ -718,18 +732,6 @@ if 'pipeline' in st.session_state:
             else:
                 st.info("Run 'Statistical Comparison' in sidebar to see Baseline UMAP.")
                 ####################################
-    def _sizes_from_count(cnt_series, smin, smax, th, base, mode):
-        cnt = cnt_series.astype(float).fillna(1.0).to_numpy()
-        size = np.full(cnt.shape, float(base), dtype=float)
-        mask = cnt >= float(th)
-        if mask.any():
-            above = cnt[mask]
-            vals = (above - float(th)) if mode == 'linear' else np.log1p(above - float(th) + 1.0)
-            lo, hi = np.quantile(vals, [0.05, 0.95]) if vals.size > 1 else (vals.min(), vals.max()+1e-9)
-            denom = (hi - lo) if (hi - lo) > 1e-9 else 1.0
-            t = np.clip((vals - lo) / denom, 0, 1)
-            size[mask] = smin + (smax - smin) * t
-        return size
 
     umap_df['size'] = _sizes_from_count(umap_df['Count'], smin=1.0, smax=18.0, th=5.0, base=2.0, mode='log')
 
