@@ -605,20 +605,7 @@ if 'pipeline' in st.session_state:
             score_prop = calculate_coherence_score(df_prop)
             
             # 2. Run Baseline Model (Without HGNC)
-            S_base, _ = build_ablation_baseline(genes_df, TOPK=TOPK)
-
-            # [수정 포인트] Baseline용 UMAP 좌표 계산 및 데이터프레임 생성
-            XY_base = umap_embedding(S_base)
-            df_base_viz = pd.DataFrame({
-                'x': XY_base[:, 0], 
-                'y': XY_base[:, 1],
-                'cluster': labels_base.astype(str),
-                'GeneSymbol': [gid_to_symbol.get(g, g) for g in gene_ids]
-            })
-            
-            # 결과를 세션 상태에 저장하여 메인 화면에서 불러올 수 있게 함
-            st.session_state['df_base_viz'] = df_base_viz
-            st.session_state['ablation_scores'] = (score_prop, calculate_coherence_score(df_base_viz))
+            S_base, _ = build_ablation_baseline(genes_df, TOPK=TOPK) 
             
             # Seed=42가 적용된 cluster_graph 함수를 사용하여 결과를 고정합니다.
             labels_base = cluster_graph(S_base, RESOLUTION) 
@@ -636,21 +623,22 @@ if 'pipeline' in st.session_state:
             
             st.success(f"Integrating the HGNC hierarchy improved the biological coherence of clusters by {improvement:.1f}x.")
             st.info("Note: This score is calculated as the average -log10(p-value) of the top GO:BP terms for clusters with n >= 4.")
-           
-    # # ---- UMAP
-    # st.subheader("UMAP (genes colored by cluster)")
-    # umap_df = clusters_df.copy()
-    # umap_df['x'] = embedding_df['x'].values
-    # umap_df['y'] = embedding_df['y'].values
+            
+    # ---- UMAP
+    st.subheader("UMAP (genes colored by cluster)")
+    umap_df = clusters_df.copy()
+    umap_df['x'] = embedding_df['x'].values
+    umap_df['y'] = embedding_df['y'].values
 
-    # # # keep n>= clusters 
-    # # cluster_sizes = umap_df['cluster'].value_counts()
-    # # valid_clusters = cluster_sizes[cluster_sizes >= 3].index
-    # # umap_df = umap_df[umap_df['cluster'].isin(valid_clusters)]
+    # # keep n>= clusters 
+    # cluster_sizes = umap_df['cluster'].value_counts()
+    # valid_clusters = cluster_sizes[cluster_sizes >= 3].index
+    # umap_df = umap_df[umap_df['cluster'].isin(valid_clusters)]
 
     
-    # count_map = dict(genes_df[['GeneID','Count']].values)
-    # umap_df['Count'] = umap_df['GeneID'].map(count_map).fillna(1.0).astype(float)
+    count_map = dict(genes_df[['GeneID','Count']].values)
+    umap_df['Count'] = umap_df['GeneID'].map(count_map).fillna(1.0).astype(float)
+
     def _sizes_from_count(cnt_series, smin, smax, th, base, mode):
         cnt = cnt_series.astype(float).fillna(1.0).to_numpy()
         size = np.full(cnt.shape, float(base), dtype=float)
@@ -664,76 +652,8 @@ if 'pipeline' in st.session_state:
             size[mask] = smin + (smax - smin) * t
         return size
 
-    
-    # ---- UMAP (Comparative Visualization)
-    st.subheader("UMAP (genes colored by cluster)")
-    
-    # 1. 화면 분할 설정 (Ablation 결과가 있을 때만 2열로 표시)
-    if 'ablation_scores' in st.session_state or 'df_base_viz' in st.session_state:
-        col_left, col_right = st.columns(2)
-    else:
-        col_left = st.container() # Ablation 전에는 전체 너비 사용
-        col_right = None
-    
-    # 2. Proposed Model (Left) 시각화 로직
-    with col_left:
-        if col_right: st.markdown("### **Proposed (with HGNC)**")
-        
-        umap_df = clusters_df.copy()
-        umap_df['x'] = embedding_df['x'].values
-        umap_df['y'] = embedding_df['y'].values
-        
-        count_map = dict(genes_df[['GeneID','Count']].values)
-        umap_df['Count'] = umap_df['GeneID'].map(count_map).fillna(1.0).astype(float)
-        umap_df['size'] = _sizes_from_count(umap_df['Count'], float(SIZE_MIN), float(SIZE_MAX),
-                                            float(COUNT_SIZE_TH), float(SIZE_BASE), SIZE_SCALE_MODE)
-    
-        nclust = int(np.unique(labels).size)
-        colors = (px.colors.qualitative.Plotly * ((nclust // len(px.colors.qualitative.Plotly)) + 1))[:nclust]
-        
-        fig_scatter = px.scatter(
-            umap_df, x='x', y='y',
-            color=umap_df['cluster'].astype(str),
-            hover_name='GeneSymbol',
-            size=('size' if SIZE_BY_COUNT else None),
-            color_discrete_sequence=colors,
-            height=600,
-            hover_data={'Count': True}
-        )
-        fig_scatter.update_layout(margin=dict(l=10,r=10,t=10,b=10), legend_title_text='cluster', showlegend=False)
-        
-        # Global Search Highlight (기존 로직 유지)
-        matched_gids = resolve_search_query_for_umap(GLOBAL_QUERY)
-        msk = umap_df['GeneID'].astype(str).isin(matched_gids)
-        if msk.any():
-            fig_scatter.add_scatter(
-                x=umap_df.loc[msk, 'x'], y=umap_df.loc[msk, 'y'],
-                mode='markers+text', name='Search match',
-                marker=dict(size=16, line=dict(width=2), color='#e60026', symbol='circle-open'),
-                text=umap_df.loc[msk, 'GeneSymbol'], textposition='top center'
-            )
-        st.plotly_chart(fig_scatter, use_container_width=True)
-    
-    # 3. Baseline Model (Right) 시각화 로직
-    if col_right:
-        with col_right:
-            st.markdown("### **Baseline (Raw Expression)**")
-            if 'df_base_viz' in st.session_state:
-                df_base_viz = st.session_state['df_base_viz']
-                fig_base = px.scatter(
-                    df_base_viz, x='x', y='y',
-                    color=df_base_viz['cluster'].astype(str),
-                    hover_name='GeneSymbol',
-                    height=600,
-                    color_discrete_sequence=px.colors.qualitative.Plotly
-                )
-                fig_base.update_layout(margin=dict(l=10,r=10,t=10,b=10), showlegend=False)
-                st.plotly_chart(fig_base, use_container_width=True)
-            else:
-                st.info("Run 'Statistical Comparison' in sidebar to see Baseline UMAP.")
-                ####################################
-
-    umap_df['size'] = _sizes_from_count(umap_df['Count'], smin=1.0, smax=18.0, th=5.0, base=2.0, mode='log')
+    umap_df['size'] = _sizes_from_count(umap_df['Count'], float(SIZE_MIN), float(SIZE_MAX),
+                                        float(COUNT_SIZE_TH), float(SIZE_BASE), SIZE_SCALE_MODE)
 
     nclust = int(np.unique(labels).size)
     colors = (px.colors.qualitative.Plotly * ((nclust // len(px.colors.qualitative.Plotly)) + 1))[:nclust]
@@ -742,7 +662,7 @@ if 'pipeline' in st.session_state:
         x='x', y='y',
         color=umap_df['cluster'].astype(str),
         hover_name='GeneSymbol',
-        size='size',
+        size=('size' if SIZE_BY_COUNT else None),
         color_discrete_sequence=colors,
         height=600,
         hover_data={'Count': True}
