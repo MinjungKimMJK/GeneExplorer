@@ -222,7 +222,7 @@ def attach_groups_for_curated(hgnc: pd.DataFrame, cur: pd.DataFrame,
 # -------------------------
                          
 def build_similarity(genes_df: pd.DataFrame, g2g_df: pd.DataFrame, clos: pd.DataFrame,
-                     use_exp=False, alpha=0.5, lmbda=1.0, DMAX=3, TOPK=25):
+                     use_exp=False, alpha=0.5, lmbda=1.0, DMAX=3, TOPK=100):
     gene_ids = sorted(genes_df['GeneID'].unique().tolist())
     gid_to_idx = {g:i for i,g in enumerate(gene_ids)}
 
@@ -278,7 +278,7 @@ def build_similarity(genes_df: pd.DataFrame, g2g_df: pd.DataFrame, clos: pd.Data
     
     return S, gene_ids 
 
-def build_ablation_baseline(genes_df, TOPK=25):
+def build_ablation_baseline(genes_df, TOPK=100):
     """
     Builds a baseline similarity matrix using only raw expression counts,
     completely ignoring the HGNC hierarchy (H-matrix).
