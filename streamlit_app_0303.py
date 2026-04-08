@@ -73,7 +73,7 @@ def build_name_map(hgnc_df: pd.DataFrame) -> Dict[str, str]:
 # Sidebar — Data & Params
 # -------------------------
 st.sidebar.header("1) Data")
-UPLOAD_MODE = st.sidebar.radio("Data source", ["Upload files", "Path mode (read from folder)"], index=0)
+UPLOAD_MODE = st.sidebar.radio("Data source", ["Path mode (read from folder)", "Upload files",], index=0)
 
 base_path = Path("./")
 
