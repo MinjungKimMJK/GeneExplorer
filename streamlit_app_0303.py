@@ -137,7 +137,7 @@ st.sidebar.divider()
 
 st.sidebar.header("Curated file settings")
 COUNT_COLUMN_NAME = st.sidebar.text_input(
-    "Enter the header name of the column containing numeric data to be used for enrichment analysis (e.g., count, fold change)",
+    "Enter the header name of the column containing NUMERIC DATA to be used for enrichment analysis (e.g., count, fold change)",
     value="count"
 )
 st.sidebar.divider()
@@ -710,10 +710,10 @@ if 'pipeline' in st.session_state:
         fig_sizes = px.bar(size_df.sort_values('cluster'), x='cluster', y='size', height=280)
         st.plotly_chart(fig_sizes, use_container_width=True)
 
-        # === 추가: mean fold change per cluster ===
+        # === 추가: numeric value per cluster ===
         mean_fc_df = umap_df.groupby('cluster')['Count'].mean().reset_index(name='mean_fold_change')
         fig_mean_fc = px.bar(mean_fc_df.sort_values('cluster'), x='cluster', y='mean_fold_change', height=280,
-                            title="Mean fold change per cluster")
+                            title="numeric value per cluster")
         st.plotly_chart(fig_mean_fc, use_container_width=True)
 
         st.dataframe(size_df.sort_values('size', ascending=False).rename(columns={'size':'n_genes'}),
