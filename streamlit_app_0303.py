@@ -407,7 +407,7 @@ def build_full_g2g_from_hgnc(hgnc_df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows, columns=['GeneID','GeneSymbol','GeneGroupID'])
 
 @st.cache_data(show_spinner=False)
-def make_group_distance_map(clos_use_df: pd.DataFrame) -> dict:
+def make_group_distance_map(clos_usfe_df: pd.DataFrame) -> dict:
     dist = {}
     for _, r in clos_use_df.iterrows():
         p, c, d = str(r['ParentGroupID']), str(r['ChildGroupID']), int(r['distance'])
@@ -631,9 +631,9 @@ if 'pipeline' in st.session_state:
     umap_df['y'] = embedding_df['y'].values
 
     # # keep n>= clusters 
-    # cluster_sizes = umap_df['cluster'].value_counts()
-    # valid_clusters = cluster_sizes[cluster_sizes >= 3].index
-    # umap_df = umap_df[umap_df['cluster'].isin(valid_clusters)]
+    cluster_sizes = umap_df['cluster'].value_counts()
+    valid_clusters = cluster_sizes[cluster_sizes >= 3].index
+    umap_df = umap_df[umap_df['cluster'].isin(valid_clusters)]
 
     
     count_map = dict(genes_df[['GeneID','Count']].values)
