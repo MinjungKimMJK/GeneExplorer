@@ -409,7 +409,7 @@ def build_full_g2g_from_hgnc(hgnc_df: pd.DataFrame) -> pd.DataFrame:
 @st.cache_data(show_spinner=False)
 def make_group_distance_map(clos_usfe_df: pd.DataFrame) -> dict:
     dist = {}
-    for _, r in clos_use_df.iterrows():
+    for _, r in clos_use.iterrows():
         p, c, d = str(r['ParentGroupID']), str(r['ChildGroupID']), int(r['distance'])
         if (p,c) not in dist or d < dist[(p,c)]: dist[(p,c)] = d
         if (c,p) not in dist or d < dist[(c,p)]: dist[(c,p)] = d
