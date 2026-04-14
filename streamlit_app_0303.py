@@ -631,9 +631,9 @@ if 'pipeline' in st.session_state:
     umap_df['y'] = embedding_df['y'].values
 
     # # keep n>= clusters 
-    cluster_sizes = umap_df['cluster'].value_counts()
-    valid_clusters = cluster_sizes[cluster_sizes >= 3].index
-    umap_df = umap_df[umap_df['cluster'].isin(valid_clusters)]
+    #cluster_sizes = umap_df['cluster'].value_counts()
+    #valid_clusters = cluster_sizes[cluster_sizes >= 3].index
+    #umap_df = umap_df[umap_df['cluster'].isin(valid_clusters)]
 
     
     count_map = dict(genes_df[['GeneID','Count']].values)
