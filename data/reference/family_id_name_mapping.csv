@@ -1,0 +1,1708 @@
+family_id,family_name,supporting_gene_rows,mapping_source
+3,Fascin family,3,hgnc_complete_set_gene_group_fields
+4,Abhydrolase domain containing,27,hgnc_complete_set_gene_group_fields
+6,ZYG11 cell cycle regulator family,3,hgnc_complete_set_gene_group_fields
+8,Zona pellucida glycoproteins,4,hgnc_complete_set_gene_group_fields
+10,Vanin family,4,hgnc_complete_set_gene_group_fields
+12,Vesicle associated membrane proteins,8,hgnc_complete_set_gene_group_fields
+14,Wiskott-Aldrich Syndrome protein family,16,hgnc_complete_set_gene_group_fields
+18,Major cadherins,2,hgnc_complete_set_gene_group_fields
+20,Clustered protocadherins,64,hgnc_complete_set_gene_group_fields
+21,Non-clustered protocadherins,12,hgnc_complete_set_gene_group_fields
+24,Cadherin related,17,hgnc_complete_set_gene_group_fields
+26,Zinc fingers,12,hgnc_complete_set_gene_group_fields
+27,ANP32 acidic nuclear phosphoproteins,5,hgnc_complete_set_gene_group_fields
+28,Zinc fingers C2H2-type,783,hgnc_complete_set_gene_group_fields
+39,Actin related protein 2/3 complex subunits,9,hgnc_complete_set_gene_group_fields
+40,Acyl-CoA synthetase family,27,hgnc_complete_set_gene_group_fields
+41,Acyl-CoA thioesterases,10,hgnc_complete_set_gene_group_fields
+42,SCAN domain containing,58,hgnc_complete_set_gene_group_fields
+46,1-acylglycerol-3-phosphate O-acyltransferases,11,hgnc_complete_set_gene_group_fields
+47,ADAM metallopeptidase domain containing,27,hgnc_complete_set_gene_group_fields
+50,ADAM metallopeptidases with thrombospondin type 1 motif,19,hgnc_complete_set_gene_group_fields
+53,Adenylate cyclases,10,hgnc_complete_set_gene_group_fields
+56,IZUMO family,4,hgnc_complete_set_gene_group_fields
+58,Ring finger proteins,305,hgnc_complete_set_gene_group_fields
+59,Tripartite motif family,95,hgnc_complete_set_gene_group_fields
+60,Membrane associated ring-CH-type fingers,11,hgnc_complete_set_gene_group_fields
+61,Polycomb group ring fingers,7,hgnc_complete_set_gene_group_fields
+63,Zinc fingers AN1-type,8,hgnc_complete_set_gene_group_fields
+64,Zinc fingers BED-type,6,hgnc_complete_set_gene_group_fields
+65,THAP domain containing,12,hgnc_complete_set_gene_group_fields
+66,Zinc fingers C2HC-type,17,hgnc_complete_set_gene_group_fields
+71,Nuclear hormone receptors,0,frozen_hgnc_family_table_supplement
+73,Zinc fingers CCCH-type,56,hgnc_complete_set_gene_group_fields
+74,Zinc fingers CCHC-type,25,hgnc_complete_set_gene_group_fields
+75,Zinc fingers DBF-type,3,hgnc_complete_set_gene_group_fields
+76,Zinc fingers DHHC-type,24,hgnc_complete_set_gene_group_fields
+81,Zinc fingers FYVE-type,31,hgnc_complete_set_gene_group_fields
+82,GATA zinc finger domain containing,15,hgnc_complete_set_gene_group_fields
+83,Zinc fingers HIT-type,6,hgnc_complete_set_gene_group_fields
+84,Zinc fingers matrin-type,30,hgnc_complete_set_gene_group_fields
+85,Zinc fingers MIZ-type,7,hgnc_complete_set_gene_group_fields
+86,Zinc fingers MYM-type,6,hgnc_complete_set_gene_group_fields
+87,Zinc fingers MYND-type,22,hgnc_complete_set_gene_group_fields
+88,PHD finger proteins,93,hgnc_complete_set_gene_group_fields
+89,Zinc fingers RANBP2-type,25,hgnc_complete_set_gene_group_fields
+90,Zinc fingers SWIM-type,10,hgnc_complete_set_gene_group_fields
+91,Zinc fingers ZZ-type,18,hgnc_complete_set_gene_group_fields
+94,Zinc fingers PARP-type,2,hgnc_complete_set_gene_group_fields
+96,Zinc fingers CW-type,7,hgnc_complete_set_gene_group_fields
+100,Ubiquitin like modifier activating enzymes,10,hgnc_complete_set_gene_group_fields
+102,Ubiquitin conjugating enzymes E2,43,hgnc_complete_set_gene_group_fields
+104,Aminopeptidases,17,hgnc_complete_set_gene_group_fields
+105,Yip1 domain containing,7,hgnc_complete_set_gene_group_fields
+106,Y-box binding proteins,3,hgnc_complete_set_gene_group_fields
+131,"Aminoacyl tRNA synthetases, Class I",19,hgnc_complete_set_gene_group_fields
+132,"Aminoacyl tRNA synthetases, Class II",19,hgnc_complete_set_gene_group_fields
+135,Zinc fingers GRF-type,7,hgnc_complete_set_gene_group_fields
+136,Zinc fingers CXXC-type,12,hgnc_complete_set_gene_group_fields
+137,Zinc fingers 3CxxC-type,8,hgnc_complete_set_gene_group_fields
+147,"Olfactory receptors, family 1",41,hgnc_complete_set_gene_group_fields
+149,"Olfactory receptors, family 2",113,hgnc_complete_set_gene_group_fields
+150,"Olfactory receptors, family 3",7,hgnc_complete_set_gene_group_fields
+151,"Olfactory receptors, family 4",133,hgnc_complete_set_gene_group_fields
+152,"Olfactory receptors, family 5",111,hgnc_complete_set_gene_group_fields
+153,"Olfactory receptors, family 6",51,hgnc_complete_set_gene_group_fields
+154,"Olfactory receptors, family 7",116,hgnc_complete_set_gene_group_fields
+155,"Olfactory receptors, family 8",50,hgnc_complete_set_gene_group_fields
+156,"Olfactory receptors, family 9",23,hgnc_complete_set_gene_group_fields
+157,"Olfactory receptors, family 10",66,hgnc_complete_set_gene_group_fields
+158,WWC family,3,hgnc_complete_set_gene_group_fields
+159,"Olfactory receptors, family 11",26,hgnc_complete_set_gene_group_fields
+160,"Olfactory receptors, family 12",3,hgnc_complete_set_gene_group_fields
+162,"Olfactory receptors, family 13",23,hgnc_complete_set_gene_group_fields
+163,"Olfactory receptors, family 14",7,hgnc_complete_set_gene_group_fields
+164,"Olfactory receptors, family 51",44,hgnc_complete_set_gene_group_fields
+165,"Olfactory receptors, family 52",49,hgnc_complete_set_gene_group_fields
+166,"Olfactory receptors, family 55",1,hgnc_complete_set_gene_group_fields
+167,"Olfactory receptors, family 56",9,hgnc_complete_set_gene_group_fields
+169,Adrenoceptors,9,hgnc_complete_set_gene_group_fields
+170,"5-hydroxytryptamine receptors, G protein-coupled",13,hgnc_complete_set_gene_group_fields
+172,"5-hydroxytryptamine receptors, ionotropic",5,hgnc_complete_set_gene_group_fields
+173,Cholinergic receptors nicotinic subunits,16,hgnc_complete_set_gene_group_fields
+176,Zinc activated channels,1,hgnc_complete_set_gene_group_fields
+180,Cholinergic receptors muscarinic,5,hgnc_complete_set_gene_group_fields
+181,Dopamine receptors,5,hgnc_complete_set_gene_group_fields
+185,Sodium channels epithelial,4,hgnc_complete_set_gene_group_fields
+186,Cation channels sperm associated,9,hgnc_complete_set_gene_group_fields
+187,Histamine receptors,4,hgnc_complete_set_gene_group_fields
+188,Trace amine receptors,9,hgnc_complete_set_gene_group_fields
+196,Complement component GPCRs,3,hgnc_complete_set_gene_group_fields
+198,Formyl peptide receptors,3,hgnc_complete_set_gene_group_fields
+199,Glycoprotein hormone receptors,3,hgnc_complete_set_gene_group_fields
+200,Hydroxycarboxylic acid receptors,3,hgnc_complete_set_gene_group_fields
+202,Cannabinoid receptors,2,hgnc_complete_set_gene_group_fields
+203,Free fatty acid receptors,4,hgnc_complete_set_gene_group_fields
+204,Leukotriene receptors,6,hgnc_complete_set_gene_group_fields
+205,Lysophosphatidic acid receptors,6,hgnc_complete_set_gene_group_fields
+206,Sphingosine 1-phosphate receptors,5,hgnc_complete_set_gene_group_fields
+207,Prostaglandin receptors,9,hgnc_complete_set_gene_group_fields
+208,Platelet activating factor receptor,1,hgnc_complete_set_gene_group_fields
+209,Melatonin receptors,2,hgnc_complete_set_gene_group_fields
+211,Adenosine receptors,4,hgnc_complete_set_gene_group_fields
+213,P2Y receptors,8,hgnc_complete_set_gene_group_fields
+214,Purinergic receptors P2X,7,hgnc_complete_set_gene_group_fields
+215,Opsin receptors,11,hgnc_complete_set_gene_group_fields
+216,Prokineticin receptors,2,hgnc_complete_set_gene_group_fields
+217,Relaxin family peptide receptors,4,hgnc_complete_set_gene_group_fields
+218,Chemerin receptors,2,hgnc_complete_set_gene_group_fields
+219,F2R receptors,4,hgnc_complete_set_gene_group_fields
+220,Peptide receptors,7,hgnc_complete_set_gene_group_fields
+221,Angiotensin receptors,2,hgnc_complete_set_gene_group_fields
+222,Bombesin receptors,3,hgnc_complete_set_gene_group_fields
+223,Bradykinin receptors,2,hgnc_complete_set_gene_group_fields
+224,Cholecystokinin receptors,2,hgnc_complete_set_gene_group_fields
+225,Endothelin receptors,2,hgnc_complete_set_gene_group_fields
+226,Galanin receptors,3,hgnc_complete_set_gene_group_fields
+227,Gonadotropin releasing hormone receptors,2,hgnc_complete_set_gene_group_fields
+228,Hypocretin receptors,2,hgnc_complete_set_gene_group_fields
+235,Melanin concentrating hormone receptors,2,hgnc_complete_set_gene_group_fields
+236,Melanocortin receptors,5,hgnc_complete_set_gene_group_fields
+239,Neuromedin U receptors,2,hgnc_complete_set_gene_group_fields
+240,Neuropeptide FF receptors,2,hgnc_complete_set_gene_group_fields
+241,Neuropeptide S receptor,1,hgnc_complete_set_gene_group_fields
+242,Neuropeptides B and W receptors,2,hgnc_complete_set_gene_group_fields
+243,Neuropeptide Y receptors,5,hgnc_complete_set_gene_group_fields
+244,Neurotensin receptors,2,hgnc_complete_set_gene_group_fields
+245,Opioid receptors,4,hgnc_complete_set_gene_group_fields
+247,Two pore segment channels,2,hgnc_complete_set_gene_group_fields
+249,Transient receptor potential cation channels,28,hgnc_complete_set_gene_group_fields
+250,Cyclic nucleotide gated channels,10,hgnc_complete_set_gene_group_fields
+254,Hydrogen voltage gated channels,1,hgnc_complete_set_gene_group_fields
+255,Potassium calcium-activated channels,6,hgnc_complete_set_gene_group_fields
+257,Somatostatin receptors,5,hgnc_complete_set_gene_group_fields
+258,Tachykinin receptors,3,hgnc_complete_set_gene_group_fields
+259,Arginine vasopressin and oxytocin receptors,4,hgnc_complete_set_gene_group_fields
+262,"G protein-coupled receptors, Class A orphans",79,hgnc_complete_set_gene_group_fields
+264,Vasoactive intestinal peptide family receptors,3,hgnc_complete_set_gene_group_fields
+265,Calcitonin receptors,2,hgnc_complete_set_gene_group_fields
+266,Corticotropin releasing hormone receptors,2,hgnc_complete_set_gene_group_fields
+269,Glucagon receptor family,6,hgnc_complete_set_gene_group_fields
+270,Parathyroid hormone receptors,2,hgnc_complete_set_gene_group_fields
+274,Potassium voltage-gated channels,40,hgnc_complete_set_gene_group_fields
+276,Potassium inwardly rectifying channel subfamily J,16,hgnc_complete_set_gene_group_fields
+277,Potassium two pore domain channel subfamily K,15,hgnc_complete_set_gene_group_fields
+279,Calcium sensing receptors,2,hgnc_complete_set_gene_group_fields
+280,Gamma-aminobutyric acid type B receptor subunits,2,hgnc_complete_set_gene_group_fields
+281,Glutamate metabotropic receptors,8,hgnc_complete_set_gene_group_fields
+283,"Sodium leak channels, non selective",1,hgnc_complete_set_gene_group_fields
+285,"G protein-coupled receptors, Class C orphans",7,hgnc_complete_set_gene_group_fields
+286,"G protein-coupled receptors, Class F frizzled",11,hgnc_complete_set_gene_group_fields
+287,Ryanodine receptors,3,hgnc_complete_set_gene_group_fields
+288,Pannexins,3,hgnc_complete_set_gene_group_fields
+290,Acid sensing ion channel subunits,5,hgnc_complete_set_gene_group_fields
+291,Vomeronasal receptors,129,hgnc_complete_set_gene_group_fields
+293,Adiponectin receptors,2,hgnc_complete_set_gene_group_fields
+297,"Inositol 1,4,5-triphosphate receptors",3,hgnc_complete_set_gene_group_fields
+302,Chloride voltage-gated channels,10,hgnc_complete_set_gene_group_fields
+305,Aquaporins,14,hgnc_complete_set_gene_group_fields
+306,Voltage dependent anion channels,3,hgnc_complete_set_gene_group_fields
+307,Chloride intracellular channels,6,hgnc_complete_set_gene_group_fields
+309,"Chloride channels, ATP-gated CFTR",1,hgnc_complete_set_gene_group_fields
+310,7TM uncharacterized proteins,13,hgnc_complete_set_gene_group_fields
+314,Gap junction proteins,22,hgnc_complete_set_gene_group_fields
+321,Receptor tyrosine kinases,40,hgnc_complete_set_gene_group_fields
+343,Transmembrane guanylate cyclases,7,hgnc_complete_set_gene_group_fields
+345,Type 1 receptor serine/threonine kinases,7,hgnc_complete_set_gene_group_fields
+346,Type 2 receptor serine/threonine kinases,5,hgnc_complete_set_gene_group_fields
+349,Immunoglobulin heavy locus at 14q32.33,188,hgnc_complete_set_gene_group_fields
+350,Immunoglobulin heavy (IGH) orphons,38,hgnc_complete_set_gene_group_fields
+351,Immunoglobulin kappa locus at 2p11.2,83,hgnc_complete_set_gene_group_fields
+352,Immunoglobulin kappa (IGK) orphons,32,hgnc_complete_set_gene_group_fields
+353,Immunoglobulin lambda locus at 22q11.2,89,hgnc_complete_set_gene_group_fields
+354,Immunoglobulin lambda (IGL) orphons,6,hgnc_complete_set_gene_group_fields
+356,Adenylate kinases,9,hgnc_complete_set_gene_group_fields
+357,ARF GTPase family,31,hgnc_complete_set_gene_group_fields
+360,Wnt family,19,hgnc_complete_set_gene_group_fields
+361,WAP four-disulfide core domain containing,18,hgnc_complete_set_gene_group_fields
+362,WD repeat domain containing,274,hgnc_complete_set_gene_group_fields
+363,UDP glucuronosyltransferases,32,hgnc_complete_set_gene_group_fields
+364,UBX domain containing,13,hgnc_complete_set_gene_group_fields
+365,U-box domain containing,7,hgnc_complete_set_gene_group_fields
+366,Ubiquitin specific peptidases,56,hgnc_complete_set_gene_group_fields
+367,Vestigial like family,4,hgnc_complete_set_gene_group_fields
+368,Variable charge X/Y family,6,hgnc_complete_set_gene_group_fields
+371,T cell receptor alpha locus at 14q11.2,117,hgnc_complete_set_gene_group_fields
+372,T cell receptor beta locus at 7q34,87,hgnc_complete_set_gene_group_fields
+373,T cell receptor beta (TRB) orphons,9,hgnc_complete_set_gene_group_fields
+374,T cell receptor delta locus at 14q11.2,12,hgnc_complete_set_gene_group_fields
+375,T cell receptor gamma locus at 7p14,22,hgnc_complete_set_gene_group_fields
+388,"RAB, member RAS oncogene GTPases",64,hgnc_complete_set_gene_group_fields
+389,RAS type GTPase family,31,hgnc_complete_set_gene_group_fields
+390,Rho family GTPases,20,hgnc_complete_set_gene_group_fields
+391,RAN family GTPases,1,hgnc_complete_set_gene_group_fields
+392,Miro like atypical Rho GTPases,2,hgnc_complete_set_gene_group_fields
+394,RAB like GTPases,6,hgnc_complete_set_gene_group_fields
+395,ArfGAPs,33,hgnc_complete_set_gene_group_fields
+396,A-kinase anchoring proteins,31,hgnc_complete_set_gene_group_fields
+397,Alcohol dehydrogenases,8,hgnc_complete_set_gene_group_fields
+398,Aldehyde dehydrogenases,19,hgnc_complete_set_gene_group_fields
+399,Aldo-keto reductases,19,hgnc_complete_set_gene_group_fields
+400,Alkaline ceramidases,3,hgnc_complete_set_gene_group_fields
+401,Alkylation repair homologs,9,hgnc_complete_set_gene_group_fields
+402,Anaphase promoting complex,14,hgnc_complete_set_gene_group_fields
+403,Ankyrin repeat domain containing,231,hgnc_complete_set_gene_group_fields
+404,Annexins,13,hgnc_complete_set_gene_group_fields
+405,Apolipoproteins,21,hgnc_complete_set_gene_group_fields
+406,Apolipoprotein B mRNA editing enzyme catalytic subunits,12,hgnc_complete_set_gene_group_fields
+407,Arachidonate lipoxygenases,6,hgnc_complete_set_gene_group_fields
+409,Armadillo repeat containing,43,hgnc_complete_set_gene_group_fields
+410,Sulfatases,18,hgnc_complete_set_gene_group_fields
+413,AAA ATPases,53,hgnc_complete_set_gene_group_fields
+415,V-type ATPase subunits,23,hgnc_complete_set_gene_group_fields
+418,AT-rich interaction domain containing,15,hgnc_complete_set_gene_group_fields
+419,Baculoviral IAP repeat containing,8,hgnc_complete_set_gene_group_fields
+420,Basic helix-loop-helix proteins,109,hgnc_complete_set_gene_group_fields
+422,BEN domain containing,9,hgnc_complete_set_gene_group_fields
+423,"Beta-1,3-glucuronyltransferases",3,hgnc_complete_set_gene_group_fields
+425,Beta 4-glycosyltransferases,17,hgnc_complete_set_gene_group_fields
+426,Beta 3-glycosyltransferases,25,hgnc_complete_set_gene_group_fields
+427,Glycosyl transferases group 1 domain containing,9,hgnc_complete_set_gene_group_fields
+428,Glycosyltransferase family 2,6,hgnc_complete_set_gene_group_fields
+429,Glycosyltransferase family 6,4,hgnc_complete_set_gene_group_fields
+430,Dolichyl D-mannosyl phosphate dependent mannosyltransferases,9,hgnc_complete_set_gene_group_fields
+431,Exostosin glycosyltransferase family,5,hgnc_complete_set_gene_group_fields
+433,Polypeptide N-acetylgalactosaminyltransferases,20,hgnc_complete_set_gene_group_fields
+434,Fucosyltransferases,13,hgnc_complete_set_gene_group_fields
+435,Mannosyl-glycoprotein N-acetylglucosaminyltransferases,11,hgnc_complete_set_gene_group_fields
+436,Glycosyltransferase family 8,10,hgnc_complete_set_gene_group_fields
+437,Glycogen phosphorylases,3,hgnc_complete_set_gene_group_fields
+438,Sialyltransferases,20,hgnc_complete_set_gene_group_fields
+439,Collagen beta(1-O)galactosyltransferases,2,hgnc_complete_set_gene_group_fields
+440,UDP-glucose glycoprotein glucosyltransferases,2,hgnc_complete_set_gene_group_fields
+441,Glucosaminyl (N-acetyl) transferases/xylosyltransferases,7,hgnc_complete_set_gene_group_fields
+442,"Alpha 1,4-glycosyltransferases",2,hgnc_complete_set_gene_group_fields
+443,Glycosyltransferase family 90,3,hgnc_complete_set_gene_group_fields
+444,STT3 oligosaccharyltransferase catalytic subunits,2,hgnc_complete_set_gene_group_fields
+445,Oligosaccharyltransferase complex subunits,12,hgnc_complete_set_gene_group_fields
+446,O-linked N-acetylglucosaminyltransferases,4,hgnc_complete_set_gene_group_fields
+447,"Alpha-1,3-glucosyltransferases",2,hgnc_complete_set_gene_group_fields
+448,"Alpha-1,2-glucosyltransferases",2,hgnc_complete_set_gene_group_fields
+449,UDP-N-acetylglucosaminyltransferase subunits,2,hgnc_complete_set_gene_group_fields
+450,UDP-glucose ceramide glucosyltransferases,1,hgnc_complete_set_gene_group_fields
+452,Biogenesis of lysosomal organelles complex 1 subunits,8,hgnc_complete_set_gene_group_fields
+454,Blood group antigens,51,hgnc_complete_set_gene_group_fields
+455,Bone morphogenetic proteins,11,hgnc_complete_set_gene_group_fields
+456,BPI fold containing,16,hgnc_complete_set_gene_group_fields
+457,BRICHOS domain containing,11,hgnc_complete_set_gene_group_fields
+458,Butyrophilins,15,hgnc_complete_set_gene_group_fields
+459,S100 calcium binding proteins,24,hgnc_complete_set_gene_group_fields
+460,Carbonic anhydrases,18,hgnc_complete_set_gene_group_fields
+461,Carboxylesterases,5,hgnc_complete_set_gene_group_fields
+463,Paraoxonases,3,hgnc_complete_set_gene_group_fields
+464,Lipases,22,hgnc_complete_set_gene_group_fields
+465,Arylacetamide deacetylase family,5,hgnc_complete_set_gene_group_fields
+466,Patatin like phospholipase domain containing,10,hgnc_complete_set_gene_group_fields
+467,Phospholipases,42,hgnc_complete_set_gene_group_fields
+468,Caspases,13,hgnc_complete_set_gene_group_fields
+469,Cas scaffold proteins,4,hgnc_complete_set_gene_group_fields
+470,Cathepsins,15,hgnc_complete_set_gene_group_fields
+471,CD molecules,394,hgnc_complete_set_gene_group_fields
+473,Cyclins,31,hgnc_complete_set_gene_group_fields
+476,MicroRNAs,1465,hgnc_complete_set_gene_group_fields
+480,CDC like kinases,4,hgnc_complete_set_gene_group_fields
+481,CDGSH iron sulfur domain containing,3,hgnc_complete_set_gene_group_fields
+482,Charged multivesicular body proteins,11,hgnc_complete_set_gene_group_fields
+483,Chemokine ligands,45,hgnc_complete_set_gene_group_fields
+485,Lysine demethylases,25,hgnc_complete_set_gene_group_fields
+486,Lysine acetyltransferases,17,hgnc_complete_set_gene_group_fields
+487,Lysine methyltransferases,55,hgnc_complete_set_gene_group_fields
+488,Claudins,23,hgnc_complete_set_gene_group_fields
+489,Coiled-coil-helix-coiled-coil-helix domain containing proteins,9,hgnc_complete_set_gene_group_fields
+490,Collagens,10,hgnc_complete_set_gene_group_fields
+491,Collectins,10,hgnc_complete_set_gene_group_fields
+493,Components of oligomeric golgi complex,8,hgnc_complete_set_gene_group_fields
+495,Coronins,7,hgnc_complete_set_gene_group_fields
+496,Cyclin dependent kinases,26,hgnc_complete_set_gene_group_fields
+497,Cytochrome b561,5,hgnc_complete_set_gene_group_fields
+498,DDB1 and CUL4 associated factors,19,hgnc_complete_set_gene_group_fields
+499,DEAD-box helicases,41,hgnc_complete_set_gene_group_fields
+500,DEAH-box helicases,21,hgnc_complete_set_gene_group_fields
+502,"Defensins, alpha",12,hgnc_complete_set_gene_group_fields
+503,"Defensins, beta",57,hgnc_complete_set_gene_group_fields
+504,DENN domain containing,28,hgnc_complete_set_gene_group_fields
+505,Dishevelled segment polarity proteins,4,hgnc_complete_set_gene_group_fields
+506,Basic leucine zipper proteins,40,hgnc_complete_set_gene_group_fields
+508,Forkhead boxes,49,hgnc_complete_set_gene_group_fields
+511,Canonical high mobility group,11,hgnc_complete_set_gene_group_fields
+512,Non-canonical high mobility group,4,hgnc_complete_set_gene_group_fields
+518,HOXL subclass homeoboxes,52,hgnc_complete_set_gene_group_fields
+519,NKL subclass homeoboxes and pseudogenes,67,hgnc_complete_set_gene_group_fields
+521,PRD class homeoboxes and pseudogenes,122,hgnc_complete_set_gene_group_fields
+522,LIM class homeoboxes,12,hgnc_complete_set_gene_group_fields
+523,POU class homeoboxes and pseudogenes,23,hgnc_complete_set_gene_group_fields
+524,HNF class homeoboxes,3,hgnc_complete_set_gene_group_fields
+525,SINE class homeoboxes,6,hgnc_complete_set_gene_group_fields
+526,TALE class homeoboxes and pseudogenes,27,hgnc_complete_set_gene_group_fields
+527,CUT class homeoboxes and pseudogenes,9,hgnc_complete_set_gene_group_fields
+528,PROS class homeoboxes,2,hgnc_complete_set_gene_group_fields
+529,ZF class homeoboxes and pseudogenes,15,hgnc_complete_set_gene_group_fields
+530,CERS class homeoboxes,5,hgnc_complete_set_gene_group_fields
+532,Myb/SANT domain containing,54,hgnc_complete_set_gene_group_fields
+533,Helix-turn-helix CENPB type domain containing,12,hgnc_complete_set_gene_group_fields
+534,ETS transcription factor family,28,hgnc_complete_set_gene_group_fields
+535,DNA polymerases,25,hgnc_complete_set_gene_group_fields
+539,Elongator acetyltransferase complex,6,hgnc_complete_set_gene_group_fields
+540,EMI domain containing,7,hgnc_complete_set_gene_group_fields
+542,Receptor ligands,100,hgnc_complete_set_gene_group_fields
+543,Engulfment and cell motility proteins,3,hgnc_complete_set_gene_group_fields
+544,Exonucleases,17,hgnc_complete_set_gene_group_fields
+546,Ephrins,8,hgnc_complete_set_gene_group_fields
+547,Exportins,7,hgnc_complete_set_gene_group_fields
+548,FA complementation groups,22,hgnc_complete_set_gene_group_fields
+550,Fatty acid binding protein family,16,hgnc_complete_set_gene_group_fields
+552,Fatty acid hydroxylase domain containing,6,hgnc_complete_set_gene_group_fields
+553,Fatty acid desaturases,8,hgnc_complete_set_gene_group_fields
+554,Fibrinogen C domain containing,21,hgnc_complete_set_gene_group_fields
+555,Fibronectin type III domain containing,128,hgnc_complete_set_gene_group_fields
+556,Fibulins,8,hgnc_complete_set_gene_group_fields
+558,F-box and leucine rich repeat proteins,22,hgnc_complete_set_gene_group_fields
+559,F-box and WD repeat domain containing,11,hgnc_complete_set_gene_group_fields
+560,F-boxes other,39,hgnc_complete_set_gene_group_fields
+561,Fermitins,3,hgnc_complete_set_gene_group_fields
+563,Gamma-aminobutyric acid type A receptor subunits,19,hgnc_complete_set_gene_group_fields
+564,Gamma-glutamyltransferases,13,hgnc_complete_set_gene_group_fields
+565,General transcription factors,6,hgnc_complete_set_gene_group_fields
+567,Soluble glutathione S-transferases,29,hgnc_complete_set_gene_group_fields
+568,Glycerol kinases,6,hgnc_complete_set_gene_group_fields
+570,Proteoglycans,7,hgnc_complete_set_gene_group_fields
+571,Syndecans,4,hgnc_complete_set_gene_group_fields
+572,Glypicans,6,hgnc_complete_set_gene_group_fields
+573,Small leucine rich repeat proteoglycans,12,hgnc_complete_set_gene_group_fields
+574,Hyalectan proteoglycans,4,hgnc_complete_set_gene_group_fields
+575,Collagen proteoglycans,5,hgnc_complete_set_gene_group_fields
+578,GPN-loop GTPases,3,hgnc_complete_set_gene_group_fields
+579,G-patch domain containing,22,hgnc_complete_set_gene_group_fields
+580,"GTPases, IMAP",8,hgnc_complete_set_gene_group_fields
+581,HAUS augmin like complex,8,hgnc_complete_set_gene_group_fields
+583,Heat shock 70kDa proteins,17,hgnc_complete_set_gene_group_fields
+584,DNAJ (HSP40) heat shock proteins,49,hgnc_complete_set_gene_group_fields
+585,Small heat shock proteins,11,hgnc_complete_set_gene_group_fields
+586,Heat shock 90kDa proteins,5,hgnc_complete_set_gene_group_fields
+587,Chaperonins,15,hgnc_complete_set_gene_group_fields
+588,Histocompatibility complex,44,hgnc_complete_set_gene_group_fields
+590,V-set domain containing,163,hgnc_complete_set_gene_group_fields
+591,C1-set domain containing,42,hgnc_complete_set_gene_group_fields
+592,C2-set domain containing,40,hgnc_complete_set_gene_group_fields
+593,I-set domain containing,161,hgnc_complete_set_gene_group_fields
+594,Immunoglobulin like domain containing,101,hgnc_complete_set_gene_group_fields
+595,INO80 complex,15,hgnc_complete_set_gene_group_fields
+596,Importins,18,hgnc_complete_set_gene_group_fields
+598,Interferons,33,hgnc_complete_set_gene_group_fields
+599,Interferon receptors,5,hgnc_complete_set_gene_group_fields
+601,Interleukins,43,hgnc_complete_set_gene_group_fields
+602,Interleukin receptors,41,hgnc_complete_set_gene_group_fields
+608,"Keratins, type I",28,hgnc_complete_set_gene_group_fields
+609,"Keratins, type II",26,hgnc_complete_set_gene_group_fields
+610,Intermediate filaments Type III,5,hgnc_complete_set_gene_group_fields
+611,Intermediate filaments Type IV,6,hgnc_complete_set_gene_group_fields
+612,Lamins,3,hgnc_complete_set_gene_group_fields
+613,Beaded filament structural proteins,2,hgnc_complete_set_gene_group_fields
+614,Intermediate filament family orphans,2,hgnc_complete_set_gene_group_fields
+616,Kallikreins,16,hgnc_complete_set_gene_group_fields
+617,Kelch like,42,hgnc_complete_set_gene_group_fields
+619,Keratin associated proteins,111,hgnc_complete_set_gene_group_fields
+620,Killer cell immunoglobulin like receptors,18,hgnc_complete_set_gene_group_fields
+621,Killer cell lectin like receptors,12,hgnc_complete_set_gene_group_fields
+622,Kinesins,46,hgnc_complete_set_gene_group_fields
+623,KN motif and ankyrin repeat domain containing,4,hgnc_complete_set_gene_group_fields
+624,KLF transcription factors,18,hgnc_complete_set_gene_group_fields
+625,La ribonucleoproteins,7,hgnc_complete_set_gene_group_fields
+626,Laminin subunits,12,hgnc_complete_set_gene_group_fields
+627,Late cornified envelope proteins,19,hgnc_complete_set_gene_group_fields
+628,Latent transforming growth factor beta binding proteins,4,hgnc_complete_set_gene_group_fields
+629,Galectins,15,hgnc_complete_set_gene_group_fields
+630,Leukocyte immunoglobulin like receptors,0,frozen_hgnc_family_table_supplement
+631,Lipocalins,19,hgnc_complete_set_gene_group_fields
+634,Low density lipoprotein receptors,13,hgnc_complete_set_gene_group_fields
+635,LYR motif containing,10,hgnc_complete_set_gene_group_fields
+636,Maestro heat like repeat containing,11,hgnc_complete_set_gene_group_fields
+637,MAX dimerization proteins,7,hgnc_complete_set_gene_group_fields
+638,Metallothioneins,19,hgnc_complete_set_gene_group_fields
+641,Mitochondrial complex II: succinate dehydrogenase subunits,4,hgnc_complete_set_gene_group_fields
+642,Mitochondrial complex III: ubiquinol-cytochrome c reductase complex subunits,10,hgnc_complete_set_gene_group_fields
+643,Mitochondrial complex IV: cytochrome c oxidase subunits,19,hgnc_complete_set_gene_group_fields
+644,Mitochondrial complex V: ATP synthase subunits,20,hgnc_complete_set_gene_group_fields
+645,Mitochondrial respiratory chain complex assembly factors,72,hgnc_complete_set_gene_group_fields
+646,Mitochondrial ribosomal proteins,82,hgnc_complete_set_gene_group_fields
+647,MOB kinase activators,7,hgnc_complete_set_gene_group_fields
+648,Mucins,21,hgnc_complete_set_gene_group_fields
+649,Myocyte enhancer factor 2 proteins,4,hgnc_complete_set_gene_group_fields
+651,Mitogen-activated protein kinases,13,hgnc_complete_set_gene_group_fields
+653,Mitogen-activated protein kinase kinases,7,hgnc_complete_set_gene_group_fields
+654,Mitogen-activated protein kinase kinase kinases,24,hgnc_complete_set_gene_group_fields
+655,Mitogen-activated protein kinase kinase kinase kinases,5,hgnc_complete_set_gene_group_fields
+658,Myosin binding proteins,8,hgnc_complete_set_gene_group_fields
+659,Na+/K+ transporting ATPase interacting,4,hgnc_complete_set_gene_group_fields
+660,N-alpha-acetyltransferase subunits,13,hgnc_complete_set_gene_group_fields
+661,Netrins,6,hgnc_complete_set_gene_group_fields
+662,NBPF members,23,hgnc_complete_set_gene_group_fields
+663,N-terminal EF-hand calcium binding proteins,3,hgnc_complete_set_gene_group_fields
+664,NOP2/Sun RNA methyltransferase family,7,hgnc_complete_set_gene_group_fields
+665,Nuclear factors of activated T-cells,5,hgnc_complete_set_gene_group_fields
+666,NLR family,25,hgnc_complete_set_gene_group_fields
+667,Nudix hydrolase family,24,hgnc_complete_set_gene_group_fields
+668,ORAI calcium release-activated calcium modulators,3,hgnc_complete_set_gene_group_fields
+669,OTU domain containing,17,hgnc_complete_set_gene_group_fields
+670,Oxysterol binding proteins,12,hgnc_complete_set_gene_group_fields
+671,Paraneoplastic Ma antigens,14,hgnc_complete_set_gene_group_fields
+673,Parvins,3,hgnc_complete_set_gene_group_fields
+674,PATE family,4,hgnc_complete_set_gene_group_fields
+675,Paired boxes,9,hgnc_complete_set_gene_group_fields
+676,Pellino E3 ubiquitin protein ligases,3,hgnc_complete_set_gene_group_fields
+677,Peptidyl arginine deiminases,5,hgnc_complete_set_gene_group_fields
+678,Perilipins,5,hgnc_complete_set_gene_group_fields
+679,Phosphatase and actin regulators,4,hgnc_complete_set_gene_group_fields
+680,Phosphatidylinositol glycan anchor biosynthesis,21,hgnc_complete_set_gene_group_fields
+681,Phosphodiesterases,24,hgnc_complete_set_gene_group_fields
+682,Pleckstrin homology domain containing,191,hgnc_complete_set_gene_group_fields
+683,Plexins,9,hgnc_complete_set_gene_group_fields
+684,Poly(ADP-ribose) polymerases,17,hgnc_complete_set_gene_group_fields
+685,POTE ankyrin domain containing,14,hgnc_complete_set_gene_group_fields
+686,PRAME family,24,hgnc_complete_set_gene_group_fields
+687,Prenyltransferase alpha subunit repeat containing,3,hgnc_complete_set_gene_group_fields
+690,Proteasome,45,hgnc_complete_set_gene_group_fields
+692,Protein disulfide isomerases,21,hgnc_complete_set_gene_group_fields
+693,Protein phosphatase catalytic subunits,13,hgnc_complete_set_gene_group_fields
+694,Protein phosphatase 1 regulatory subunits,181,hgnc_complete_set_gene_group_fields
+696,Protein phosphatase 2 regulatory subunits,15,hgnc_complete_set_gene_group_fields
+697,Protein phosphatase 3 regulatory subunits,2,hgnc_complete_set_gene_group_fields
+698,Protein phosphatase 4 regulatory subunits,3,hgnc_complete_set_gene_group_fields
+699,Protein phosphatase 6 regulatory subunits,6,hgnc_complete_set_gene_group_fields
+701,"Protein phosphatases, Mg2+/Mn2+ dependent",18,hgnc_complete_set_gene_group_fields
+702,HAD Asp-based protein phosphatases,2,hgnc_complete_set_gene_group_fields
+703,Protein phosphatases,2,hgnc_complete_set_gene_group_fields
+705,Class I classical Cys-based phosphatases,0,frozen_hgnc_family_table_supplement
+711,Dual specificity phosphatases,0,frozen_hgnc_family_table_supplement
+712,Class II Cys-based phosphatases,1,hgnc_complete_set_gene_group_fields
+713,Class III Cys-based CDC25 phosphatases,3,hgnc_complete_set_gene_group_fields
+715,Pseudoautosomal region 1,25,hgnc_complete_set_gene_group_fields
+716,Pseudoautosomal region 2,10,hgnc_complete_set_gene_group_fields
+717,Receptor accessory proteins,6,hgnc_complete_set_gene_group_fields
+718,Receptor (G protein-coupled) activity modifying proteins,3,hgnc_complete_set_gene_group_fields
+719,Receptor transporter proteins,5,hgnc_complete_set_gene_group_fields
+720,Regulators of G-protein signaling,21,hgnc_complete_set_gene_group_fields
+721,Rho GTPase activating proteins,36,hgnc_complete_set_gene_group_fields
+722,Dbl family Rho GEFs,73,hgnc_complete_set_gene_group_fields
+723,Ribonuclease A family,13,hgnc_complete_set_gene_group_fields
+725,RNA binding motif containing,213,hgnc_complete_set_gene_group_fields
+726,RNA polymerase subunits,34,hgnc_complete_set_gene_group_fields
+727,RNA pseudouridylate synthase domain containing,4,hgnc_complete_set_gene_group_fields
+728,S ribosomal proteins,35,hgnc_complete_set_gene_group_fields
+729,L ribosomal proteins,54,hgnc_complete_set_gene_group_fields
+731,SAM and SH3 domain containing,3,hgnc_complete_set_gene_group_fields
+732,Septins,13,hgnc_complete_set_gene_group_fields
+733,Secreted frizzled-related proteins,5,hgnc_complete_set_gene_group_fields
+734,Secretoglobins,17,hgnc_complete_set_gene_group_fields
+735,Secretory carrier membrane proteins,5,hgnc_complete_set_gene_group_fields
+736,Semaphorins,20,hgnc_complete_set_gene_group_fields
+737,Serine and arginine rich splicing factors,12,hgnc_complete_set_gene_group_fields
+738,Serine proteases,44,hgnc_complete_set_gene_group_fields
+739,Serpin peptidase inhibitors,37,hgnc_complete_set_gene_group_fields
+740,"Serine peptidase inhibitors, Kazal type",10,hgnc_complete_set_gene_group_fields
+741,SH2 domain containing,101,hgnc_complete_set_gene_group_fields
+742,Shisa family members,8,hgnc_complete_set_gene_group_fields
+743,Short chain dehydrogenase/reductase superfamily,77,hgnc_complete_set_gene_group_fields
+745,Sialic acid binding Ig like lectins,28,hgnc_complete_set_gene_group_fields
+746,"Solute carrier family 56, sideroflexins",5,hgnc_complete_set_gene_group_fields
+747,Signal regulatory proteins,6,hgnc_complete_set_gene_group_fields
+748,SKI transcriptional corepressors,4,hgnc_complete_set_gene_group_fields
+750,SMAD family,8,hgnc_complete_set_gene_group_fields
+751,Small G protein signaling modulators,3,hgnc_complete_set_gene_group_fields
+754,Sorting nexins,29,hgnc_complete_set_gene_group_fields
+755,Sp transcription factors,9,hgnc_complete_set_gene_group_fields
+756,Speedy/RINGO cell cycle regulator family,25,hgnc_complete_set_gene_group_fields
+757,SRY-box transcription factors,20,hgnc_complete_set_gene_group_fields
+759,StAR related lipid transfer domain containing,15,hgnc_complete_set_gene_group_fields
+760,Sterile alpha motif domain containing,88,hgnc_complete_set_gene_group_fields
+761,Structural maintenance of chromosomes proteins,7,hgnc_complete_set_gene_group_fields
+762,"Sulfotransferases, cytosolic",15,hgnc_complete_set_gene_group_fields
+763,"Sulfotransferases, membrane bound",37,hgnc_complete_set_gene_group_fields
+764,Suppressors of cytokine signaling,8,hgnc_complete_set_gene_group_fields
+765,Synaptotagmins,17,hgnc_complete_set_gene_group_fields
+766,T-box transcription factors,18,hgnc_complete_set_gene_group_fields
+767,Tectonic proteins,3,hgnc_complete_set_gene_group_fields
+768,Tetraspanins,33,hgnc_complete_set_gene_group_fields
+769,Tetratricopeptide repeat domain containing,114,hgnc_complete_set_gene_group_fields
+770,THO complex,7,hgnc_complete_set_gene_group_fields
+772,Trafficking protein particle complex subunits,16,hgnc_complete_set_gene_group_fields
+773,Transglutaminases,9,hgnc_complete_set_gene_group_fields
+774,Transmembrane and coiled-coil domain containing,3,hgnc_complete_set_gene_group_fields
+776,tRNA-splicing endonuclease subunits,4,hgnc_complete_set_gene_group_fields
+777,Tropomyosins,4,hgnc_complete_set_gene_group_fields
+778,Tubulins,27,hgnc_complete_set_gene_group_fields
+779,Tubulin tyrosine ligase family,14,hgnc_complete_set_gene_group_fields
+780,Tudor domain containing,37,hgnc_complete_set_gene_group_fields
+781,Tumor necrosis factor superfamily,18,hgnc_complete_set_gene_group_fields
+782,Tumor necrosis factor receptor superfamily,29,hgnc_complete_set_gene_group_fields
+783,Ubiquilin family,5,hgnc_complete_set_gene_group_fields
+785,Ubiquitin protein ligase E3 component n-recognins,7,hgnc_complete_set_gene_group_fields
+805,ATP binding cassette subfamily A,14,hgnc_complete_set_gene_group_fields
+806,ATP binding cassette subfamily B,11,hgnc_complete_set_gene_group_fields
+807,ATP binding cassette subfamily C,13,hgnc_complete_set_gene_group_fields
+808,ATP binding cassette subfamily D,4,hgnc_complete_set_gene_group_fields
+809,ATP binding cassette subfamily E,1,hgnc_complete_set_gene_group_fields
+810,ATP binding cassette subfamily F,3,hgnc_complete_set_gene_group_fields
+811,ATP binding cassette subfamily G,5,hgnc_complete_set_gene_group_fields
+812,Protein tyrosine phosphatases non-receptor type,18,hgnc_complete_set_gene_group_fields
+813,Protein tyrosine phosphatases receptor type,21,hgnc_complete_set_gene_group_fields
+814,Serine/threonine phosphatases,2,hgnc_complete_set_gene_group_fields
+816,Chitinases,7,hgnc_complete_set_gene_group_fields
+817,Exosome complex,12,hgnc_complete_set_gene_group_fields
+818,Syntaxins,16,hgnc_complete_set_gene_group_fields
+820,Soluble guanylate cyclases,4,hgnc_complete_set_gene_group_fields
+822,Synaptotagmin like tandem C2 proteins,10,hgnc_complete_set_gene_group_fields
+823,C2 domain containing,38,hgnc_complete_set_gene_group_fields
+826,Multiple C2 and transmembrane domain containing,2,hgnc_complete_set_gene_group_fields
+827,Extended synaptotagmins,3,hgnc_complete_set_gene_group_fields
+828,Ferlin family,6,hgnc_complete_set_gene_group_fields
+829,Copines,9,hgnc_complete_set_gene_group_fields
+830,C2 and RasGAP domain containing,10,hgnc_complete_set_gene_group_fields
+831,Phosphatidylinositol 3-kinase subunits,8,hgnc_complete_set_gene_group_fields
+832,C2 domain containing phospholipases,19,hgnc_complete_set_gene_group_fields
+833,Regulating synaptic membrane exocytosis family,4,hgnc_complete_set_gene_group_fields
+835,C2 domain containing protein kinases,10,hgnc_complete_set_gene_group_fields
+836,UNC13 homologs,5,hgnc_complete_set_gene_group_fields
+837,C2 tensin-type domain containing,8,hgnc_complete_set_gene_group_fields
+838,C2 and WW domain containing,4,hgnc_complete_set_gene_group_fields
+841,Nuclear-encoded mitochondrial transfer RNAs,27,hgnc_complete_set_gene_group_fields
+842,Cytoplasmic transfer RNAs,428,hgnc_complete_set_gene_group_fields
+843,Mitochondrially encoded transfer RNAs,22,hgnc_complete_set_gene_group_fields
+845,"Small nucleolar RNAs, C/D box",355,hgnc_complete_set_gene_group_fields
+846,"Small nucleolar RNAs, H/ACA box",182,hgnc_complete_set_gene_group_fields
+847,Small Cajal body-specific RNAs,27,hgnc_complete_set_gene_group_fields
+849,Small nuclear RNAs,23,hgnc_complete_set_gene_group_fields
+851,Piwi-interacting RNA clusters,114,hgnc_complete_set_gene_group_fields
+852,Vault RNAs,6,hgnc_complete_set_gene_group_fields
+853,"RNAs, Ro60-associated Y",4,hgnc_complete_set_gene_group_fields
+856,Potassium sodium-activated channel subfamily T,2,hgnc_complete_set_gene_group_fields
+857,Potassium calcium-activated channel subfamily M regulatory beta subunits,4,hgnc_complete_set_gene_group_fields
+858,Potassium voltage-gated channel regulatory subunits,14,hgnc_complete_set_gene_group_fields
+861,BTB domain containing,134,hgnc_complete_set_gene_group_fields
+863,EF-hand domain containing,201,hgnc_complete_set_gene_group_fields
+865,Anoctamins,10,hgnc_complete_set_gene_group_fields
+866,Bestrophins,4,hgnc_complete_set_gene_group_fields
+867,Chloride channel accessory,4,hgnc_complete_set_gene_group_fields
+868,Glycine receptors,5,hgnc_complete_set_gene_group_fields
+870,Minor histocompatibility antigens,51,hgnc_complete_set_gene_group_fields
+871,Homer scaffold proteins,3,hgnc_complete_set_gene_group_fields
+890,Selenoproteins,25,hgnc_complete_set_gene_group_fields
+891,M10 matrix metallopeptidases,24,hgnc_complete_set_gene_group_fields
+892,Tissue inhibitor of metallopeptidases,4,hgnc_complete_set_gene_group_fields
+894,Astacins,6,hgnc_complete_set_gene_group_fields
+895,MAP kinase phosphatases,11,hgnc_complete_set_gene_group_fields
+896,Atypical dual specificity phosphatases,19,hgnc_complete_set_gene_group_fields
+897,Pappalysins,2,hgnc_complete_set_gene_group_fields
+898,Slingshot protein phosphatases,3,hgnc_complete_set_gene_group_fields
+899,Protein tyrosine phosphatase 4A family,3,hgnc_complete_set_gene_group_fields
+900,CDC14 phosphatases,4,hgnc_complete_set_gene_group_fields
+902,PTEN protein phosphatases,5,hgnc_complete_set_gene_group_fields
+903,Myotubularins,15,hgnc_complete_set_gene_group_fields
+904,Membrane associated guanylate kinases,26,hgnc_complete_set_gene_group_fields
+905,Angiopoietin like family,8,hgnc_complete_set_gene_group_fields
+906,CEA cell adhesion molecule family,24,hgnc_complete_set_gene_group_fields
+907,CTAGE family,16,hgnc_complete_set_gene_group_fields
+908,Transferrins,4,hgnc_complete_set_gene_group_fields
+909,Cyclophilin peptidylprolyl isomerases,19,hgnc_complete_set_gene_group_fields
+910,FKBP prolyl isomerase family,18,hgnc_complete_set_gene_group_fields
+911,"Adhesion G protein-coupled receptors, subfamily A",3,hgnc_complete_set_gene_group_fields
+912,"Adhesion G protein-coupled receptors, subfamily B",3,hgnc_complete_set_gene_group_fields
+913,"Adhesion G protein-coupled receptors, subfamily C",3,hgnc_complete_set_gene_group_fields
+914,"Adhesion G protein-coupled receptors, subfamily D",2,hgnc_complete_set_gene_group_fields
+915,"Adhesion G protein-coupled receptors, subfamily E",5,hgnc_complete_set_gene_group_fields
+916,"Adhesion G protein-coupled receptors, subfamily F",5,hgnc_complete_set_gene_group_fields
+917,"Adhesion G protein-coupled receptors, subfamily G",7,hgnc_complete_set_gene_group_fields
+918,"Adhesion G protein-coupled receptors, subfamily L",4,hgnc_complete_set_gene_group_fields
+919,"Adhesion G protein-coupled receptors, subfamily V",1,hgnc_complete_set_gene_group_fields
+920,Parvulins,2,hgnc_complete_set_gene_group_fields
+925,Granins,8,hgnc_complete_set_gene_group_fields
+926,Rhomboid family,14,hgnc_complete_set_gene_group_fields
+928,VPS9 domain containing,10,hgnc_complete_set_gene_group_fields
+929,Actins,7,hgnc_complete_set_gene_group_fields
+930,Progestin and adipoQ receptor family,11,hgnc_complete_set_gene_group_fields
+931,GINS complex,4,hgnc_complete_set_gene_group_fields
+932,COP9 signalosome,9,hgnc_complete_set_gene_group_fields
+933,G protein-coupled bile acid receptor,1,hgnc_complete_set_gene_group_fields
+934,G protein-coupled estrogen receptor,1,hgnc_complete_set_gene_group_fields
+935,Oxoglutarate receptor,1,hgnc_complete_set_gene_group_fields
+936,Succinate receptor,1,hgnc_complete_set_gene_group_fields
+938,Sirtuins,7,hgnc_complete_set_gene_group_fields
+939,Plakins,8,hgnc_complete_set_gene_group_fields
+940,Hemoglobin subunits,13,hgnc_complete_set_gene_group_fields
+943,Dynactin subunits,12,hgnc_complete_set_gene_group_fields
+945,Selectins,3,hgnc_complete_set_gene_group_fields
+946,ENAH/VASPs,3,hgnc_complete_set_gene_group_fields
+947,ADAMTS like,7,hgnc_complete_set_gene_group_fields
+948,Toll like receptors,11,hgnc_complete_set_gene_group_fields
+949,Tektins,5,hgnc_complete_set_gene_group_fields
+950,Gelsolin/villins,8,hgnc_complete_set_gene_group_fields
+951,Erythrocyte membrane protein band 4.1,4,hgnc_complete_set_gene_group_fields
+952,SNAP complex,5,hgnc_complete_set_gene_group_fields
+953,Peroxiredoxins,6,hgnc_complete_set_gene_group_fields
+954,Phospholipid scramblases,5,hgnc_complete_set_gene_group_fields
+955,XK related family,9,hgnc_complete_set_gene_group_fields
+956,Prefoldin subunits,8,hgnc_complete_set_gene_group_fields
+957,Peroxins,17,hgnc_complete_set_gene_group_fields
+958,Membrane spanning 4-domains,18,hgnc_complete_set_gene_group_fields
+959,Caspase recruitment domain containing,31,hgnc_complete_set_gene_group_fields
+960,Origin recognition complex,6,hgnc_complete_set_gene_group_fields
+961,NME/NM23 family,9,hgnc_complete_set_gene_group_fields
+965,"Cystatins, type 2",16,hgnc_complete_set_gene_group_fields
+966,"Cystatins, type 1",2,hgnc_complete_set_gene_group_fields
+967,"Cystatins, type 3",1,hgnc_complete_set_gene_group_fields
+968,"Cystatins, type 4",3,hgnc_complete_set_gene_group_fields
+971,Histatins and statherin,3,hgnc_complete_set_gene_group_fields
+972,Proline rich proteins,6,hgnc_complete_set_gene_group_fields
+973,Proprotein convertase subtilisin/kexin family,9,hgnc_complete_set_gene_group_fields
+974,Acyl-CoA dehydrogenase family,11,hgnc_complete_set_gene_group_fields
+975,Calpains,15,hgnc_complete_set_gene_group_fields
+976,Chromobox family,8,hgnc_complete_set_gene_group_fields
+978,CKLF like MARVEL transmembrane domain containing,8,hgnc_complete_set_gene_group_fields
+979,COMM domain containing,10,hgnc_complete_set_gene_group_fields
+981,Dynein regulatory complex,12,hgnc_complete_set_gene_group_fields
+982,E2F transcription factors,8,hgnc_complete_set_gene_group_fields
+984,SUMO specific peptidases,7,hgnc_complete_set_gene_group_fields
+986,Desumoylating isopeptidases,2,hgnc_complete_set_gene_group_fields
+987,Transcription factor Dp family,3,hgnc_complete_set_gene_group_fields
+988,Ubiquitin specific peptidase like,1,hgnc_complete_set_gene_group_fields
+989,"Histone deacetylases, class I",4,hgnc_complete_set_gene_group_fields
+991,"Histone deacetylases, class IV",1,hgnc_complete_set_gene_group_fields
+992,"Histone deacetylases, class IIA",4,hgnc_complete_set_gene_group_fields
+993,"Histone deacetylases, class IIB",2,hgnc_complete_set_gene_group_fields
+994,Pyrin domain containing,26,hgnc_complete_set_gene_group_fields
+995,Pyrin and HIN domain family,5,hgnc_complete_set_gene_group_fields
+997,MJD deubiquinating enzymes,4,hgnc_complete_set_gene_group_fields
+998,Ubiquitin C-terminal hydrolases,4,hgnc_complete_set_gene_group_fields
+999,JAMM/MPN+ metallopeptidase family,12,hgnc_complete_set_gene_group_fields
+1000,Cytochrome P450 family 1,4,hgnc_complete_set_gene_group_fields
+1001,Cytochrome P450 family 2,36,hgnc_complete_set_gene_group_fields
+1002,Cytochrome P450 family 3,8,hgnc_complete_set_gene_group_fields
+1003,Cytochrome P450 family 4,38,hgnc_complete_set_gene_group_fields
+1004,Cytochrome P450 family 5,1,hgnc_complete_set_gene_group_fields
+1005,Cytochrome P450 family 7,2,hgnc_complete_set_gene_group_fields
+1006,Cytochrome P450 family 8,2,hgnc_complete_set_gene_group_fields
+1007,Cytochrome P450 family 11,3,hgnc_complete_set_gene_group_fields
+1008,Cytochrome P450 family 17,1,hgnc_complete_set_gene_group_fields
+1009,Cytochrome P450 family 19,1,hgnc_complete_set_gene_group_fields
+1010,Cytochrome P450 family 20,1,hgnc_complete_set_gene_group_fields
+1011,Cytochrome P450 family 21,2,hgnc_complete_set_gene_group_fields
+1012,Cytochrome P450 family 24,1,hgnc_complete_set_gene_group_fields
+1013,Cytochrome P450 family 26,3,hgnc_complete_set_gene_group_fields
+1014,Cytochrome P450 family 27,3,hgnc_complete_set_gene_group_fields
+1015,Cytochrome P450 family 39,1,hgnc_complete_set_gene_group_fields
+1016,Cytochrome P450 family 46,2,hgnc_complete_set_gene_group_fields
+1017,Cytochrome P450 family 51,4,hgnc_complete_set_gene_group_fields
+1019,Death effector domain containing,7,hgnc_complete_set_gene_group_fields
+1021,Death associated protein kinases,5,hgnc_complete_set_gene_group_fields
+1022,Autophagy related,33,hgnc_complete_set_gene_group_fields
+1023,CCR4-NOT transcription complex,12,hgnc_complete_set_gene_group_fields
+1024,DNA glycosylases,11,hgnc_complete_set_gene_group_fields
+1025,Methyl-CpG binding domain containing,11,hgnc_complete_set_gene_group_fields
+1026,MutS homologs,5,hgnc_complete_set_gene_group_fields
+1027,MutL homologs,4,hgnc_complete_set_gene_group_fields
+1028,Cytosolic iron-sulfur assembly components,9,hgnc_complete_set_gene_group_fields
+1029,Paf1/RNA polymerase II complex,6,hgnc_complete_set_gene_group_fields
+1031,"Golgi associated, gamma adaptin ear containing, ARF binding proteins",3,hgnc_complete_set_gene_group_fields
+1032,Cullins,8,hgnc_complete_set_gene_group_fields
+1033,SCY1 like pseudokinases,3,hgnc_complete_set_gene_group_fields
+1034,SMC5-6 protein complex,6,hgnc_complete_set_gene_group_fields
+1035,Glycerol-3-phosphate acyltransferases,4,hgnc_complete_set_gene_group_fields
+1036,Membrane bound O-acyltransferase family,11,hgnc_complete_set_gene_group_fields
+1038,Biogenesis of lysosomal organelles complex 2,3,hgnc_complete_set_gene_group_fields
+1039,Biogenesis of lysosomal organelles complex 3,2,hgnc_complete_set_gene_group_fields
+1040,Ragulator complex,5,hgnc_complete_set_gene_group_fields
+1041,CTD family phosphatases,8,hgnc_complete_set_gene_group_fields
+1042,5'-nucleotidases,7,hgnc_complete_set_gene_group_fields
+1043,Lipins,3,hgnc_complete_set_gene_group_fields
+1044,EYA transcriptional coactivator and phosphatases,4,hgnc_complete_set_gene_group_fields
+1045,HAD Asp-based non-protein phosphatases,11,hgnc_complete_set_gene_group_fields
+1046,Cellular communication network factors,6,hgnc_complete_set_gene_group_fields
+1048,BLOC-1 related complex subunits,8,hgnc_complete_set_gene_group_fields
+1049,RecQ like helicases,5,hgnc_complete_set_gene_group_fields
+1050,Topoisomerases,6,hgnc_complete_set_gene_group_fields
+1051,Nucleoporins,30,hgnc_complete_set_gene_group_fields
+1052,IgLON cell adhesion molecules,5,hgnc_complete_set_gene_group_fields
+1053,14-3-3 phospho-serine/phospho-threonine binding proteins,7,hgnc_complete_set_gene_group_fields
+1055,Exocyst complex,9,hgnc_complete_set_gene_group_fields
+1056,TNF receptor associated factors,7,hgnc_complete_set_gene_group_fields
+1057,BCL2 family,14,hgnc_complete_set_gene_group_fields
+1058,ATAC complex,13,hgnc_complete_set_gene_group_fields
+1059,SAGA complex,17,hgnc_complete_set_gene_group_fields
+1060,Cohesin complex,8,hgnc_complete_set_gene_group_fields
+1061,Mediator complex,33,hgnc_complete_set_gene_group_fields
+1062,GOLD domain containing,3,hgnc_complete_set_gene_group_fields
+1063,SEC14 family,6,hgnc_complete_set_gene_group_fields
+1064,Transmembrane p24 trafficking proteins,10,hgnc_complete_set_gene_group_fields
+1065,Insulin like growth factor binding proteins,6,hgnc_complete_set_gene_group_fields
+1066,Lipid phosphatases,1,hgnc_complete_set_gene_group_fields
+1067,Phospholipid phosphatases,7,hgnc_complete_set_gene_group_fields
+1070,Sphingosine-1-phosphate phosphatases,2,hgnc_complete_set_gene_group_fields
+1071,Acid phosphatases,8,hgnc_complete_set_gene_group_fields
+1072,Alkaline phosphatases,4,hgnc_complete_set_gene_group_fields
+1073,Sugar phosphatases,2,hgnc_complete_set_gene_group_fields
+1074,"Glucose 6-phosphatases, catalytic",3,hgnc_complete_set_gene_group_fields
+1075,"Fructose-1,6-bisphosphatases",2,hgnc_complete_set_gene_group_fields
+1077,"6-phosphofructo-2-kinases/fructose-2,6-biphosphatases",4,hgnc_complete_set_gene_group_fields
+1078,Phosphoglycerate mutases,5,hgnc_complete_set_gene_group_fields
+1079,Phosphoinositide phosphatases,32,hgnc_complete_set_gene_group_fields
+1082,Bisphosphoglycerate phosphatases,4,hgnc_complete_set_gene_group_fields
+1084,Golgins,11,hgnc_complete_set_gene_group_fields
+1085,MCM family,9,hgnc_complete_set_gene_group_fields
+1086,MADS box family,5,hgnc_complete_set_gene_group_fields
+1087,LEM domain containing,7,hgnc_complete_set_gene_group_fields
+1089,Spindlin family,5,hgnc_complete_set_gene_group_fields
+1090,Atypical chemokine receptors,5,hgnc_complete_set_gene_group_fields
+1091,C-C motif chemokine receptors,10,hgnc_complete_set_gene_group_fields
+1092,X-C motif chemokine receptors,1,hgnc_complete_set_gene_group_fields
+1093,C-X-3-C motif chemokine receptors,1,hgnc_complete_set_gene_group_fields
+1094,C-X-C motif chemokine receptors,6,hgnc_complete_set_gene_group_fields
+1095,EPH receptors,14,hgnc_complete_set_gene_group_fields
+1096,Erb-b2 receptor tyrosine kinases,4,hgnc_complete_set_gene_group_fields
+1097,"Myosin heavy chains, class I",8,hgnc_complete_set_gene_group_fields
+1098,"Myosin heavy chains, class II",15,hgnc_complete_set_gene_group_fields
+1099,"Myosin heavy chains, class III",2,hgnc_complete_set_gene_group_fields
+1100,"Myosin heavy chains, class V",3,hgnc_complete_set_gene_group_fields
+1101,"Myosin heavy chains, class VI",1,hgnc_complete_set_gene_group_fields
+1102,"Myosin heavy chains, class VII",2,hgnc_complete_set_gene_group_fields
+1103,"Myosin heavy chains, class IX",2,hgnc_complete_set_gene_group_fields
+1104,"Myosin heavy chains, class X",1,hgnc_complete_set_gene_group_fields
+1105,"Myosin heavy chains, class XV",2,hgnc_complete_set_gene_group_fields
+1106,"Myosin heavy chains, class XVI",1,hgnc_complete_set_gene_group_fields
+1107,"Myosin heavy chains, class XVIII",2,hgnc_complete_set_gene_group_fields
+1108,"Myosin heavy chains, class XIX",1,hgnc_complete_set_gene_group_fields
+1109,Keratins,1,hgnc_complete_set_gene_group_fields
+1110,Schlafen family,7,hgnc_complete_set_gene_group_fields
+1112,Actinins,4,hgnc_complete_set_gene_group_fields
+1113,Spectrins,7,hgnc_complete_set_gene_group_fields
+1114,Flotillins,2,hgnc_complete_set_gene_group_fields
+1115,ESCRT-0,3,hgnc_complete_set_gene_group_fields
+1116,ESCRT-I,9,hgnc_complete_set_gene_group_fields
+1117,ESCRT-II,3,hgnc_complete_set_gene_group_fields
+1118,ESCRT-III,7,hgnc_complete_set_gene_group_fields
+1119,ESCRT-III associated factors,5,hgnc_complete_set_gene_group_fields
+1120,ESCRT-IV,3,hgnc_complete_set_gene_group_fields
+1121,Eukaryotic translation initiation factor 3,13,hgnc_complete_set_gene_group_fields
+1122,BBSome,8,hgnc_complete_set_gene_group_fields
+1124,SNAREs,15,hgnc_complete_set_gene_group_fields
+1125,Xeroderma pigmentosum complementation groups,8,hgnc_complete_set_gene_group_fields
+1127,Phospholipid phosphatase related,5,hgnc_complete_set_gene_group_fields
+1130,Yippee like family,5,hgnc_complete_set_gene_group_fields
+1131,Gemins,7,hgnc_complete_set_gene_group_fields
+1133,Arylamine N-acetyltransferases,3,hgnc_complete_set_gene_group_fields
+1134,GCN5 related N-acetyltransferases,24,hgnc_complete_set_gene_group_fields
+1135,Transmembrane channel like family,8,hgnc_complete_set_gene_group_fields
+1136,MAGE family,40,hgnc_complete_set_gene_group_fields
+1138,Stathmins,4,hgnc_complete_set_gene_group_fields
+1139,BAG cochaperones,6,hgnc_complete_set_gene_group_fields
+1140,Tropomodulins,4,hgnc_complete_set_gene_group_fields
+1142,Long pentraxins,4,hgnc_complete_set_gene_group_fields
+1143,Short pentraxins,3,hgnc_complete_set_gene_group_fields
+1144,YIP superfamily,5,hgnc_complete_set_gene_group_fields
+1145,AF4/FMR2 family,4,hgnc_complete_set_gene_group_fields
+1146,GRAM domain containing,13,hgnc_complete_set_gene_group_fields
+1147,PWWP domain containing,20,hgnc_complete_set_gene_group_fields
+1149,NADH:ubiquinone oxidoreductase core subunits,14,hgnc_complete_set_gene_group_fields
+1150,NADH:ubiquinone oxidoreductase supernumerary subunits,30,hgnc_complete_set_gene_group_fields
+1151,Phosphatidylinositol transfer proteins,6,hgnc_complete_set_gene_group_fields
+1153,Regulatory factor X family,8,hgnc_complete_set_gene_group_fields
+1156,MAPK activated protein kinases,11,hgnc_complete_set_gene_group_fields
+1157,RAF family,5,hgnc_complete_set_gene_group_fields
+1158,Volume regulated anion channel subunits,5,hgnc_complete_set_gene_group_fields
+1159,Integrin beta subunits,9,hgnc_complete_set_gene_group_fields
+1160,Integrin alpha subunits,18,hgnc_complete_set_gene_group_fields
+1161,Taste 1 receptors,3,hgnc_complete_set_gene_group_fields
+1162,Taste 2 receptors,39,hgnc_complete_set_gene_group_fields
+1163,LIMS zinc finger family,4,hgnc_complete_set_gene_group_fields
+1164,CDC42 effector proteins,5,hgnc_complete_set_gene_group_fields
+1165,CCAAT/enhancer binding proteins,6,hgnc_complete_set_gene_group_fields
+1166,Helicases,10,hgnc_complete_set_gene_group_fields
+1169,UPF1 like RNA helicases,11,hgnc_complete_set_gene_group_fields
+1172,Lysozymes,0,frozen_hgnc_family_table_supplement
+1173,"Lysozymes, g-type",2,hgnc_complete_set_gene_group_fields
+1174,"Lysozymes, c-type",9,hgnc_complete_set_gene_group_fields
+1175,Growth hormone family,6,hgnc_complete_set_gene_group_fields
+1178,Diacylglycerol kinases,10,hgnc_complete_set_gene_group_fields
+1179,Sushi domain containing,57,hgnc_complete_set_gene_group_fields
+1180,Myosin phosphatase targeting family,5,hgnc_complete_set_gene_group_fields
+1181,Activating leukocyte immunoglobulin like receptors,6,hgnc_complete_set_gene_group_fields
+1182,Inhibitory leukocyte immunoglobulin like receptors,5,hgnc_complete_set_gene_group_fields
+1183,TEA domain transcription factors,4,hgnc_complete_set_gene_group_fields
+1184,Prickle planar cell polarity proteins,4,hgnc_complete_set_gene_group_fields
+1185,Type I classical cadherins,5,hgnc_complete_set_gene_group_fields
+1186,Type II classical cadherins,13,hgnc_complete_set_gene_group_fields
+1187,7D cadherins,2,hgnc_complete_set_gene_group_fields
+1188,Desmosomal cadherins,7,hgnc_complete_set_gene_group_fields
+1189,CELSR cadherins,3,hgnc_complete_set_gene_group_fields
+1190,SNF2 related family,32,hgnc_complete_set_gene_group_fields
+1191,Mannosidases,0,frozen_hgnc_family_table_supplement
+1192,Mannosidases type alpha,0,frozen_hgnc_family_table_supplement
+1193,Mannosidases alpha class 1,7,hgnc_complete_set_gene_group_fields
+1194,Mannosidases alpha class 2,5,hgnc_complete_set_gene_group_fields
+1195,Mannosidases endo-alpha,2,hgnc_complete_set_gene_group_fields
+1196,Mannosidases type beta,2,hgnc_complete_set_gene_group_fields
+1197,PR/SET domain family,19,hgnc_complete_set_gene_group_fields
+1198,Ras association domain family,10,hgnc_complete_set_gene_group_fields
+1199,Glutamate ionotropic receptor kainate type subunits,5,hgnc_complete_set_gene_group_fields
+1200,Glutamate ionotropic receptor AMPA type subunits,4,hgnc_complete_set_gene_group_fields
+1201,Glutamate ionotropic receptor NMDA type subunits,7,hgnc_complete_set_gene_group_fields
+1202,Glutamate ionotropic receptor delta type subunits,2,hgnc_complete_set_gene_group_fields
+1203,Sodium voltage-gated channel alpha subunits,9,hgnc_complete_set_gene_group_fields
+1204,Sodium voltage-gated channel beta subunits,4,hgnc_complete_set_gene_group_fields
+1205,DASH family,7,hgnc_complete_set_gene_group_fields
+1208,ATPase Na+/K+ transporting subunits,7,hgnc_complete_set_gene_group_fields
+1209,ATPases Ca2+ transporting,9,hgnc_complete_set_gene_group_fields
+1210,ATPase phospholipid transporting,15,hgnc_complete_set_gene_group_fields
+1211,ATPase H+/K+ transporting,3,hgnc_complete_set_gene_group_fields
+1212,ATPase copper transporting,2,hgnc_complete_set_gene_group_fields
+1213,ATPase orphan transporters,5,hgnc_complete_set_gene_group_fields
+1215,Transmembrane BAX inhibitor motif containing,7,hgnc_complete_set_gene_group_fields
+1216,Transcription elongation factor A like family,9,hgnc_complete_set_gene_group_fields
+1217,Brain expressed X-linked family,5,hgnc_complete_set_gene_group_fields
+1218,LIM domain containing,53,hgnc_complete_set_gene_group_fields
+1219,Troponin complex subunits,8,hgnc_complete_set_gene_group_fields
+1220,PDZ domain containing,152,hgnc_complete_set_gene_group_fields
+1221,H/ACA ribonucleoprotein complex,4,hgnc_complete_set_gene_group_fields
+1223,Crumbs complex,9,hgnc_complete_set_gene_group_fields
+1224,Scribble complex,4,hgnc_complete_set_gene_group_fields
+1225,UTPb subcomplex,6,hgnc_complete_set_gene_group_fields
+1226,LY6/PLAUR domain containing,36,hgnc_complete_set_gene_group_fields
+1227,Phospholipase A and acyltransferase family,5,hgnc_complete_set_gene_group_fields
+1229,Translocase of outer mitochondrial membrane complex,7,hgnc_complete_set_gene_group_fields
+1230,BEACH domain containing,9,hgnc_complete_set_gene_group_fields
+1231,Bromodomain and extra-terminal domain family,4,hgnc_complete_set_gene_group_fields
+1232,Bromodomain containing,43,hgnc_complete_set_gene_group_fields
+1233,MRH domain containing,6,hgnc_complete_set_gene_group_fields
+1234,"C3 and PZP like, alpha-2-macroglobulin domain containing",6,hgnc_complete_set_gene_group_fields
+1235,Diacylglycerol O-acyltransferase 2 family,8,hgnc_complete_set_gene_group_fields
+1236,ASAP complex,3,hgnc_complete_set_gene_group_fields
+1238,Exon junction complex,5,hgnc_complete_set_gene_group_fields
+1239,Transmembrane 9 superfamily members,4,hgnc_complete_set_gene_group_fields
+1240,Tubulin polymerization promoting proteins,3,hgnc_complete_set_gene_group_fields
+1243,EMSY complex,12,hgnc_complete_set_gene_group_fields
+1244,USH2 complex,4,hgnc_complete_set_gene_group_fields
+1246,DAN family,7,hgnc_complete_set_gene_group_fields
+1247,DNA ligases,3,hgnc_complete_set_gene_group_fields
+1248,PAR bZIP family,3,hgnc_complete_set_gene_group_fields
+1249,Proline rich and Gla domain containing,4,hgnc_complete_set_gene_group_fields
+1250,Gla domain containing,13,hgnc_complete_set_gene_group_fields
+1252,Spectrin repeat containing nuclear envelope family,4,hgnc_complete_set_gene_group_fields
+1253,Scavenger receptors,27,hgnc_complete_set_gene_group_fields
+1254,NF-kappa B complex subunits,5,hgnc_complete_set_gene_group_fields
+1255,Sm spliceosomal proteins,8,hgnc_complete_set_gene_group_fields
+1256,Fos transcription factor family,4,hgnc_complete_set_gene_group_fields
+1257,Jun transcription factor family,3,hgnc_complete_set_gene_group_fields
+1259,SNAG transcriptional repressors,10,hgnc_complete_set_gene_group_fields
+1260,RGK type GTPase family,4,hgnc_complete_set_gene_group_fields
+1261,Zinc fingers C2H2C-type,7,hgnc_complete_set_gene_group_fields
+1263,MBT domain containing,9,hgnc_complete_set_gene_group_fields
+1264,Interleukin 6 type cytokine family,8,hgnc_complete_set_gene_group_fields
+1265,Protein phosphatase 2 modulatory subunits,5,hgnc_complete_set_gene_group_fields
+1266,Protein phosphatase 2 scaffold subunits,2,hgnc_complete_set_gene_group_fields
+1267,VEGF family,5,hgnc_complete_set_gene_group_fields
+1268,ERCC excision repair associated,7,hgnc_complete_set_gene_group_fields
+1269,Nucleotide excision repair,18,hgnc_complete_set_gene_group_fields
+1275,Signal transduction and activation of RNA metabolism family,3,hgnc_complete_set_gene_group_fields
+1276,Transcription and export complex 2,5,hgnc_complete_set_gene_group_fields
+1277,BCL2 homology region 3 (BH3) only,11,hgnc_complete_set_gene_group_fields
+1278,SPARC family,8,hgnc_complete_set_gene_group_fields
+1279,SIBLING family,5,hgnc_complete_set_gene_group_fields
+1280,Super elongation complex,9,hgnc_complete_set_gene_group_fields
+1281,P-TEFb complex subunits,6,hgnc_complete_set_gene_group_fields
+1282,Membrane associated progesterone receptor family,4,hgnc_complete_set_gene_group_fields
+1283,YEATS domain containing,4,hgnc_complete_set_gene_group_fields
+1285,NudC family,4,hgnc_complete_set_gene_group_fields
+1287,I-BAR domain containing,5,hgnc_complete_set_gene_group_fields
+1288,F-BAR domain containing,23,hgnc_complete_set_gene_group_fields
+1289,N-BAR domain containing,12,hgnc_complete_set_gene_group_fields
+1290,PX-BAR domain containing,12,hgnc_complete_set_gene_group_fields
+1291,BAR-PH domain containing,16,hgnc_complete_set_gene_group_fields
+1293,FERM domain containing,50,hgnc_complete_set_gene_group_fields
+1294,SPOUT methyltransferase domain containing,8,hgnc_complete_set_gene_group_fields
+1295,PRELI domain containing,6,hgnc_complete_set_gene_group_fields
+1296,TIR domain containing,15,hgnc_complete_set_gene_group_fields
+1298,C-type lectin domain containing,86,hgnc_complete_set_gene_group_fields
+1299,BCH domain containing,7,hgnc_complete_set_gene_group_fields
+1300,MIA family,4,hgnc_complete_set_gene_group_fields
+1301,Large ribosomal subunit biogenesis complex,6,hgnc_complete_set_gene_group_fields
+1302,Adenosine deaminase family,6,hgnc_complete_set_gene_group_fields
+1303,Adenosine deaminases acting on RNA,8,hgnc_complete_set_gene_group_fields
+1305,NuRD complex subunits,12,hgnc_complete_set_gene_group_fields
+1306,SIN3 histone deacetylase complex subunits,9,hgnc_complete_set_gene_group_fields
+1309,BTG/Tob family,6,hgnc_complete_set_gene_group_fields
+1311,Alpha arrestins,6,hgnc_complete_set_gene_group_fields
+1312,Classical arrestins,4,hgnc_complete_set_gene_group_fields
+1313,KEOPS complex,5,hgnc_complete_set_gene_group_fields
+1314,Leucine zipper tumor suppressor family,4,hgnc_complete_set_gene_group_fields
+1315,Pregnancy specific glycoproteins,11,hgnc_complete_set_gene_group_fields
+1316,Nuclear exosome targeting complex,3,hgnc_complete_set_gene_group_fields
+1318,Non-canonical poly(A) polymerases,7,hgnc_complete_set_gene_group_fields
+1320,TTT complex,3,hgnc_complete_set_gene_group_fields
+1321,M14 carboxypeptidases,28,hgnc_complete_set_gene_group_fields
+1322,MIS12 kinetochore complex,4,hgnc_complete_set_gene_group_fields
+1324,STEAP family,5,hgnc_complete_set_gene_group_fields
+1325,Synapsins,3,hgnc_complete_set_gene_group_fields
+1326,Cavins,4,hgnc_complete_set_gene_group_fields
+1328,BRCA1 A complex,6,hgnc_complete_set_gene_group_fields
+1329,SRCAP complex,9,hgnc_complete_set_gene_group_fields
+1330,Casein kinase 1 family,7,hgnc_complete_set_gene_group_fields
+1331,WASH complex,6,hgnc_complete_set_gene_group_fields
+1332,MTOR complex 1,4,hgnc_complete_set_gene_group_fields
+1333,MTOR complex 2,5,hgnc_complete_set_gene_group_fields
+1334,Shelterin complex,6,hgnc_complete_set_gene_group_fields
+1335,BRCA1 B complex,4,hgnc_complete_set_gene_group_fields
+1336,BRCA1 C complex,5,hgnc_complete_set_gene_group_fields
+1337,TIM22 complex,5,hgnc_complete_set_gene_group_fields
+1338,Chromosomal passenger complex,4,hgnc_complete_set_gene_group_fields
+1339,Checkpoint clamp complex,3,hgnc_complete_set_gene_group_fields
+1340,Ripoptosome,4,hgnc_complete_set_gene_group_fields
+1341,Apoptosome,3,hgnc_complete_set_gene_group_fields
+1342,Death inducing signaling complex,6,hgnc_complete_set_gene_group_fields
+1343,CST complex,3,hgnc_complete_set_gene_group_fields
+1344,MRN complex,4,hgnc_complete_set_gene_group_fields
+1345,tRNA splicing ligase complex,7,hgnc_complete_set_gene_group_fields
+1346,JmjC hydroxylases,3,hgnc_complete_set_gene_group_fields
+1347,Polycomb repressive complex 2,6,hgnc_complete_set_gene_group_fields
+1348,Transcription and export complex 1 subunits,7,hgnc_complete_set_gene_group_fields
+1350,S100 fused type protein family,7,hgnc_complete_set_gene_group_fields
+1352,Cornified envelope precursor family,2,hgnc_complete_set_gene_group_fields
+1353,Small proline rich proteins,12,hgnc_complete_set_gene_group_fields
+1355,Cysteine rich secretory protein family,3,hgnc_complete_set_gene_group_fields
+1356,CAP superfamily,4,hgnc_complete_set_gene_group_fields
+1358,GLIPR family,3,hgnc_complete_set_gene_group_fields
+1359,Beta-gamma crystallins,15,hgnc_complete_set_gene_group_fields
+1360,Beta-gamma crystallin domain containing,3,hgnc_complete_set_gene_group_fields
+1361,NineTeen complex,6,hgnc_complete_set_gene_group_fields
+1363,NURF complex,4,hgnc_complete_set_gene_group_fields
+1366,Integrator complex,16,hgnc_complete_set_gene_group_fields
+1368,Iron (II) and 2-oxoglutarate dependent oxygenases,6,hgnc_complete_set_gene_group_fields
+1369,Doublecortin superfamily,10,hgnc_complete_set_gene_group_fields
+1371,STRIPAK complex,20,hgnc_complete_set_gene_group_fields
+1372,C1q and TNF related,18,hgnc_complete_set_gene_group_fields
+1373,Hedgehog signaling molecule family,3,hgnc_complete_set_gene_group_fields
+1374,TLC domain containing,10,hgnc_complete_set_gene_group_fields
+1375,BRISC complex,4,hgnc_complete_set_gene_group_fields
+1376,MINDY deubiquitinases,5,hgnc_complete_set_gene_group_fields
+1377,Haloacid dehalogenase like hydrolase domain containing,7,hgnc_complete_set_gene_group_fields
+1378,Mitochondrially encoded ribosomal RNAs,2,hgnc_complete_set_gene_group_fields
+1380,5S ribosomal RNAs,17,hgnc_complete_set_gene_group_fields
+1381,Ribosomal 45S RNA clusters,5,hgnc_complete_set_gene_group_fields
+1382,45S pre-ribosomal RNAs,5,hgnc_complete_set_gene_group_fields
+1383,18S ribosomal RNAs,5,hgnc_complete_set_gene_group_fields
+1384,5.8S ribosomal RNAs,5,hgnc_complete_set_gene_group_fields
+1385,28S ribosomal RNAs,5,hgnc_complete_set_gene_group_fields
+1387,Mitochondrial complex I assembly complex,6,hgnc_complete_set_gene_group_fields
+1388,Src family tyrosine kinases,9,hgnc_complete_set_gene_group_fields
+1390,Linear ubiquitin chain assembly complex,3,hgnc_complete_set_gene_group_fields
+1391,RBR E3 ubiquitin ligases,14,hgnc_complete_set_gene_group_fields
+1392,Elongin complex,4,hgnc_complete_set_gene_group_fields
+1393,KICSTOR complex,4,hgnc_complete_set_gene_group_fields
+1394,GATOR1 subcomplex,3,hgnc_complete_set_gene_group_fields
+1395,GATOR2 subcomplex,5,hgnc_complete_set_gene_group_fields
+1397,Peptidoglycan recognition proteins,4,hgnc_complete_set_gene_group_fields
+1398,Methyltransferase families,5,hgnc_complete_set_gene_group_fields
+1399,SET domain containing,35,hgnc_complete_set_gene_group_fields
+1400,Seven-beta-strand methyltransferase motif containing,5,hgnc_complete_set_gene_group_fields
+1401,R2TP complex,4,hgnc_complete_set_gene_group_fields
+1402,Zyxin family,3,hgnc_complete_set_gene_group_fields
+1403,Ajuba family,3,hgnc_complete_set_gene_group_fields
+1404,Scavenger receptor cysteine rich domain containing,28,hgnc_complete_set_gene_group_fields
+1405,CBM complex,3,hgnc_complete_set_gene_group_fields
+1406,RELT family,3,hgnc_complete_set_gene_group_fields
+1407,Myocardin family,4,hgnc_complete_set_gene_group_fields
+1408,Glutamine amidotransferase class 1 domain containing,12,hgnc_complete_set_gene_group_fields
+1409,Retrotransposon Gag like,12,hgnc_complete_set_gene_group_fields
+1410,Ig-like cell adhesion molecule family,62,hgnc_complete_set_gene_group_fields
+1411,Gag like LTR retrotransposon derived genes,2,hgnc_complete_set_gene_group_fields
+1412,Envelope ERV derived genes,18,hgnc_complete_set_gene_group_fields
+1413,Glycoside hydrolase family 31,7,hgnc_complete_set_gene_group_fields
+1414,IgCAM CXADR-related subfamily,8,hgnc_complete_set_gene_group_fields
+1415,DNA transposon derived genes,21,hgnc_complete_set_gene_group_fields
+1418,Heparin binding growth factor family,5,hgnc_complete_set_gene_group_fields
+1419,m6A methyltransferase complex,6,hgnc_complete_set_gene_group_fields
+1420,WTAP complex,7,hgnc_complete_set_gene_group_fields
+1421,ROCO family,4,hgnc_complete_set_gene_group_fields
+1423,Endosome-associated recycling protein (EARP) complex,4,hgnc_complete_set_gene_group_fields
+1424,Golgi associated retrograde protein (GARP) complex,4,hgnc_complete_set_gene_group_fields
+1426,"G protein subunits alpha, group s",2,hgnc_complete_set_gene_group_fields
+1427,"G protein subunits alpha, group q",4,hgnc_complete_set_gene_group_fields
+1428,"G protein subunits alpha, group i",8,hgnc_complete_set_gene_group_fields
+1429,"G protein subunits alpha, group 12/13",2,hgnc_complete_set_gene_group_fields
+1430,G protein subunits beta,5,hgnc_complete_set_gene_group_fields
+1432,G protein subunits gamma,13,hgnc_complete_set_gene_group_fields
+1436,Actin related proteins,20,hgnc_complete_set_gene_group_fields
+1437,M1 metallopeptidases,13,hgnc_complete_set_gene_group_fields
+1438,M3 metallopeptidase family,3,hgnc_complete_set_gene_group_fields
+1439,M13 metallopeptidases,7,hgnc_complete_set_gene_group_fields
+1440,M16 metallopeptidases,7,hgnc_complete_set_gene_group_fields
+1442,M24 metallopeptidase family,8,hgnc_complete_set_gene_group_fields
+1443,M20 metallopeptidases,5,hgnc_complete_set_gene_group_fields
+1444,M28 metallopeptidases,11,hgnc_complete_set_gene_group_fields
+1445,M19 metallopeptidases,3,hgnc_complete_set_gene_group_fields
+1446,M38 metallopeptidases,8,hgnc_complete_set_gene_group_fields
+1448,Hyaluronidases,8,hgnc_complete_set_gene_group_fields
+1449,Cleavage stimulation factor subunits,4,hgnc_complete_set_gene_group_fields
+1450,Cleavage and polyadenylation specific factor subunits,6,hgnc_complete_set_gene_group_fields
+1451,Kleisins,4,hgnc_complete_set_gene_group_fields
+1452,Condensin I subunits,5,hgnc_complete_set_gene_group_fields
+1453,Condensin II subunits,5,hgnc_complete_set_gene_group_fields
+1455,Ferritin chains,4,hgnc_complete_set_gene_group_fields
+1457,Tec family tyrosine kinases,5,hgnc_complete_set_gene_group_fields
+1459,Jak family tyrosine kinases,4,hgnc_complete_set_gene_group_fields
+1460,Csk family tyrosine kinases,2,hgnc_complete_set_gene_group_fields
+1461,Fes family tyrosine kinases,2,hgnc_complete_set_gene_group_fields
+1463,Abl family tyrosine kinases,2,hgnc_complete_set_gene_group_fields
+1464,Syk family tyrosine kinases,2,hgnc_complete_set_gene_group_fields
+1466,Nucleoredoxin family,3,hgnc_complete_set_gene_group_fields
+1468,Glutaredoxin domain containing,9,hgnc_complete_set_gene_group_fields
+1469,Microsomal glutathione S-transferases,3,hgnc_complete_set_gene_group_fields
+1471,Tetraspan junctional complex superfamily,3,hgnc_complete_set_gene_group_fields
+1473,Clarins,3,hgnc_complete_set_gene_group_fields
+1475,Synaptogyrins,4,hgnc_complete_set_gene_group_fields
+1476,Synaptophysins,4,hgnc_complete_set_gene_group_fields
+1477,eNoSC complex,3,hgnc_complete_set_gene_group_fields
+1478,Calcium homeostasis modulators,6,hgnc_complete_set_gene_group_fields
+1481,MSL histone acetyltransferase complex,4,hgnc_complete_set_gene_group_fields
+1482,NSL histone acetyltransferase complex,9,hgnc_complete_set_gene_group_fields
+1483,UTPa subcomplex,6,hgnc_complete_set_gene_group_fields
+1484,SSU processome,42,hgnc_complete_set_gene_group_fields
+1485,U3 small nucleolar ribonucleoprotein,5,hgnc_complete_set_gene_group_fields
+1486,MPP10 subcomplex,3,hgnc_complete_set_gene_group_fields
+1487,CAP and C-type lectin domain containing,3,hgnc_complete_set_gene_group_fields
+1489,LHFPL tetraspan proteins,7,hgnc_complete_set_gene_group_fields
+1490,UTPc subcomplex,2,hgnc_complete_set_gene_group_fields
+1491,Cilia and flagella associated,78,hgnc_complete_set_gene_group_fields
+1492,Armadillo like helical domain containing,244,hgnc_complete_set_gene_group_fields
+1493,"Clathrin/coatomer adaptor, adaptin-like, N-terminal domain containing",14,hgnc_complete_set_gene_group_fields
+1494,Pumilio homology domain containing,3,hgnc_complete_set_gene_group_fields
+1495,TOG domain containing,10,hgnc_complete_set_gene_group_fields
+1497,TSC complex,3,hgnc_complete_set_gene_group_fields
+1498,NTC associated proteins,16,hgnc_complete_set_gene_group_fields
+1499,U1 small nuclear ribonucleoprotein,4,hgnc_complete_set_gene_group_fields
+1500,SMN complex,3,hgnc_complete_set_gene_group_fields
+1501,U2 small nuclear ribonucleoprotein,6,hgnc_complete_set_gene_group_fields
+1502,U4/U6 small nuclear ribonucleoprotein particle,7,hgnc_complete_set_gene_group_fields
+1503,U5 small nuclear ribonucleoprotein,10,hgnc_complete_set_gene_group_fields
+1504,Spliceosomal A complex,19,hgnc_complete_set_gene_group_fields
+1505,LSm proteins,14,hgnc_complete_set_gene_group_fields
+1506,tri-snRP complex,4,hgnc_complete_set_gene_group_fields
+1507,Spliceosomal B complex,19,hgnc_complete_set_gene_group_fields
+1508,Spliceosomal Bact complex,29,hgnc_complete_set_gene_group_fields
+1510,Spliceosomal C complex,53,hgnc_complete_set_gene_group_fields
+1511,Calcium channel auxiliary gamma subunits,8,hgnc_complete_set_gene_group_fields
+1512,Calcium voltage-gated channel alpha1 subunits,10,hgnc_complete_set_gene_group_fields
+1514,Calcium voltage-gated channel auxiliary alpha2delta subunits,4,hgnc_complete_set_gene_group_fields
+1515,Calcium voltage-gated channel auxiliary beta subunits,4,hgnc_complete_set_gene_group_fields
+1516,Spliceosomal P complex,49,hgnc_complete_set_gene_group_fields
+1517,SF3b complex,7,hgnc_complete_set_gene_group_fields
+1520,Minor spliceosome,2,hgnc_complete_set_gene_group_fields
+1521,U11/U12 di-snRNP,12,hgnc_complete_set_gene_group_fields
+1522,Spliceosomal E complex,4,hgnc_complete_set_gene_group_fields
+1528,Ribosomal 45S rRNA genes outside of clusters,20,hgnc_complete_set_gene_group_fields
+1529,Gasdermins,6,hgnc_complete_set_gene_group_fields
+1531,HOPS complex,6,hgnc_complete_set_gene_group_fields
+1532,CORVET complex,6,hgnc_complete_set_gene_group_fields
+1534,Mitochondrial RNase P complex,3,hgnc_complete_set_gene_group_fields
+1535,B9 domain containing,3,hgnc_complete_set_gene_group_fields
+1536,DOCK family Rho GEFs,11,hgnc_complete_set_gene_group_fields
+1537,NT-C2 domain containing,4,hgnc_complete_set_gene_group_fields
+1538,FASTK mitochondrial RNA binding family,6,hgnc_complete_set_gene_group_fields
+1539,p120 catenin family,4,hgnc_complete_set_gene_group_fields
+1541,Plakophilins,3,hgnc_complete_set_gene_group_fields
+1542,Beta catenins,2,hgnc_complete_set_gene_group_fields
+1543,Alpha catenins,3,hgnc_complete_set_gene_group_fields
+1545,MKS complex,9,hgnc_complete_set_gene_group_fields
+1546,NPHP complex,2,hgnc_complete_set_gene_group_fields
+1547,Pyruvate dehydrogenase complex,5,hgnc_complete_set_gene_group_fields
+1549,TCF/LEF transcription factor family,4,hgnc_complete_set_gene_group_fields
+1552,TIM23 complex,12,hgnc_complete_set_gene_group_fields
+1555,SF3a complex,3,hgnc_complete_set_gene_group_fields
+1556,Retriever complex,3,hgnc_complete_set_gene_group_fields
+1557,CCC complex,10,hgnc_complete_set_gene_group_fields
+1558,WRAD complex,4,hgnc_complete_set_gene_group_fields
+1559,Ski2 like RNA helicases,4,hgnc_complete_set_gene_group_fields
+1561,CTLH complex,7,hgnc_complete_set_gene_group_fields
+1562,NSP adaptor proteins,3,hgnc_complete_set_gene_group_fields
+1564,WBP1/VOPP1 family,3,hgnc_complete_set_gene_group_fields
+1568,WIPI family,4,hgnc_complete_set_gene_group_fields
+1569,Purinosome,6,hgnc_complete_set_gene_group_fields
+1573,NDC80 kinetochore complex,4,hgnc_complete_set_gene_group_fields
+1575,KNL1 complex,2,hgnc_complete_set_gene_group_fields
+1576,Constitutive centromere associated network,17,hgnc_complete_set_gene_group_fields
+1579,DAZ RNA binding protein family,6,hgnc_complete_set_gene_group_fields
+1582,Neurexins,3,hgnc_complete_set_gene_group_fields
+1583,Neuroligins,5,hgnc_complete_set_gene_group_fields
+1584,MYST type domain containing lysine acetyltransferases,5,hgnc_complete_set_gene_group_fields
+1585,Neurotrophins,7,hgnc_complete_set_gene_group_fields
+1586,GDNF family ligands,4,hgnc_complete_set_gene_group_fields
+1587,Repulsive guidance molecule family,3,hgnc_complete_set_gene_group_fields
+1588,PI4KA lipid kinase complex,5,hgnc_complete_set_gene_group_fields
+1596,PIK3C3 complex subunits,8,hgnc_complete_set_gene_group_fields
+1598,Interferon induced transmembrane protein family,5,hgnc_complete_set_gene_group_fields
+1600,Dispanins,14,hgnc_complete_set_gene_group_fields
+1601,Junctophilins,4,hgnc_complete_set_gene_group_fields
+1602,Matrilins,4,hgnc_complete_set_gene_group_fields
+1603,Enolases,4,hgnc_complete_set_gene_group_fields
+1604,BAF complex subunits,26,hgnc_complete_set_gene_group_fields
+1605,PBAF complex subunits,15,hgnc_complete_set_gene_group_fields
+1606,GBAF complex subunits,13,hgnc_complete_set_gene_group_fields
+1607,Myozenins,3,hgnc_complete_set_gene_group_fields
+1608,PTF1 complex,3,hgnc_complete_set_gene_group_fields
+1609,Myogenic regulatory family,4,hgnc_complete_set_gene_group_fields
+1610,Ciliogenesis and planar polarity effector complex subunits,5,hgnc_complete_set_gene_group_fields
+1613,Metallo-beta-lactamase fold containing family,2,hgnc_complete_set_gene_group_fields
+1614,MBL domain containing glyoxalase 2 subfamily,7,hgnc_complete_set_gene_group_fields
+1615,MBL fold containing DNA/RNA interacting subfamily,6,hgnc_complete_set_gene_group_fields
+1616,Mitochondrial contact site and cristae organizing system subunits,7,hgnc_complete_set_gene_group_fields
+1617,LIMK/TESK kinase family,4,hgnc_complete_set_gene_group_fields
+1619,Terminal nucleotidyltransferases,11,hgnc_complete_set_gene_group_fields
+1620,Albuminoid family,4,hgnc_complete_set_gene_group_fields
+1622,Divergent protein kinase domain family,5,hgnc_complete_set_gene_group_fields
+1623,RAB11 binding domain containing,5,hgnc_complete_set_gene_group_fields
+1624,Small NF90 (ILF3) associated RNAs,28,hgnc_complete_set_gene_group_fields
+1625,AGC family kinases,55,hgnc_complete_set_gene_group_fields
+1626,MARVEL domain containing,16,hgnc_complete_set_gene_group_fields
+1627,Axonemal dynein assembly factors,18,hgnc_complete_set_gene_group_fields
+1629,Neuregulins,4,hgnc_complete_set_gene_group_fields
+1630,Calmodulin dependent protein kinases,11,hgnc_complete_set_gene_group_fields
+1631,OOSP family,6,hgnc_complete_set_gene_group_fields
+1632,My-T-BRC complex,3,hgnc_complete_set_gene_group_fields
+1633,Chromatin accessibility complex,4,hgnc_complete_set_gene_group_fields
+1634,Tip60/Nua4 histone acetyltransferase complex subunits,18,hgnc_complete_set_gene_group_fields
+1636,Granule associated serine proteases of immune defence,12,hgnc_complete_set_gene_group_fields
+1637,Golgi associated kinase family,6,hgnc_complete_set_gene_group_fields
+1638,Complement system activation components,27,hgnc_complete_set_gene_group_fields
+1639,Complement system regulators and receptors,29,hgnc_complete_set_gene_group_fields
+1641,C1q domain containing,15,hgnc_complete_set_gene_group_fields
+1642,Hexosaminidases,4,hgnc_complete_set_gene_group_fields
+1643,TNK family tyrosine kinases,2,hgnc_complete_set_gene_group_fields
+1644,PTK2 family tyrosine kinases,2,hgnc_complete_set_gene_group_fields
+1645,PTK6 family tyrosine kinases,2,hgnc_complete_set_gene_group_fields
+1646,Early B-cell factors,4,hgnc_complete_set_gene_group_fields
+1647,Clathrin subunits,4,hgnc_complete_set_gene_group_fields
+1648,Amylases alpha,6,hgnc_complete_set_gene_group_fields
+1649,Neuraminidases,4,hgnc_complete_set_gene_group_fields
+1650,Glycoside hydrolase family,11,hgnc_complete_set_gene_group_fields
+1651,Heparanases,2,hgnc_complete_set_gene_group_fields
+1652,Glycoside hydrolase family 1,5,hgnc_complete_set_gene_group_fields
+1653,Alpha-L-fucosidases,2,hgnc_complete_set_gene_group_fields
+1654,Galactosidases beta,4,hgnc_complete_set_gene_group_fields
+1655,Galactosidases alpha,2,hgnc_complete_set_gene_group_fields
+1656,Shieldin complex,3,hgnc_complete_set_gene_group_fields
+1657,Family with sequence similarity 230,10,hgnc_complete_set_gene_group_fields
+1658,INHAT complex,2,hgnc_complete_set_gene_group_fields
+1659,SET complex,6,hgnc_complete_set_gene_group_fields
+1660,Cysteine rich transmembrane BMP regulators,4,hgnc_complete_set_gene_group_fields
+1661,Chordin family,5,hgnc_complete_set_gene_group_fields
+1662,Inhibin subunits,5,hgnc_complete_set_gene_group_fields
+1663,Glutamyl-tRNA amidotransferase subunits,3,hgnc_complete_set_gene_group_fields
+1664,Transforming growth factor beta family,3,hgnc_complete_set_gene_group_fields
+1665,Pseudouridine synthases,13,hgnc_complete_set_gene_group_fields
+1666,Oxoglutarate dehydrogenase family,3,hgnc_complete_set_gene_group_fields
+1667,Flavin containing monooxygenases,11,hgnc_complete_set_gene_group_fields
+1668,Myosin light chain kinase family,7,hgnc_complete_set_gene_group_fields
+1669,Basigin family,3,hgnc_complete_set_gene_group_fields
+1671,Adaptor related protein complex 1,8,hgnc_complete_set_gene_group_fields
+1672,Adaptor related protein complex 2,5,hgnc_complete_set_gene_group_fields
+1673,Adaptor related protein complex 3,7,hgnc_complete_set_gene_group_fields
+1674,Adaptor related protein complex 4,4,hgnc_complete_set_gene_group_fields
+1675,Adaptor related protein complex 5,4,hgnc_complete_set_gene_group_fields
+1676,7SK snRNP complex,3,hgnc_complete_set_gene_group_fields
+1677,Wnt enhanceosome complex,18,hgnc_complete_set_gene_group_fields
+1679,EMAP like,6,hgnc_complete_set_gene_group_fields
+1680,TLE family,7,hgnc_complete_set_gene_group_fields
+1681,Cytoplasmic transfer RNA pseudogenes,65,hgnc_complete_set_gene_group_fields
+1682,Metaxins,3,hgnc_complete_set_gene_group_fields
+1684,Subcortical maternal complex,4,hgnc_complete_set_gene_group_fields
+1685,Mitochondrial sorting and assembly machinery complex,1,hgnc_complete_set_gene_group_fields
+1687,Endoribonucleases,19,hgnc_complete_set_gene_group_fields
+1688,MicroRNA non-coding host genes,100,hgnc_complete_set_gene_group_fields
+1689,Notch receptors,4,hgnc_complete_set_gene_group_fields
+1691,MicroRNA protein coding host genes,846,hgnc_complete_set_gene_group_fields
+1692,LRAT domain containing,3,hgnc_complete_set_gene_group_fields
+1693,Macro domain containing,10,hgnc_complete_set_gene_group_fields
+1695,SWC tripartite complex,3,hgnc_complete_set_gene_group_fields
+1696,MicroRNA MIR1/206 family,3,hgnc_complete_set_gene_group_fields
+1697,MicroRNA MIRLET7 family,12,hgnc_complete_set_gene_group_fields
+1698,MicroRNA MIR9 family,3,hgnc_complete_set_gene_group_fields
+1699,Deoxyribonucleoside kinases,4,hgnc_complete_set_gene_group_fields
+1700,MicroRNA MIR10/100 family,8,hgnc_complete_set_gene_group_fields
+1701,MicroRNA MIR29 family,4,hgnc_complete_set_gene_group_fields
+1702,MicroRNA MIR34/449 family,6,hgnc_complete_set_gene_group_fields
+1703,MicroRNA MIR17 family,8,hgnc_complete_set_gene_group_fields
+1704,MicroRNA MIR19 family,3,hgnc_complete_set_gene_group_fields
+1705,MicroRNA MIR25/92 family,5,hgnc_complete_set_gene_group_fields
+1706,MicroRNA MIR124 family,3,hgnc_complete_set_gene_group_fields
+1708,MicroRNA MIR133 family,3,hgnc_complete_set_gene_group_fields
+1709,MicroRNA MIR141/200 family,5,hgnc_complete_set_gene_group_fields
+1710,MicroRNA MIR219 family,3,hgnc_complete_set_gene_group_fields
+1711,MicroRNA MIR23 family,2,hgnc_complete_set_gene_group_fields
+1712,MicroRNA MIR128 family,2,hgnc_complete_set_gene_group_fields
+1713,MicroRNA MIR130 family,5,hgnc_complete_set_gene_group_fields
+1714,MicroRNA MIR132/212 family,2,hgnc_complete_set_gene_group_fields
+1716,MicroRNA MIR146 family,2,hgnc_complete_set_gene_group_fields
+1717,MicroRNA MIR148/152 family,3,hgnc_complete_set_gene_group_fields
+1718,MicroRNA MIR181 family,6,hgnc_complete_set_gene_group_fields
+1719,MicroRNA MIR192/215 family,2,hgnc_complete_set_gene_group_fields
+1720,MicroRNA MIR194 family,2,hgnc_complete_set_gene_group_fields
+1721,MicroRNA MIR196 family,3,hgnc_complete_set_gene_group_fields
+1722,MicroRNA MIR199 family,3,hgnc_complete_set_gene_group_fields
+1723,MicroRNA MIR203 family,2,hgnc_complete_set_gene_group_fields
+1724,MicroRNA MIR204/211 family,2,hgnc_complete_set_gene_group_fields
+1725,MicroRNA MIR208 family,2,hgnc_complete_set_gene_group_fields
+1726,MicroRNA MIR218 family,2,hgnc_complete_set_gene_group_fields
+1727,MicroRNA MIR451 family,2,hgnc_complete_set_gene_group_fields
+1729,Ribosomal biogenesis factors,35,hgnc_complete_set_gene_group_fields
+1732,PeBoW complex,3,hgnc_complete_set_gene_group_fields
+1733,Dehydrodolichyl diphosphate synthase,2,hgnc_complete_set_gene_group_fields
+1734,Stomatin family,5,hgnc_complete_set_gene_group_fields
+1736,MicroRNA MIR7 family,3,hgnc_complete_set_gene_group_fields
+1737,MicroRNA MIR15/16 family,9,hgnc_complete_set_gene_group_fields
+1738,MicroRNA MIR24 family,2,hgnc_complete_set_gene_group_fields
+1739,MicroRNA MIR26 family,3,hgnc_complete_set_gene_group_fields
+1740,MicroRNA MIR27 family,2,hgnc_complete_set_gene_group_fields
+1741,MicroRNA MIR30 family,6,hgnc_complete_set_gene_group_fields
+1742,MicroRNA MIR33 family,2,hgnc_complete_set_gene_group_fields
+1743,Interferon regulatory factors,9,hgnc_complete_set_gene_group_fields
+1744,CDK activating kinase complex,3,hgnc_complete_set_gene_group_fields
+1745,General transcription factor IIH complex subunits,7,hgnc_complete_set_gene_group_fields
+1746,General transcription factor IIE complex subunits,2,hgnc_complete_set_gene_group_fields
+1747,General transcription factor IIIC complex subunits,6,hgnc_complete_set_gene_group_fields
+1748,General transcription factor IIA complex subunits,3,hgnc_complete_set_gene_group_fields
+1749,Depalmitoylases,6,hgnc_complete_set_gene_group_fields
+1750,General transcription factor IIF complex subunits,2,hgnc_complete_set_gene_group_fields
+1751,FA core complex,9,hgnc_complete_set_gene_group_fields
+1752,IPT domain containing,31,hgnc_complete_set_gene_group_fields
+1753,MicroRNA MIR101 family,2,hgnc_complete_set_gene_group_fields
+1754,MicroRNA MIR103/107 family,5,hgnc_complete_set_gene_group_fields
+1756,MicroRNA MIR129 family,2,hgnc_complete_set_gene_group_fields
+1757,MicroRNA MIR135 family,3,hgnc_complete_set_gene_group_fields
+1758,MicroRNA MIR138 family,2,hgnc_complete_set_gene_group_fields
+1759,MicroRNA MIR153 family,2,hgnc_complete_set_gene_group_fields
+1760,MicroRNA MIR190 family,2,hgnc_complete_set_gene_group_fields
+1761,MicroRNA MIR193 family,2,hgnc_complete_set_gene_group_fields
+1762,MicroRNA MIR365 family,2,hgnc_complete_set_gene_group_fields
+1763,MicroRNA MIR216 family,2,hgnc_complete_set_gene_group_fields
+1764,MicroRNA MIR302 family,5,hgnc_complete_set_gene_group_fields
+1765,MicroRNA MIR551 family,2,hgnc_complete_set_gene_group_fields
+1766,MicroRNA MIR105 family,2,hgnc_complete_set_gene_group_fields
+1767,MicroRNA MIR95 family,4,hgnc_complete_set_gene_group_fields
+1768,MicroRNA MIR147 family,2,hgnc_complete_set_gene_group_fields
+1769,MicroRNA MIR154 family,18,hgnc_complete_set_gene_group_fields
+1770,MicroRNA MIR379 family,5,hgnc_complete_set_gene_group_fields
+1771,MicroRNA MIR329 family,4,hgnc_complete_set_gene_group_fields
+1773,MicroRNA MIR500 family,5,hgnc_complete_set_gene_group_fields
+1775,MicroRNA MIR374 family,3,hgnc_complete_set_gene_group_fields
+1776,RISC loading complex subunits,8,hgnc_complete_set_gene_group_fields
+1777,MicroRNA MIR376 family,4,hgnc_complete_set_gene_group_fields
+1778,MicroRNA MIR378 family,5,hgnc_complete_set_gene_group_fields
+1779,MicroRNA MIR371 family,4,hgnc_complete_set_gene_group_fields
+1780,MicroRNA MIR515 family,42,hgnc_complete_set_gene_group_fields
+1787,B-WICH chromatin-remodelling complex subunits,8,hgnc_complete_set_gene_group_fields
+1788,MicroRNA MIR506 family,18,hgnc_complete_set_gene_group_fields
+1789,MicroRNA MIR450 family,3,hgnc_complete_set_gene_group_fields
+1790,MicroRNA MIR486 family,2,hgnc_complete_set_gene_group_fields
+1791,Serine beta lactamase family,2,hgnc_complete_set_gene_group_fields
+1792,Paralemmins,4,hgnc_complete_set_gene_group_fields
+1793,SCAR/WAVE complex,6,hgnc_complete_set_gene_group_fields
+1796,MicroRNA MIR888 family,5,hgnc_complete_set_gene_group_fields
+1798,MicroRNA MIR891 family,2,hgnc_complete_set_gene_group_fields
+1799,MicroRNA MIR544 family,2,hgnc_complete_set_gene_group_fields
+1800,MicroRNA MIR550 family,5,hgnc_complete_set_gene_group_fields
+1801,Cyclin and CBS domain divalent metal cation transport mediators,4,hgnc_complete_set_gene_group_fields
+1802,I kappa B kinases,4,hgnc_complete_set_gene_group_fields
+1803,MicroRNA MIR28/151 family,3,hgnc_complete_set_gene_group_fields
+1804,MicroRNA MIR320 family,8,hgnc_complete_set_gene_group_fields
+1805,MicroRNA MIR188/532 family,3,hgnc_complete_set_gene_group_fields
+1806,MicroRNA MIR548 family,74,hgnc_complete_set_gene_group_fields
+1807,MicroRNA MIR663 family,2,hgnc_complete_set_gene_group_fields
+1808,Diphthamide biosynthesis genes,7,hgnc_complete_set_gene_group_fields
+1809,MicroRNA MIR664 family,2,hgnc_complete_set_gene_group_fields
+1810,MicroRNA MIR1255 family,3,hgnc_complete_set_gene_group_fields
+1811,Histidine triad superfamily,7,hgnc_complete_set_gene_group_fields
+1812,CAMSAP family,3,hgnc_complete_set_gene_group_fields
+1813,ELMO domain containing,3,hgnc_complete_set_gene_group_fields
+1814,Family with sequence similarity 83,8,hgnc_complete_set_gene_group_fields
+1815,KCTD family,21,hgnc_complete_set_gene_group_fields
+1816,Bivalent Mical/EHBP Rab binding domain containing,8,hgnc_complete_set_gene_group_fields
+1817,IKK complex,3,hgnc_complete_set_gene_group_fields
+1819,Variant U1 small nuclear RNAs,28,hgnc_complete_set_gene_group_fields
+1820,ZUP1 deubiquitinase,1,hgnc_complete_set_gene_group_fields
+1821,Ectonucleotide pyrophosphatase/phosphodiesterase family,7,hgnc_complete_set_gene_group_fields
+1822,Ectonucleoside triphosphate diphosphohydrolase family,8,hgnc_complete_set_gene_group_fields
+1823,Pentatricopeptide repeat containing,7,hgnc_complete_set_gene_group_fields
+1824,B7 family,10,hgnc_complete_set_gene_group_fields
+1825,Guanylate binding proteins,7,hgnc_complete_set_gene_group_fields
+1826,Microtubule associated protein RP/EB family,3,hgnc_complete_set_gene_group_fields
+1827,Profilins,5,hgnc_complete_set_gene_group_fields
+1828,SLIT and NTRK like family,6,hgnc_complete_set_gene_group_fields
+1829,TAFA chemokine like family,5,hgnc_complete_set_gene_group_fields
+1830,Tweety family,3,hgnc_complete_set_gene_group_fields
+1831,Torsins,5,hgnc_complete_set_gene_group_fields
+1832,Thioesterase superfamily,4,hgnc_complete_set_gene_group_fields
+1833,SSX family,21,hgnc_complete_set_gene_group_fields
+1834,SPANX family,10,hgnc_complete_set_gene_group_fields
+1835,Small nucleolar RNA protein coding host genes,145,hgnc_complete_set_gene_group_fields
+1836,IGF like family,4,hgnc_complete_set_gene_group_fields
+1837,Chymotrypsin like elastases,5,hgnc_complete_set_gene_group_fields
+1839,Small nucleolar RNA non-coding host genes,37,hgnc_complete_set_gene_group_fields
+1840,Inter-alpha-trypsin inhibitor heavy chains,6,hgnc_complete_set_gene_group_fields
+1841,LGI family,4,hgnc_complete_set_gene_group_fields
+1842,NDRG family,4,hgnc_complete_set_gene_group_fields
+1844,XAGE family,5,hgnc_complete_set_gene_group_fields
+1845,GAGE family,22,hgnc_complete_set_gene_group_fields
+1846,PAGE family,6,hgnc_complete_set_gene_group_fields
+1847,SAGE family,4,hgnc_complete_set_gene_group_fields
+1848,BAGE family,5,hgnc_complete_set_gene_group_fields
+1849,CT antigen family 45,11,hgnc_complete_set_gene_group_fields
+1850,CT antigen family 47,14,hgnc_complete_set_gene_group_fields
+1851,CSAG family,4,hgnc_complete_set_gene_group_fields
+1853,Mitochondrial iron-sulfur assembly components,12,hgnc_complete_set_gene_group_fields
+1855,Nectins and nectin-like molecules,10,hgnc_complete_set_gene_group_fields
+1856,Golgin related,41,hgnc_complete_set_gene_group_fields
+1857,Tim17 family,9,hgnc_complete_set_gene_group_fields
+1858,MicroRNA MIR1302 family,11,hgnc_complete_set_gene_group_fields
+1859,MicroRNA MIR1184 family,3,hgnc_complete_set_gene_group_fields
+1860,MicroRNA MIR1233 family,2,hgnc_complete_set_gene_group_fields
+1861,MicroRNA MIR1244 family,4,hgnc_complete_set_gene_group_fields
+1863,MicroRNA MIR1285 family,2,hgnc_complete_set_gene_group_fields
+1864,MicroRNA MIR1289 family,2,hgnc_complete_set_gene_group_fields
+1865,MicroRNA MIR1972 family,3,hgnc_complete_set_gene_group_fields
+1866,MicroRNA MIR3118 family,4,hgnc_complete_set_gene_group_fields
+1867,MicroRNA MIR3156 family,3,hgnc_complete_set_gene_group_fields
+1868,MicroRNA MIR3179 family,4,hgnc_complete_set_gene_group_fields
+1869,MicroRNA MIR3180 family,5,hgnc_complete_set_gene_group_fields
+1870,MicroRNA MIR3198 family,2,hgnc_complete_set_gene_group_fields
+1871,MicroRNA MIR3648 family,2,hgnc_complete_set_gene_group_fields
+1872,MicroRNA MIR3670 family,4,hgnc_complete_set_gene_group_fields
+1874,MicroRNA MIR3680 family,2,hgnc_complete_set_gene_group_fields
+1875,NCoR/SMRT transcriptional repression complex subunits,6,hgnc_complete_set_gene_group_fields
+1876,Signal recognition particle,9,hgnc_complete_set_gene_group_fields
+1877,Low confidence cytoplasmic transfer RNAs,69,hgnc_complete_set_gene_group_fields
+1878,General transcription factor IID complex subunits,14,hgnc_complete_set_gene_group_fields
+1879,General transcription factor IIIB complex subunits,4,hgnc_complete_set_gene_group_fields
+1880,Runt-related transcription factors,3,hgnc_complete_set_gene_group_fields
+1881,IQSEC ArfGEF family,3,hgnc_complete_set_gene_group_fields
+1882,MAB21 family,4,hgnc_complete_set_gene_group_fields
+1883,Thioredoxin domain containing,17,hgnc_complete_set_gene_group_fields
+1885,HECT and RLD domain containing E3 ubiquitin protein ligases,6,hgnc_complete_set_gene_group_fields
+1887,Atlastins,3,hgnc_complete_set_gene_group_fields
+1888,Fibrillins,3,hgnc_complete_set_gene_group_fields
+1889,Filamins,3,hgnc_complete_set_gene_group_fields
+1891,BAG6 complex,3,hgnc_complete_set_gene_group_fields
+1893,Dolichyl-phosphate mannosyltransferase subunits,3,hgnc_complete_set_gene_group_fields
+1894,KDEL endoplasmic reticulum protein retention receptors,3,hgnc_complete_set_gene_group_fields
+1895,Fibroblast growth factor family,22,hgnc_complete_set_gene_group_fields
+1896,Glycoprotein hormone subunits,12,hgnc_complete_set_gene_group_fields
+1898,R-spondin family,4,hgnc_complete_set_gene_group_fields
+1899,WNK lysine deficient protein kinases,4,hgnc_complete_set_gene_group_fields
+1900,AKT kinases,3,hgnc_complete_set_gene_group_fields
+1901,Tachykinin precursors,3,hgnc_complete_set_gene_group_fields
+1902,Neuropeptides,64,hgnc_complete_set_gene_group_fields
+1903,Aldolases,3,hgnc_complete_set_gene_group_fields
+1908,Endothelins,3,hgnc_complete_set_gene_group_fields
+1909,Contactins,6,hgnc_complete_set_gene_group_fields
+1910,Lysosome associated membrane proteins,5,hgnc_complete_set_gene_group_fields
+1911,ER membrane protein complex subunits,10,hgnc_complete_set_gene_group_fields
+1912,Guided entry of tail-anchored proteins complex subunits,3,hgnc_complete_set_gene_group_fields
+1914,GET4-GET5 transmembrane domain recognition complex subunits,4,hgnc_complete_set_gene_group_fields
+1916,Activating signal cointegrator 1 complex,4,hgnc_complete_set_gene_group_fields
+1917,COPI coat complex,9,hgnc_complete_set_gene_group_fields
+1918,Transmembrane and tetratricopeptide repeat containing,4,hgnc_complete_set_gene_group_fields
+1921,AH domain containing,5,hgnc_complete_set_gene_group_fields
+1923,AH/BAR family Rho GTPase activating proteins,14,hgnc_complete_set_gene_group_fields
+1924,BAR and Dbl domain containing,3,hgnc_complete_set_gene_group_fields
+1925,Prolyl 3-hydroxylase family,5,hgnc_complete_set_gene_group_fields
+1926,Isocitrate dehydrogenases,5,hgnc_complete_set_gene_group_fields
+1927,Pepsinogens,4,hgnc_complete_set_gene_group_fields
+1928,Peptidase family A1,8,hgnc_complete_set_gene_group_fields
+1929,Superoxide dismutases,3,hgnc_complete_set_gene_group_fields
+1931,NRZ tethering complex,3,hgnc_complete_set_gene_group_fields
+1932,Transforming growth factor beta superfamily,15,hgnc_complete_set_gene_group_fields
+1933,RZZ complex,3,hgnc_complete_set_gene_group_fields
+1935,H1 histones,12,hgnc_complete_set_gene_group_fields
+1936,H2A histones,36,hgnc_complete_set_gene_group_fields
+1937,H2B histones,31,hgnc_complete_set_gene_group_fields
+1938,H3 histones,23,hgnc_complete_set_gene_group_fields
+1939,H4 histones,16,hgnc_complete_set_gene_group_fields
+1940,CCM adhesion complex,3,hgnc_complete_set_gene_group_fields
+1941,Calmodulin binding transcription activators,2,hgnc_complete_set_gene_group_fields
+1942,Caveolins,3,hgnc_complete_set_gene_group_fields
+1943,TACC family,3,hgnc_complete_set_gene_group_fields
+1944,Negative elongation factor complex members,4,hgnc_complete_set_gene_group_fields
+1945,Sec7 family,2,hgnc_complete_set_gene_group_fields
+1946,Cytohesins,4,hgnc_complete_set_gene_group_fields
+1947,ARFGEF family,3,hgnc_complete_set_gene_group_fields
+1948,Pleckstrin and Sec7 domain containing,4,hgnc_complete_set_gene_group_fields
+1950,Heterogeneous nuclear ribonucleoproteins,26,hgnc_complete_set_gene_group_fields
+1951,Glycosylphosphatidylinositol transamidase complex,5,hgnc_complete_set_gene_group_fields
+1956,Pantothenate kinase family,4,hgnc_complete_set_gene_group_fields
+1957,TMEM8 family,3,hgnc_complete_set_gene_group_fields
+1959,HECT domain containing,22,hgnc_complete_set_gene_group_fields
+1960,COPII coat complex,11,hgnc_complete_set_gene_group_fields
+1962,SMG1 complex,3,hgnc_complete_set_gene_group_fields
+1963,SURF complex,5,hgnc_complete_set_gene_group_fields
+1964,DECID complex,5,hgnc_complete_set_gene_group_fields
+1967,Steroid 5-alpha reductase family,5,hgnc_complete_set_gene_group_fields
+1968,SUN family,5,hgnc_complete_set_gene_group_fields
+1969,Contactin associated protein family,7,hgnc_complete_set_gene_group_fields
+1970,CREB3 transcription factor family,5,hgnc_complete_set_gene_group_fields
+1971,Shroom family,4,hgnc_complete_set_gene_group_fields
+1973,Mitochondrially encoded regions,18,hgnc_complete_set_gene_group_fields
+1974,Mitochondrially encoded protein coding genes,13,hgnc_complete_set_gene_group_fields
+1976,Mitochondrially encoded long non-coding RNAs,1,hgnc_complete_set_gene_group_fields
+1978,IFT-A complex,7,hgnc_complete_set_gene_group_fields
+1980,IFT-B1 complex,11,hgnc_complete_set_gene_group_fields
+1981,IFT-B2 complex,6,hgnc_complete_set_gene_group_fields
+1983,Tenascins,4,hgnc_complete_set_gene_group_fields
+1984,Ras related GTP binding proteins,4,hgnc_complete_set_gene_group_fields
+1985,Nuclear factor I family,4,hgnc_complete_set_gene_group_fields
+1986,Long intergenic non-protein coding RNAs,2301,hgnc_complete_set_gene_group_fields
+1987,Antisense RNAs,2170,hgnc_complete_set_gene_group_fields
+1988,Overlapping transcripts,22,hgnc_complete_set_gene_group_fields
+1989,Intronic transcripts,138,hgnc_complete_set_gene_group_fields
+1990,Divergent transcripts,613,hgnc_complete_set_gene_group_fields
+1992,Long non-coding RNAs with non-systematic symbols,502,hgnc_complete_set_gene_group_fields
+1993,Long non-coding RNAs with FAM root symbol,101,hgnc_complete_set_gene_group_fields
+1994,Large subunit mitochondrial ribosomal proteins,51,hgnc_complete_set_gene_group_fields
+1996,Small subunit mitochondrial ribosomal proteins,25,hgnc_complete_set_gene_group_fields
+1997,HIRA histone chaperone complex subunits,3,hgnc_complete_set_gene_group_fields
+1998,minichromosome maintenance 2-7 complex,6,hgnc_complete_set_gene_group_fields
+1999,CMG helicase complex,1,hgnc_complete_set_gene_group_fields
+2002,APC membrane recruitment proteins,3,hgnc_complete_set_gene_group_fields
+2003,Atrophins,2,hgnc_complete_set_gene_group_fields
+2006,Formins,15,hgnc_complete_set_gene_group_fields
+2007,R2SP complex,4,hgnc_complete_set_gene_group_fields
+2010,KASH domain containing,5,hgnc_complete_set_gene_group_fields
+2012,FHF complex,8,hgnc_complete_set_gene_group_fields
+2019,Outer dynein arm docking complex subunits,5,hgnc_complete_set_gene_group_fields
+2020,Type II transmembrane serine proteases,18,hgnc_complete_set_gene_group_fields
+2021,IQ motif containing GTPase activating protein family,3,hgnc_complete_set_gene_group_fields
+2022,Oxoglutarate dehydrogenase complex,5,hgnc_complete_set_gene_group_fields
+2023,"Procollagen-lysine,2-oxoglutarate 5-dioxygenase family",3,hgnc_complete_set_gene_group_fields
+2025,3-hydroxyacyl-CoA dehydratase family,4,hgnc_complete_set_gene_group_fields
+2028,Dynein 1 complex subunits,11,hgnc_complete_set_gene_group_fields
+2029,Dynein 2 complex subunits,11,hgnc_complete_set_gene_group_fields
+2030,ADP-ribosyltransferase family,6,hgnc_complete_set_gene_group_fields
+2031,"Dyneins, axonemal outer arm complex subunits",16,hgnc_complete_set_gene_group_fields
+2032,"Dyneins, axonemal inner arm I1/f complex subunits",17,hgnc_complete_set_gene_group_fields
+2033,Dishevelled binding antagonist of beta catenin family,3,hgnc_complete_set_gene_group_fields
+2035,DNA cross-link repair family,3,hgnc_complete_set_gene_group_fields
+2036,Radical S-adenosylmethionine domain containing,9,hgnc_complete_set_gene_group_fields
+2037,Argonaute RISC component family,4,hgnc_complete_set_gene_group_fields
+2038,Piwi like RNA-mediated gene silencing family,4,hgnc_complete_set_gene_group_fields
+2039,"Myosin light chains, class 1",5,hgnc_complete_set_gene_group_fields
+2040,"Myosin light chains, class 2",8,hgnc_complete_set_gene_group_fields
+2042,CREC family,5,hgnc_complete_set_gene_group_fields
+2044,Mitochondrial translation release factor family,4,hgnc_complete_set_gene_group_fields
+2045,U11 small nuclear ribonucleoprotein,6,hgnc_complete_set_gene_group_fields
+2046,Axonemal radial spoke subunits,8,hgnc_complete_set_gene_group_fields
+2047,Methylcrotonyl-CoA carboxylase subunits,2,hgnc_complete_set_gene_group_fields
+2048,Transcription factor AP-2 family,5,hgnc_complete_set_gene_group_fields
+2049,Tet methylcytosine dioxygenase family,3,hgnc_complete_set_gene_group_fields
+2050,Adducin family,3,hgnc_complete_set_gene_group_fields
+2051,TNRC6 adaptor family,3,hgnc_complete_set_gene_group_fields
+2052,PARN exonuclease family,3,hgnc_complete_set_gene_group_fields
+2053,ATPase F1/V1 alpha/A and beta/B subunit family,5,hgnc_complete_set_gene_group_fields
+2055,TLDc domain containing,7,hgnc_complete_set_gene_group_fields
+2056,7BS protein lysine methyltransferases,16,hgnc_complete_set_gene_group_fields
+2057,7BS protein arginine methyltranferases,11,hgnc_complete_set_gene_group_fields
+2058,7BS protein methyltransferases,8,hgnc_complete_set_gene_group_fields
+2059,7BS DNA/RNA methyltransferases,11,hgnc_complete_set_gene_group_fields
+2060,7BS C5-cytosine DNA/RNA methyltransferases,5,hgnc_complete_set_gene_group_fields
+2061,7BS N6-adenosine DNA/RNA methyltransferases,10,hgnc_complete_set_gene_group_fields
+2062,7BS 2'O-ribose DNA/RNA methyltransferases,10,hgnc_complete_set_gene_group_fields
+2063,7BS small molecule methyltransferases,17,hgnc_complete_set_gene_group_fields
+2065,Homocysteine methyltransferases,3,hgnc_complete_set_gene_group_fields
+2066,7BS orphan methyltransferases,9,hgnc_complete_set_gene_group_fields
+2067,Apelin receptor,1,hgnc_complete_set_gene_group_fields
+2068,Nuclear receptor subfamily 0 group B,2,hgnc_complete_set_gene_group_fields
+2069,Retinoic acid receptors,3,hgnc_complete_set_gene_group_fields
+2070,Thyroid hormone receptors,2,hgnc_complete_set_gene_group_fields
+2071,Peroxisome proliferator activated receptors,3,hgnc_complete_set_gene_group_fields
+2072,Nuclear receptor subfamily 1 group D,2,hgnc_complete_set_gene_group_fields
+2073,Nuclear receptor subfamily 2 group C,2,hgnc_complete_set_gene_group_fields
+2074,Nuclear receptor subfamily 2 group E,2,hgnc_complete_set_gene_group_fields
+2075,Nuclear receptor subfamily 2 group F,3,hgnc_complete_set_gene_group_fields
+2076,Nuclear receptor subfamily 3 group C,4,hgnc_complete_set_gene_group_fields
+2077,Estrogen receptors,2,hgnc_complete_set_gene_group_fields
+2078,Estrogen related receptors,3,hgnc_complete_set_gene_group_fields
+2079,Nuclear receptor subfamily 4 group A,3,hgnc_complete_set_gene_group_fields
+2080,Nuclear receptor subfamily 5 group A,2,hgnc_complete_set_gene_group_fields
+2081,Nuclear receptor subfamily 6 group A,1,hgnc_complete_set_gene_group_fields
+2082,RAR related orphan receptors,3,hgnc_complete_set_gene_group_fields
+2083,Nuclear receptor subfamily 1 group H,4,hgnc_complete_set_gene_group_fields
+2084,Nuclear receptor subfamily 1 group I,3,hgnc_complete_set_gene_group_fields
+2085,Hepatocyte nuclear factor 4 family,2,hgnc_complete_set_gene_group_fields
+2086,Retinoid X receptors,3,hgnc_complete_set_gene_group_fields
+2092,Glucosylceramidases,3,hgnc_complete_set_gene_group_fields
+2093,2'-5'-oligoadenylate synthetase family,5,hgnc_complete_set_gene_group_fields
+2098,Peptidase family A28,5,hgnc_complete_set_gene_group_fields
+2099,Peptidase family A22,7,hgnc_complete_set_gene_group_fields
+2101,Cleavage factor Im complex subunits,3,hgnc_complete_set_gene_group_fields
+2103,MiDAC complex subunits,4,hgnc_complete_set_gene_group_fields
+2105,M48 metallopeptidase family,2,hgnc_complete_set_gene_group_fields
+2106,M49 metallopeptidase family,1,hgnc_complete_set_gene_group_fields
+2107,M54 metallopeptidase family,2,hgnc_complete_set_gene_group_fields
+2108,M76 metallopeptidase family,1,hgnc_complete_set_gene_group_fields
+2109,Peptidase family C1,3,hgnc_complete_set_gene_group_fields
+2111,Glyoxalase domain containing,6,hgnc_complete_set_gene_group_fields
+2115,Ferredoxin family,2,hgnc_complete_set_gene_group_fields
+2116,Aminoacyl tRNA synthetase complex interacting multifunctional proteins,3,hgnc_complete_set_gene_group_fields
+2117,Tubulin polyglutamylase complex subunits,5,hgnc_complete_set_gene_group_fields
+2118,Leiomodins,3,hgnc_complete_set_gene_group_fields
+2119,SKI complex subunits,3,hgnc_complete_set_gene_group_fields
+2120,Fc receptors,22,hgnc_complete_set_gene_group_fields
+2124,Eukaryotic translation initiation factor 2 alpha kinases,4,hgnc_complete_set_gene_group_fields
+2125,Zinc fingers PCLO-type,2,hgnc_complete_set_gene_group_fields
+2126,SCF complex core subunits,3,hgnc_complete_set_gene_group_fields
+2127,PAS domain containing,34,hgnc_complete_set_gene_group_fields
+2128,MIF4G domain containing proteins,11,hgnc_complete_set_gene_group_fields
+2129,MD-2 related lipid recognition domain containing,4,hgnc_complete_set_gene_group_fields
+2130,GIY-YIG endonuclease domain containing,3,hgnc_complete_set_gene_group_fields
+2131,SIK family kinases,3,hgnc_complete_set_gene_group_fields
+2132,Microtubule affinity regulating kinases,4,hgnc_complete_set_gene_group_fields
+2134,Protein kinase AMP-activated catalytic subunit alphas,2,hgnc_complete_set_gene_group_fields
+2135,BR serine/threonine kinases,2,hgnc_complete_set_gene_group_fields
+2136,NUAK family kinases,2,hgnc_complete_set_gene_group_fields
+2137,MELK family kinases,1,hgnc_complete_set_gene_group_fields
+2139,Zinc fingers TRAF-type,13,hgnc_complete_set_gene_group_fields
+2140,Phosphorylase kinase subunits,8,hgnc_complete_set_gene_group_fields
+2141,Bridge-like lipid transfer protein family,10,hgnc_complete_set_gene_group_fields
+2142,Serine hydroxymethyltransferase family,2,hgnc_complete_set_gene_group_fields
+2144,Protein kinase A subunits,7,hgnc_complete_set_gene_group_fields
+2147,Lysophospholipid acyltransferases,14,hgnc_complete_set_gene_group_fields
+2148,Alpha-2-macroglobulin family,3,hgnc_complete_set_gene_group_fields
+2150,Teneurin transmembrane protein family,4,hgnc_complete_set_gene_group_fields
+2151,thymocyte selection associated high mobility group box family,4,hgnc_complete_set_gene_group_fields
+2152,Solute carrier family 12,9,hgnc_complete_set_gene_group_fields
+2153,Solute carrier family 39,14,hgnc_complete_set_gene_group_fields
+2154,Solute carrier family 1,7,hgnc_complete_set_gene_group_fields
+2155,Solute carrier family 2,14,hgnc_complete_set_gene_group_fields
+2156,Solute carrier family 3,2,hgnc_complete_set_gene_group_fields
+2157,Solute carrier family 4,10,hgnc_complete_set_gene_group_fields
+2158,Solute carrier family 5,12,hgnc_complete_set_gene_group_fields
+2159,Solute carrier family 6,21,hgnc_complete_set_gene_group_fields
+2160,Solute carrier family 7,14,hgnc_complete_set_gene_group_fields
+2161,Solute carrier family 8,4,hgnc_complete_set_gene_group_fields
+2162,Solute carrier family 9,14,hgnc_complete_set_gene_group_fields
+2163,Solute carrier family 10,7,hgnc_complete_set_gene_group_fields
+2164,Solute carrier family 11,2,hgnc_complete_set_gene_group_fields
+2165,Solute carrier family 13,6,hgnc_complete_set_gene_group_fields
+2166,Solute carrier family 14,2,hgnc_complete_set_gene_group_fields
+2167,Solute carrier family 15,5,hgnc_complete_set_gene_group_fields
+2168,Solute carrier family 16,14,hgnc_complete_set_gene_group_fields
+2169,Solute carrier family 17,9,hgnc_complete_set_gene_group_fields
+2170,Solute carrier family 18,4,hgnc_complete_set_gene_group_fields
+2171,Solute carrier family 19,4,hgnc_complete_set_gene_group_fields
+2172,Solute carrier family 20,2,hgnc_complete_set_gene_group_fields
+2173,Solute carrier family 22,27,hgnc_complete_set_gene_group_fields
+2174,Solute carrier family 23,4,hgnc_complete_set_gene_group_fields
+2175,Solute carrier family 24,5,hgnc_complete_set_gene_group_fields
+2176,Solute carrier family 25,53,hgnc_complete_set_gene_group_fields
+2177,Solute carrier family 26,11,hgnc_complete_set_gene_group_fields
+2178,Solute carrier family 27,6,hgnc_complete_set_gene_group_fields
+2179,Solute carrier family 28,3,hgnc_complete_set_gene_group_fields
+2180,Solute carrier family 29,5,hgnc_complete_set_gene_group_fields
+2181,Solute carrier family 30,11,hgnc_complete_set_gene_group_fields
+2182,Solute carrier family 31,2,hgnc_complete_set_gene_group_fields
+2183,Solute carrier family 32,1,hgnc_complete_set_gene_group_fields
+2184,Solute carrier family 33,2,hgnc_complete_set_gene_group_fields
+2185,Solute carrier family 34,3,hgnc_complete_set_gene_group_fields
+2186,Solute carrier family 35,32,hgnc_complete_set_gene_group_fields
+2187,Solute carrier family 36,4,hgnc_complete_set_gene_group_fields
+2188,Solute carrier family 38,12,hgnc_complete_set_gene_group_fields
+2189,Solute carrier family 37,4,hgnc_complete_set_gene_group_fields
+2190,Solute carrier family 40,1,hgnc_complete_set_gene_group_fields
+2191,Solute carrier family 41,3,hgnc_complete_set_gene_group_fields
+2192,Solute carrier family 42,5,hgnc_complete_set_gene_group_fields
+2193,Solute carrier family 43,3,hgnc_complete_set_gene_group_fields
+2194,Solute carrier family 44,5,hgnc_complete_set_gene_group_fields
+2195,Solute carrier family 45,4,hgnc_complete_set_gene_group_fields
+2196,Solute carrier family 46,3,hgnc_complete_set_gene_group_fields
+2197,Solute carrier family 47,2,hgnc_complete_set_gene_group_fields
+2198,Solute carrier family 48,1,hgnc_complete_set_gene_group_fields
+2199,Solute carrier family 49,4,hgnc_complete_set_gene_group_fields
+2200,Solute carrier family 50,1,hgnc_complete_set_gene_group_fields
+2202,Solute carrier family 52,3,hgnc_complete_set_gene_group_fields
+2203,Solute carrier family 53,1,hgnc_complete_set_gene_group_fields
+2204,"Solute carrier family 54, mitochondrial pyruvate carriers",3,hgnc_complete_set_gene_group_fields
+2205,"Solute carrier family 55, LETM mitochondrial cation/proton exchangers",3,hgnc_complete_set_gene_group_fields
+2206,"Solute carrier family 57, NIPA-like magnesium transporters",6,hgnc_complete_set_gene_group_fields
+2207,Solute carrier family 58,2,hgnc_complete_set_gene_group_fields
+2208,Solute carrier family 59,3,hgnc_complete_set_gene_group_fields
+2209,Solute carrier family 60,2,hgnc_complete_set_gene_group_fields
+2210,Solute carrier family 61,1,hgnc_complete_set_gene_group_fields
+2211,Solute carrier family 62,1,hgnc_complete_set_gene_group_fields
+2212,"Solute carrier family 63, sphingosine phosphate transporters",3,hgnc_complete_set_gene_group_fields
+2213,Solute carrier family 64,1,hgnc_complete_set_gene_group_fields
+2214,Solute carrier family 65,7,hgnc_complete_set_gene_group_fields
+2215,Solute carrier family 66,6,hgnc_complete_set_gene_group_fields
+2216,Solute carrier organic anion transporter family,12,hgnc_complete_set_gene_group_fields
+2217,Dispatched RND transporter family,3,hgnc_complete_set_gene_group_fields
+2219,Transmembrane protein 14 family,5,hgnc_complete_set_gene_group_fields
+2223,Glycosylphosphatidylinositol-N-acetylglucosaminyltransferase complex,7,hgnc_complete_set_gene_group_fields
+2224,Tubulin gamma complex component family,5,hgnc_complete_set_gene_group_fields
+2226,NHERF family PDZ scaffold proteins,4,hgnc_complete_set_gene_group_fields
+2229,TSNAXIP1 domain containing,3,hgnc_complete_set_gene_group_fields
+2230,YTH domain containing N6-methyladenosine readers,5,hgnc_complete_set_gene_group_fields
+2231,Thrombospondin family,5,hgnc_complete_set_gene_group_fields
+2232,Isthmin family,2,hgnc_complete_set_gene_group_fields
+2234,Methionine adenosyltransferase family,2,hgnc_complete_set_gene_group_fields
+2239,STAG family cohesin complex components,3,hgnc_complete_set_gene_group_fields
+2240,Nebulin family,4,hgnc_complete_set_gene_group_fields
+2241,Gfo/Idh/MocA-like oxidoreductase domain containing,4,hgnc_complete_set_gene_group_fields
+2242,Basonuclin zinc finger proteins,2,hgnc_complete_set_gene_group_fields
+2243,Prokineticin family,2,hgnc_complete_set_gene_group_fields
+2244,Prominin family,2,hgnc_complete_set_gene_group_fields
+2245,Secretory calcium-binding phosphoprotein family,22,hgnc_complete_set_gene_group_fields
+2246,FERRY complex subunits,5,hgnc_complete_set_gene_group_fields
+2247,Fibrillar collagens,11,hgnc_complete_set_gene_group_fields
+2248,Fibril associated collagens with interrupted triple helices,10,hgnc_complete_set_gene_group_fields
+2249,Network forming collagens,9,hgnc_complete_set_gene_group_fields
+2250,Membrane associated collagens with interrupted triple helices,3,hgnc_complete_set_gene_group_fields
+2251,Transmembrane collagens,1,hgnc_complete_set_gene_group_fields
+2252,Multiplexin collagens,2,hgnc_complete_set_gene_group_fields
+2253,EPS8 signaling adaptor family,4,hgnc_complete_set_gene_group_fields
+2258,Flavoproteins,121,hgnc_complete_set_gene_group_fields
+2259,VCP-Ufd1-Npl4 complex subunits,3,hgnc_complete_set_gene_group_fields
+2261,Ceramide synthases,6,hgnc_complete_set_gene_group_fields
+2263,Small MAF bZIP transcription factor family,3,hgnc_complete_set_gene_group_fields
+2264,Large MAF bZIP transcription factor family,4,hgnc_complete_set_gene_group_fields
+2265,Mitofusin family,2,hgnc_complete_set_gene_group_fields
+2269,NHS family,4,hgnc_complete_set_gene_group_fields
+2274,Solute carrier family 51,4,hgnc_complete_set_gene_group_fields
+2275,Solute carrier family 67,2,hgnc_complete_set_gene_group_fields
+2276,Solute carrier family 68,1,hgnc_complete_set_gene_group_fields
+2277,Solute carrier family 69,1,hgnc_complete_set_gene_group_fields
+2278,Solute carrier family 71,3,hgnc_complete_set_gene_group_fields
+2279,Canonical Notch ligands,5,hgnc_complete_set_gene_group_fields
+2280,DREAM complex subunits,7,hgnc_complete_set_gene_group_fields
+2281,MuvB complex subunits,5,hgnc_complete_set_gene_group_fields
+2282,MMB complex subunits,1,hgnc_complete_set_gene_group_fields
+2283,FOXM1-MMB complex subunits,1,hgnc_complete_set_gene_group_fields
+2285,Zinc fingers A20-type,7,hgnc_complete_set_gene_group_fields
+2286,RNA binding fox-1 homologs,3,hgnc_complete_set_gene_group_fields
+2288,Chymotrypsins,4,hgnc_complete_set_gene_group_fields
+2289,Mitochondrial transcription initiation complex subunits,3,hgnc_complete_set_gene_group_fields
+2290,Mitochondrial nucleoid associated proteins,15,hgnc_complete_set_gene_group_fields
+2291,ELAV like RNA binding protein family,4,hgnc_complete_set_gene_group_fields
+2293,Proteins encoded by multiple genes,170,hgnc_complete_set_gene_group_fields
+2295,LAR (PTPRF) protein receptor tyrosine phosphatase family,3,hgnc_complete_set_gene_group_fields
+2296,Retrotransposon derived genes,1,hgnc_complete_set_gene_group_fields
+2297,Integrase like retrotransposon derived,2,hgnc_complete_set_gene_group_fields
+2300,Regulins,6,hgnc_complete_set_gene_group_fields
+2302,TSPYL family,5,hgnc_complete_set_gene_group_fields
+2303,TSPY family,26,hgnc_complete_set_gene_group_fields
+2304,Nucleosome assembly protein 1 like family,6,hgnc_complete_set_gene_group_fields
+2305,Nucleosome assembly protein superfamily,1,hgnc_complete_set_gene_group_fields
+2307,Storkhead boxes,2,hgnc_complete_set_gene_group_fields
+2308,SH3 and cysteine rich domain family,3,hgnc_complete_set_gene_group_fields
+2309,Sprouty related EVH1 domain containing,3,hgnc_complete_set_gene_group_fields
+2310,Sprouty RTK signaling antagonist family,4,hgnc_complete_set_gene_group_fields
+2312,SplA/ryanodine receptor domain and SOCS box containing family,4,hgnc_complete_set_gene_group_fields
+2313,ZU5 domain containing,13,hgnc_complete_set_gene_group_fields
+2314,Olfactomedin domain containing,14,hgnc_complete_set_gene_group_fields
+2315,Neurexophilins,4,hgnc_complete_set_gene_group_fields
+2316,Neurexophilin and PC-esterase domain containing,4,hgnc_complete_set_gene_group_fields
+2318,Complexins,4,hgnc_complete_set_gene_group_fields
+2319,Pecanex family,4,hgnc_complete_set_gene_group_fields
+2320,Canopy FGF signaling regulators,4,hgnc_complete_set_gene_group_fields
+2321,RAS guanyl releasing proteins,4,hgnc_complete_set_gene_group_fields
+2322,Reticulons,4,hgnc_complete_set_gene_group_fields
+2323,Golgi associated RAB2 interactor family,8,hgnc_complete_set_gene_group_fields
+2324,Leucine rich repeats and calponin homology domain containing,4,hgnc_complete_set_gene_group_fields
+2326,Cornichon family,4,hgnc_complete_set_gene_group_fields
+2327,Angiopoietins,3,hgnc_complete_set_gene_group_fields
+2328,LysM domain containing,4,hgnc_complete_set_gene_group_fields
+2329,DEP domain containing,23,hgnc_complete_set_gene_group_fields
+3332,DexD/H helicases,6,hgnc_complete_set_gene_group_fields
+3335,CERF complex,2,hgnc_complete_set_gene_group_fields
+3337,ACF complex,2,hgnc_complete_set_gene_group_fields
+3338,WICH complex,2,hgnc_complete_set_gene_group_fields
+3339,NoRC complex,2,hgnc_complete_set_gene_group_fields
+3340,RSF complex,2,hgnc_complete_set_gene_group_fields
+3342,Zinc fingers CHHC-type,4,hgnc_complete_set_gene_group_fields
+3351,Homocysteine domain containing methyltransferases,2,hgnc_complete_set_gene_group_fields
+3352,MetH activation domain containing,1,hgnc_complete_set_gene_group_fields
+3353,Membrane-bound methyltransferases,3,hgnc_complete_set_gene_group_fields
+3354,Tetrapyrrole methylase domain containing,1,hgnc_complete_set_gene_group_fields
+3355,tRNA wybutosine-synthesizing protein domain containing,1,hgnc_complete_set_gene_group_fields
+3356,Solute carrier family 72,1,hgnc_complete_set_gene_group_fields
+3357,Solute carrier family 73,2,hgnc_complete_set_gene_group_fields
+3358,Solute carrier family 74,1,hgnc_complete_set_gene_group_fields
+3359,Solute carrier family 75,1,hgnc_complete_set_gene_group_fields
+3360,Solute carrier family 76,1,hgnc_complete_set_gene_group_fields
+3361,7BS N3-cytosine RNA methyltransferases,4,hgnc_complete_set_gene_group_fields
+3362,7BS N1-adenosine RNA methyltransferases,2,hgnc_complete_set_gene_group_fields
+3363,7BS N2-guanosine RNA methyltransferases,3,hgnc_complete_set_gene_group_fields
+3364,7BS N7-guanosine RNA methyltransferases,3,hgnc_complete_set_gene_group_fields
+3365,7BS C5-uridine RNA methyltransferases,2,hgnc_complete_set_gene_group_fields
+3366,Arginine methyltransferases,11,hgnc_complete_set_gene_group_fields
+3367,7BS protein histidine methyltransferases,3,hgnc_complete_set_gene_group_fields
+3368,Histidine methyltransferases,5,hgnc_complete_set_gene_group_fields
+3369,Glutamine methyltransferases,2,hgnc_complete_set_gene_group_fields
+3371,DNA/RNA methyltransferases,67,hgnc_complete_set_gene_group_fields
+3372,Small molecule methyltransferases,18,hgnc_complete_set_gene_group_fields
+3374,Nuclear RNase P complex subunits,11,hgnc_complete_set_gene_group_fields
+3375,RNase MRP complex subunits,12,hgnc_complete_set_gene_group_fields

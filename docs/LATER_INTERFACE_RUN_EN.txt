@@ -1,0 +1,12 @@
+ADDITIONAL REAL INTERFACE RUN — 29 October 2026
+
+The earlier VALIDATION_2026-10-29.txt records 16 regression/interface tests and a
+mocked enrichment check. A later real browser session produced the workflow figure:
+run 097a358f1c679d96; application code commit
+849c7495a9d5a1bc2e6101a1721d30b19d0922a4.
+
+The actual run queried SAMM50/MTX2/MTX3 against all 2,523 analyzed genes through
+g:Profiler, returning 40 terms with snapshot e114_eg62_p19_9dc92ac8. The request,
+complete response, original screenshots and exports are in the figures/supplement
+release asset. This was an interface illustration, not an additional independent
+model-validation experiment. It does not replace the frozen evaluation tables.

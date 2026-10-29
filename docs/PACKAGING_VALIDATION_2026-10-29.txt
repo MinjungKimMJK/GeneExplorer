@@ -1,0 +1,22 @@
+PUBLICATION PACKAGE VALIDATION — 29 October 2026
+
+Tested the isolated 01_REPOSITORY_FILES tree, not the source checkout.
+Command: python -m unittest discover -s tests -v
+Result: 16 tests passed in 120.261 seconds.
+Environment: existing pinned Python 3.12 reproduction environment on Windows.
+Application code and scientific input files match the previously verified source
+commit 849c7495a9d5a1bc2e6101a1721d30b19d0922a4 byte-for-byte.
+Added only documentation, original-input provenance and GSE74000 sample roles.
+
+Tests include frozen graphs/cluster labels, RNA-seq scores/rankings, external
+metrics, identifier mapping, custom input, exports, separate seed-mode scores
+and Streamlit interface behavior. Live enrichment was not repeated by this suite;
+the prior actual interface run and its service response are preserved separately.
+
+The included offline GSE74000 verify_package.py passed for all 29 listed files.
+Both complete projects' required inputs and received scientific payloads were
+checked by file hashes. No new raw-count edgeR or 2,000-permutation rerun is claimed.
+
+The public GitHub repository and Streamlit Cloud have NOT been updated by this task.
+After upload, inspect the GitHub Actions result and test the actual cloud deployment.
+To verify this package after extraction, run: python verify_download.py

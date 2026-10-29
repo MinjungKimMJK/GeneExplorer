@@ -1,0 +1,131 @@
+{
+  "analysis_parameters": {
+    "alpha": 0.5,
+    "closure": "data/reference/hierarchy_closure.csv",
+    "conditional_nulls": {
+      "degree_preserved": "Double-edge swaps of the final hierarchy graph preserving node degree and global edge-weight multiset",
+      "shuffled_hierarchy": "Permute family labels on both axes of K, preserving K topology and weight multiset while breaking assignment to HGNC families",
+      "size_preserved": "Shared gene-label permutations preserving every method's full cluster-size distribution"
+    },
+    "external_evaluation": "Freeze GSE74000 clusters, then calculate macro and pair-weighted within-cluster expression correlations in GSE120652, both pooled and centered within case/control groups",
+    "external_expression": "data/external/GSE120652/gene_expression_log2.csv",
+    "external_roles": "data/external/GSE120652/sample_roles.csv",
+    "genes": "data/input/genes.csv",
+    "gse74000_expression": "data/input/expression_log2.csv",
+    "iterations": 2,
+    "limitations": "GSE74000 has five samples and GSE120652 has six. GO is intentionally excluded because HGNC families and GO are not independent. Results are conditional descriptive evaluations, not general superiority evidence.",
+    "max_distance": 3,
+    "minimum_cluster_size": 4,
+    "multiplicity": "Holm correction across two comparisons times two external-expression modes",
+    "normalization": "reference_inverse_sqrt",
+    "primary_comparisons": [
+      "hierarchy minus family_only",
+      "hierarchy minus expression_pearson"
+    ],
+    "primary_dataset": "GSE74000 historical exact-mapped 2523-gene universe",
+    "primary_methods": {
+      "expression_pearson": "Positive Pearson correlation of the same five already-log2 GSE74000 samples",
+      "family_only": "A A^T",
+      "hierarchy": "A K A^T"
+    },
+    "random_seed": 20261023,
+    "reference": "data/reference/hgnc_complete_set.txt",
+    "resolution": 1.0,
+    "seed": 42,
+    "sensitivity_one_at_a_time": {
+      "alpha": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "max_distance": [
+        1,
+        2,
+        3
+      ],
+      "resolution": [
+        0.5,
+        1.0,
+        1.5
+      ],
+      "top_k": [
+        10,
+        25,
+        50
+      ]
+    },
+    "status": "Frozen before baseline outcomes are computed",
+    "top_k": 25
+  },
+  "block_audits": {
+    "family_only": {
+      "block_size": 256,
+      "blocks": 10,
+      "directed_topk_nnz": 30518,
+      "final_graph_nnz": 39302,
+      "final_graph_sparse_bytes": 481720,
+      "peak_unsparsified_block_nnz": 9458,
+      "peak_unsparsified_block_sparse_bytes": 114524
+    },
+    "hierarchy": {
+      "block_size": 256,
+      "blocks": 10,
+      "directed_topk_nnz": 32729,
+      "final_graph_nnz": 42408,
+      "final_graph_sparse_bytes": 518992,
+      "peak_unsparsified_block_nnz": 10058,
+      "peak_unsparsified_block_sparse_bytes": 121724
+    }
+  },
+  "elapsed_seconds": 173.50566379539669,
+  "environment": {
+    "packages": {
+      "igraph": "0.11.9",
+      "leidenalg": "0.10.2",
+      "numpy": "2.3.5",
+      "scipy": "1.16.3"
+    },
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "python": "3.12.15"
+  },
+  "external_common_genes": 2279,
+  "external_groups": {
+    "case": 3,
+    "control": 3
+  },
+  "external_samples": [
+    "GSM3407031",
+    "GSM3407032",
+    "GSM3407033",
+    "GSM3407034",
+    "GSM3407035",
+    "GSM3407036"
+  ],
+  "genes": 2523,
+  "input_sha256": {
+    "data/external/GSE120652/gene_expression_log2.csv": "a5fbf026522c688e2e11818707698bf327d991cf39dc0d3fec99515089226fec",
+    "data/external/GSE120652/sample_roles.csv": "59e25ea1e28ca9846f96320d992b7b33cc4fa846b3c62ad18b33390cfbd5a729",
+    "data/input/expression_log2.csv": "efb088cb1d7a26289c75d0c4445ab24c13b854f2ef368171e4222cf1b8c7da19",
+    "data/input/genes.csv": "fd1132105a2e0636da49273ee573ed1f7d53048732cc66b1891d91785437c998",
+    "data/reference/hgnc_complete_set.txt": "0e0e04c1a5dcfe0f02a9e448fc808e5407d2a8f3cc359b7f6856362bb6a93dcb",
+    "data/reference/hierarchy_closure.csv": "a868da942cfbc69a65ec4268ac9ae039a3ca36b1ba94111f358cafed3f855972"
+  },
+  "interpretation": "External GSE120652 correlation and topology/size nulls are descriptive. GSE120652 has 3 cases and 3 controls and is not a strong independent validation.",
+  "kernel_audit": {
+    "beyond_max_distance": 12,
+    "invalid_zero_distance_outside_reference_ignored": 1,
+    "off_diagonal_pairs_used": 545,
+    "repeated_unordered_pairs": 1,
+    "rows_without_reference_endpoints": 1418,
+    "self_rows_ignored": 1845
+  },
+  "profile": "full",
+  "profile_parameters": {
+    "rewired": 100,
+    "shuffled": 100,
+    "size_null": 2000,
+    "swaps_per_edge": 5
+  },
+  "reference_comparison_all_passed": true,
+  "sensitivity_configurations": 9
+}

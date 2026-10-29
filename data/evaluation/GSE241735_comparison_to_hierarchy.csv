@@ -1,0 +1,31 @@
+model,direction,comparison,hierarchy_hits,baseline_hits,hit_difference,hierarchy_only_hits,baseline_only_hits,paired_exact_p,Holm_p_30_comparisons
+MG69,down,Hierarchy minus Expression correlation,16,12.0,4.0,5,1,0.21875,1.0
+MG69,down,Hierarchy minus Family-only,16,14.0,2.0,2,0,0.5,1.0
+MG69,down,Hierarchy minus Direct DE,16,13.0,3.0,4,1,0.375,1.0
+MG69,down,Hierarchy minus Degree-only,16,2.0,14.0,16,2,0.001312255859375,0.031494140625
+MG69,down,Hierarchy minus Random,16,1.495,14.504999999999999,,,0.0004997501249375312,0.014992503748125937
+MG212,down,Hierarchy minus Expression correlation,13,11.0,2.0,4,2,0.6875,1.0
+MG212,down,Hierarchy minus Family-only,13,14.0,-1.0,0,1,1.0,1.0
+MG212,down,Hierarchy minus Direct DE,13,12.0,1.0,3,2,1.0,1.0
+MG212,down,Hierarchy minus Degree-only,13,1.0,12.0,13,1,0.0018310546875,0.0421142578125
+MG212,down,Hierarchy minus Random,13,0.615,12.385,,,0.0004997501249375312,0.014992503748125937
+Both PDX,down,Hierarchy minus Expression correlation,10,8.0,2.0,3,1,0.625,1.0
+Both PDX,down,Hierarchy minus Family-only,10,10.0,0.0,0,0,1.0,1.0
+Both PDX,down,Hierarchy minus Direct DE,10,9.0,1.0,2,1,1.0,1.0
+Both PDX,down,Hierarchy minus Degree-only,10,1.0,9.0,10,1,0.01171875,0.24609375
+Both PDX,down,Hierarchy minus Random,10,0.2105,9.7895,,,0.0004997501249375312,0.014992503748125937
+MG69,up,Hierarchy minus Expression correlation,9,9.0,0.0,2,2,1.0,1.0
+MG69,up,Hierarchy minus Family-only,9,9.0,0.0,0,0,1.0,1.0
+MG69,up,Hierarchy minus Direct DE,9,8.0,1.0,1,0,1.0,1.0
+MG69,up,Hierarchy minus Degree-only,9,0.0,9.0,9,0,0.00390625,0.0859375
+MG69,up,Hierarchy minus Random,9,1.054,7.946,,,0.0004997501249375312,0.014992503748125937
+MG212,up,Hierarchy minus Expression correlation,5,5.0,0.0,1,1,1.0,1.0
+MG212,up,Hierarchy minus Family-only,5,4.0,1.0,1,0,1.0,1.0
+MG212,up,Hierarchy minus Direct DE,5,4.0,1.0,1,0,1.0,1.0
+MG212,up,Hierarchy minus Degree-only,5,0.0,5.0,5,0,0.0625,1.0
+MG212,up,Hierarchy minus Random,5,0.2905,4.7095,,,0.0004997501249375312,0.014992503748125937
+Both PDX,up,Hierarchy minus Expression correlation,3,3.0,0.0,1,1,1.0,1.0
+Both PDX,up,Hierarchy minus Family-only,3,3.0,0.0,0,0,1.0,1.0
+Both PDX,up,Hierarchy minus Direct DE,3,2.0,1.0,1,0,1.0,1.0
+Both PDX,up,Hierarchy minus Degree-only,3,0.0,3.0,3,0,0.25,1.0
+Both PDX,up,Hierarchy minus Random,3,0.0515,2.9485,,,0.0004997501249375312,0.014992503748125937

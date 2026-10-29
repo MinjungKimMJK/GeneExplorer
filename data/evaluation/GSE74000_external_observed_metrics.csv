@@ -1,0 +1,7 @@
+mode,method,eligible_clusters,eligible_genes,macro_mean_pair_correlation,pair_weighted_correlation
+pooled,expression_pearson,11,2279,0.21888515367468023,0.1780161479817893
+pooled,family_only,75,1713,0.14237077748014876,0.09205342714477191
+pooled,hierarchy,66,1816,0.14564375744489524,0.07548069458150995
+within_group_centered,expression_pearson,11,2279,0.1908389289433366,0.16019880164354836
+within_group_centered,family_only,75,1713,0.13072998679740053,0.09752279255008513
+within_group_centered,hierarchy,66,1816,0.14022063285497013,0.08642773396581344

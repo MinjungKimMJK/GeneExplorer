@@ -1,0 +1,32 @@
+DATA PROVENANCE
+
+GSE74000: The original 3,713-row CSV was supplied by another laboratory.
+ALF columns are three case values; healthy columns are two control values.
+average = case mean; count = control mean (not a sequencing count);
+fold change = average/count, an unlogged ratio.
+The earlier numerical audit matched all five values in all 3,713 rows to
+GSM1907915/1907916/1907917 (ALF) and GSM1907918/1907919 (healthy).
+Deposited processing metadata report RMAExpress 1.0.5. A reconstruction using
+the first annotated probe symbol and within-symbol probe means matches the table.
+The original laboratory's processing script and reason for selecting exactly
+3,713 genes have not been recovered. The list is not claimed to be FDR-selected.
+Audit records are in data/provenance/. The app uses the frozen 2,523-gene,
+already-log2 comparison matrix. No original raw-CEL reprocessing is claimed.
+
+GSE120652: Six liver samples (three cases/three controls) assess frozen clusters.
+Group-centered correlations are descriptive external endpoints; the data do
+not enter GSE74000 graph construction.
+
+GSE241735: ICC13-7 provides discovery expression/DE scores. MG69 and MG212
+PDX response statistics assess rankings. Their expression filters contributed
+to the shared 8,861-gene universe. This is conditional validation, not an entirely
+untouched external-data test. App data are prepared tables; deposited count tables
+and edgeR preprocessing are in the accompanying full computational release asset.
+
+HGNC: The supplied frozen complete set, hierarchy closure and corrected paired
+family ID/name table are used. They are gene annotations, not participant data.
+
+Sources: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74000
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120652
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241735
+https://www.genenames.org/

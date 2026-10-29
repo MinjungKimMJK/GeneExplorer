@@ -1,0 +1,197 @@
+{
+  "scope": "Numeric provenance reconstruction, not a new differential-expression analysis",
+  "column_to_accession": [
+    {
+      "csv_column_1based": 2,
+      "header": "ALF",
+      "accession": "GSM1907915"
+    },
+    {
+      "csv_column_1based": 3,
+      "header": "ALF",
+      "accession": "GSM1907916"
+    },
+    {
+      "csv_column_1based": 4,
+      "header": "ALF",
+      "accession": "GSM1907917"
+    },
+    {
+      "csv_column_1based": 6,
+      "header": "healthy",
+      "accession": "GSM1907918"
+    },
+    {
+      "csv_column_1based": 7,
+      "header": "healthy",
+      "accession": "GSM1907919"
+    }
+  ],
+  "sample_metadata": {
+    "GSM1907915": {
+      "Sample_title": [
+        "Liver sample APAP-induced ALF rep1"
+      ],
+      "Sample_characteristics_ch1": [
+        "subject status: patients suffering from acetaminophen-induced acute liver failure",
+        "tissue: liver"
+      ],
+      "Sample_description": [
+        "LIVER_ALF_APAP1"
+      ],
+      "Sample_data_processing": [
+        "Background correction, summarization (median polish) and normalization (quantile) were done with Robust Multi-array Analysis using RMAExpress v1.0.5"
+      ],
+      "Sample_platform_id": [
+        "GPL570"
+      ]
+    },
+    "GSM1907916": {
+      "Sample_title": [
+        "Liver sample APAP-induced ALF rep2"
+      ],
+      "Sample_characteristics_ch1": [
+        "subject status: patients suffering from acetaminophen-induced acute liver failure",
+        "tissue: liver"
+      ],
+      "Sample_description": [
+        "LIVER_ALF_APAP2"
+      ],
+      "Sample_data_processing": [
+        "Background correction, summarization (median polish) and normalization (quantile) were done with Robust Multi-array Analysis using RMAExpress v1.0.5"
+      ],
+      "Sample_platform_id": [
+        "GPL570"
+      ]
+    },
+    "GSM1907917": {
+      "Sample_title": [
+        "Liver sample APAP-induced ALF rep3"
+      ],
+      "Sample_characteristics_ch1": [
+        "subject status: patients suffering from acetaminophen-induced acute liver failure",
+        "tissue: liver"
+      ],
+      "Sample_description": [
+        "LIVER_ALF_APAP3"
+      ],
+      "Sample_data_processing": [
+        "Background correction, summarization (median polish) and normalization (quantile) were done with Robust Multi-array Analysis using RMAExpress v1.0.5"
+      ],
+      "Sample_platform_id": [
+        "GPL570"
+      ]
+    },
+    "GSM1907918": {
+      "Sample_title": [
+        "Liver sample control (healthy) rep1"
+      ],
+      "Sample_characteristics_ch1": [
+        "subject status: healty control",
+        "tissue: liver"
+      ],
+      "Sample_description": [
+        "LIVER_CTL1"
+      ],
+      "Sample_data_processing": [
+        "Background correction, summarization (median polish) and normalization (quantile) were done with Robust Multi-array Analysis using RMAExpress v1.0.5"
+      ],
+      "Sample_platform_id": [
+        "GPL570"
+      ]
+    },
+    "GSM1907919": {
+      "Sample_title": [
+        "Liver sample control (healthy) rep2"
+      ],
+      "Sample_characteristics_ch1": [
+        "subject status: healty control",
+        "tissue: liver"
+      ],
+      "Sample_description": [
+        "LIVER_CTL2"
+      ],
+      "Sample_data_processing": [
+        "Background correction, summarization (median polish) and normalization (quantile) were done with Robust Multi-array Analysis using RMAExpress v1.0.5"
+      ],
+      "Sample_platform_id": [
+        "GPL570"
+      ]
+    }
+  },
+  "probes_per_sample": 54675,
+  "curated_genes": 3713,
+  "numeric_tolerance": {
+    "relative": 1e-08,
+    "absolute": 1e-06
+  },
+  "preferred_numeric_match_counts": {
+    "first_symbol_annotation:mean": 3713
+  },
+  "unresolved_symbols": [],
+  "linear_pooled_t_p_matches_at_6dp": 3713,
+  "log2_pooled_t_p_matches_at_6dp": 1,
+  "reported_p_above_0_05": 59,
+  "date_serial_candidates_supported_by_5_sample_values": [
+    {
+      "input_symbol": "45718",
+      "possible_excel_date": "2025-03-02",
+      "matched_annotation_symbol": "MARC2",
+      "rule": "first_symbol_annotation:mean"
+    },
+    {
+      "input_symbol": "45910",
+      "possible_excel_date": "2025-09-10",
+      "matched_annotation_symbol": "SEPT10",
+      "rule": "first_symbol_annotation:mean"
+    },
+    {
+      "input_symbol": "45915",
+      "possible_excel_date": "2025-09-15",
+      "matched_annotation_symbol": "SEP15",
+      "rule": "first_symbol_annotation:mean"
+    },
+    {
+      "input_symbol": "45721",
+      "possible_excel_date": "2025-03-05",
+      "matched_annotation_symbol": "MARCH5",
+      "rule": "first_symbol_annotation:mean"
+    },
+    {
+      "input_symbol": "45722",
+      "possible_excel_date": "2025-03-06",
+      "matched_annotation_symbol": "MARCH6",
+      "rule": "first_symbol_annotation:mean"
+    },
+    {
+      "input_symbol": "45724",
+      "possible_excel_date": "2025-03-08",
+      "matched_annotation_symbol": "MARCH8",
+      "rule": "first_symbol_annotation:mean"
+    }
+  ],
+  "selection_filter_hypothesis_check": {
+    "hypothetical_full_first_symbol_universe_size": 22880,
+    "full_universe_genes_p_lt_0_05": 3654,
+    "full_universe_genes_p_le_max_curated_rounded": 3713,
+    "curated_count_p_lt_0_05": 3654,
+    "selected_rank_min_max": [
+      1,
+      3713
+    ],
+    "selected_equals_first_N_ranks": true,
+    "below_max_but_not_selected": [],
+    "selected_not_below_max": [],
+    "interpretation": "Hypothesis check only. A numerical cutoff fit does not establish the author's original selection intent."
+  },
+  "source_article_clinical_replicate_statement": [
+    "Clinical samples of patients suffering from acetaminophen-induced acute liver failure and healthy liver samples: n=3 biological replicates for ALF samples and n=2 biological replicates for healthy liver."
+  ],
+  "limitations": [
+    "A numeric match supports a transformation but does not prove the historical software or selection process.",
+    "Current downloaded GPL570 annotation is used; historical annotation version is unconfirmed.",
+    "Equal-variance t tests on linear values are checked only to trace the original p column, not recommended for the revision.",
+    "Sample independence is reported by the source publication; individual donor IDs/covariates are not established by numeric matching.",
+    "The historical selection intent/software, historical annotation version, original run settings and original cluster/enrichment results remain unconfirmed."
+  ]
+}

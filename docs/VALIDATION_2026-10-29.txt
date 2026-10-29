@@ -1,0 +1,47 @@
+GeneExplorer Streamlit revision: local validation
+Date: 2026-10-29
+Source: received Hierarchy_Annotation_Full_Rebuild_Project_2026-10-28
+GitHub starting commit: 17cd95598bd7da624d17c247ef328ae8b9a1e878
+
+Environment: Windows, Python 3.12.14. All direct dependency versions match
+requirements.txt, including requests 2.34.2.
+
+Command: python -m unittest discover -s tests -v
+Result: all 16 tests passed in 120.994 seconds.
+
+GSE74000:
+- Historical input: 3,713 rows; exact-approved family-mapped comparison: 2,523 genes.
+- Expression / Family-only / Hierarchy: 11 / 486 / 397 clusters.
+- All 2,523 cluster assignments for each method match the received reference.
+- All sparse graph indices match; weights agree within atol=1e-14, rtol=1e-12.
+- Pooled and within-group-centered external GSE120652 coherence agree.
+
+GSE241735:
+- All 8,861 genes are retained from the received common filtered universe.
+- Every score and both directional ranks for all five deterministic methods
+  agree with the received reference (scores within floating-point tolerance).
+- Hierarchy top-50 down-response hits: MG69=16, MG212=13, Both PDX=10.
+- All deterministic top-50 response endpoints and average precision agree.
+- Changing PDX DE outcome labels does not change rankings. This does not remove
+  the existing PDX expression-dependent common-universe filtering limitation.
+
+Application checks:
+- Streamlit AppTest: both examples, custom upload, searchable gene selection,
+  seed exploration, mocked enrichment, and hiding results after settings change.
+- Mapping and invalid-upload checks; corrected family ID/name pairing;
+  display values cannot change the graphs; graph/partition ZIP export.
+- Real Streamlit process started; /_stcore/health returned HTTP 200, body 'ok'.
+- Separate real UMAP smoke run: 2,323 positioned genes, 200 omitted isolates,
+  all 2,523 output rows retained. New exploratory coordinates, not historical
+  screenshot coordinates. Layout completed in approximately 32.5 seconds.
+
+Scope:
+- This application recomputes graphs, partitions, rankings and observed metrics
+  from frozen prepared inputs. It does not rerun raw-count edgeR preprocessing.
+- The 2,000-permutation P values are received frozen results, not newly rerun
+  by this browser app. They are displayed only for reference settings.
+- g:Profiler was tested with a mocked response; no fresh live enrichment was
+  submitted as a manuscript experiment during this validation.
+- Local tests do not establish biological superiority or guarantee cloud
+  deployment status. Linux CI is configured separately in GitHub Actions.
+- Manuscript sources and original coauthor projects were not modified.

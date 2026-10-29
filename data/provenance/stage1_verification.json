@@ -1,0 +1,15 @@
+{
+  "original_files_frozen": 19,
+  "original_initial_hashes_unchanged": true,
+  "all_3713_five_sample_vectors_reconstructed": true,
+  "all_3713_p_values_match_at_6dp": true,
+  "six_date_name_candidates_supported": true,
+  "t_diagnostic_independent_quadrature_max_error": 2.220446049250313e-16,
+  "issue_register_rows": 18,
+  "scope_exclusions": [
+    "No original app execution",
+    "No clustering/enrichment rerun",
+    "No independent validation dataset analysis"
+  ],
+  "stage1_status": "Audit complete; historical selection intent/settings still pending"
+}

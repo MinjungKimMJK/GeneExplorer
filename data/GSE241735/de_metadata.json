@@ -1,0 +1,15 @@
+{
+  "edgeR": "4.4.0",
+  "R": "R version 4.4.3 (2025-02-28)",
+  "mapped_rows": {
+    "ICC13_7": 8861,
+    "MG69": 8861,
+    "MG212": 8861
+  },
+  "common_expressed_family_annotated_genes": 8861,
+  "contrasts": {
+    "ICC13_7": ["DMSO1", "DMSO2", "DMSO3", "TAS24h1", "TAS24h2", "TAS24h3"],
+    "MG69": ["VEHICLE_4", "VEHICLE_5", "VEHICLE_6", "TAS_14D_1", "TAS_14D_2", "TAS_14D_3"],
+    "MG212": ["MG212-Vehicle-1", "MG212-Vehicle-2", "MG212-Vehicle-3", "MG212-Pemi-1", "MG212-Pemi-2", "MG212-Pemi-3"]
+  }
+}

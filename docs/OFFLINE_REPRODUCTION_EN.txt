@@ -1,0 +1,28 @@
+FULL COMPUTATIONAL REPRODUCTION
+
+The Streamlit app uses prepared tables and recomputes graphs, clusters, rankings
+and observed metrics. Full raw-count edgeR preprocessing, permutations, sensitivity
+analyses and statistical figure generation belong to the separate offline projects.
+
+Accompanying release assets (attach both to the same GitHub Release):
+  GeneExplorer_Offline_Reproduction_2026-10-29.zip
+  GeneExplorer_Figures_and_Supplement_2026-10-29.zip
+
+The first contains the complete received project
+Hierarchy_Annotation_Full_Rebuild_Project_2026-10-28 and both dependencies:
+  GSE74000_Baseline_Comparison_Project_2026-10-23
+  GSE241735_Baseline_Comparison_Figures_Project_2026-10-23
+It includes code, frozen inputs, deposited RNA-seq count tables, environment
+specifications, received reference/local/Linux outputs, corrected Tables S1-S3,
+2,000-permutation results, sensitivity analyses and figure scripts.
+Read START_HERE_PUBLIC_RELEASE.txt before running; use a NEW output directory.
+
+The second contains the manuscript's six figure PDFs, complete supplemental
+tables/data, the actual Streamlit run archive, original browser screenshots,
+live annotation response and scripts for figure composition and publication plots.
+It excludes the manuscript draft, author declarations and reviewer correspondence.
+
+The original repository LICENSE is preserved. Upstream datasets and references
+retain their source terms and attribution; supplying a copy does not change them.
+No DOI or public release commit is invented. After upload, cite the actual public
+commit and release containing these exact assets in the manuscript.

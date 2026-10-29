@@ -1,0 +1,4 @@
+method,undirected_edges,isolates,median_degree,maximum_degree,median_strength,maximum_strength
+Expression correlation,288762,0,65.0,104,62.07803764418359,103.72837322456482
+Family-only,176684,117,30.0,730,0.75,6.517199696685846
+Hierarchy,191551,94,38.0,1063,0.7999999999999999,19.865162507100766

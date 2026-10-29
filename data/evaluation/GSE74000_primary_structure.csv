@@ -1,0 +1,4 @@
+method,genes,edges,isolates,connected_components,clusters,singleton_clusters,clusters_ge4,largest_cluster,median_cluster_size,sparse_bytes,constant_expression_rows
+expression_pearson,2523,37911,0,2,11,0,11,386,200.0,919960,0
+family_only,2523,19651,254,441,486,254,83,121,1.0,481720,
+hierarchy,2523,21204,200,358,397,200,74,200,1.0,518992,

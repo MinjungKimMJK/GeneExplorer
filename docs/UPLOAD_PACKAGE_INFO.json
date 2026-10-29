@@ -1,0 +1,14 @@
+{
+  "package_date": "2026-10-29",
+  "tested_application_code_commit": "849c7495a9d5a1bc2e6101a1721d30b19d0922a4",
+  "source_code_changed_by_packaging": false,
+  "public_upload_performed": false,
+  "deployment_performed": false,
+  "additions": [
+    "documentation",
+    "historical input provenance",
+    "GSE74000 sample roles"
+  ],
+  "offline_asset": "GeneExplorer_Offline_Reproduction_2026-10-29.zip",
+  "outputs_asset": "GeneExplorer_Figures_and_Supplement_2026-10-29.zip"
+}

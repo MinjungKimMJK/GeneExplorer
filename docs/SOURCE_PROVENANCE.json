@@ -1,0 +1,199 @@
+{
+  "source_release": "Hierarchy_Annotation_Full_Rebuild_Project_2026-10-28",
+  "base_github_commit": "17cd95598bd7da624d17c247ef328ae8b9a1e878",
+  "files": [
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\src\\engine\\core.py",
+      "destination": "geneexplorer/_frozen_core.py",
+      "sha256": "e21a667cff5cb8df799e37bc9304983eaf997ca0f9df8dde64f230b1735b12ae",
+      "source_sha256": "e21a667cff5cb8df799e37bc9304983eaf997ca0f9df8dde64f230b1735b12ae"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\src\\optimized_graph.py",
+      "destination": "geneexplorer/_frozen_graph.py",
+      "sha256": "8606aeb2d4f26d5f24abb30017349a7c3011d7ef66e17851acc4cb3bf9ab3be8",
+      "source_sha256": "da1601fc073e67749be91a70ab3d2a4ef510a3af6110401b64a258109c8b9b54"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\data\\reference\\hgnc_complete_set.txt",
+      "destination": "hgnc_complete_set.txt",
+      "sha256": "0e0e04c1a5dcfe0f02a9e448fc808e5407d2a8f3cc359b7f6856362bb6a93dcb"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\data\\reference\\hierarchy_closure.csv",
+      "destination": "hierarchy_closure.csv",
+      "sha256": "a868da942cfbc69a65ec4268ac9ae039a3ca36b1ba94111f358cafed3f855972"
+    },
+    {
+      "source": "server_full_01\\supplementary_tables\\family_id_name_mapping.csv",
+      "destination": "data/reference/family_id_name_mapping.csv",
+      "sha256": "7ac5ddd45b597f0bc8867d89bb44d043a20f37140b74269c1fcba76d7ab0c343"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\data\\input\\genes.csv",
+      "destination": "data/GSE74000/genes.csv",
+      "sha256": "fd1132105a2e0636da49273ee573ed1f7d53048732cc66b1891d91785437c998"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\data\\input\\expression_log2.csv",
+      "destination": "data/GSE74000/expression_log2.csv",
+      "sha256": "efb088cb1d7a26289c75d0c4445ab24c13b854f2ef368171e4222cf1b8c7da19"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\data\\external\\GSE120652\\gene_expression_log2.csv",
+      "destination": "data/GSE120652/gene_expression_log2.csv",
+      "sha256": "a5fbf026522c688e2e11818707698bf327d991cf39dc0d3fec99515089226fec"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\data\\external\\GSE120652\\sample_roles.csv",
+      "destination": "data/GSE120652/sample_roles.csv",
+      "sha256": "59e25ea1e28ca9846f96320d992b7b33cc4fa846b3c62ad18b33390cfbd5a729"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\prepared\\gene_universe.csv",
+      "destination": "data/GSE241735/gene_universe.csv",
+      "sha256": "35980551bd9a14515bc759ba5a9cf52970b5e2574ea17b8c3b17b74b29c664d8"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\prepared\\discovery_logcpm.csv",
+      "destination": "data/GSE241735/discovery_logcpm.csv",
+      "sha256": "41e1c93198bea568e58a28284b9efc03f08bba857163b369aba1bfefc255349f"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\prepared\\de_ICC13_7_24h.csv",
+      "destination": "data/GSE241735/de_ICC13_7_24h.csv",
+      "sha256": "3db4b6b03a7cb61f9c7b63d79592b76a1400fa2fb28d109cba92a7e3315cfe90"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\prepared\\de_MG69.csv",
+      "destination": "data/GSE241735/de_MG69.csv",
+      "sha256": "f08162036751ffa2e5bb11b506dc5f0e383df8a684224f8f2e9c858a5ac4d4fe"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\prepared\\de_MG212.csv",
+      "destination": "data/GSE241735/de_MG212.csv",
+      "sha256": "95338c350988318b73b850601196ac6ae7a6086c9fad121db7b3bb8dd1efe4c7"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\prepared\\sample_roles.csv",
+      "destination": "data/GSE241735/sample_roles.csv",
+      "sha256": "10c5e7ac6fb15b5cc29d5504a63194a344f1521f501953b4ad30ade921d2e012"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\prepared\\de_metadata.json",
+      "destination": "data/GSE241735/de_metadata.json",
+      "sha256": "8227ca83d2007554186ec2818f9f164ac48ea51135a36b765470416287cb5dff"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\paired_primary_comparisons.csv",
+      "destination": "data/evaluation/GSE74000_paired_primary_comparisons.csv",
+      "sha256": "3cf8c5febe8b1962610c4eafd8b5be64f8235dc29592199a1899dcb4ee244727"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\external_observed_metrics.csv",
+      "destination": "data/evaluation/GSE74000_external_observed_metrics.csv",
+      "sha256": "50439241e4dadef3c84bf65f190a684977ea1b9c5b96519aec6a6f6c96797021"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\topology_null_summary.csv",
+      "destination": "data/evaluation/GSE74000_topology_null_summary.csv",
+      "sha256": "8e36ffe6d6c171a0cf7eb94d8fc01846844201f47e0a5f9e24af923975b37969"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\run_metadata.json",
+      "destination": "data/evaluation/GSE74000_run_metadata.json",
+      "sha256": "06b703b424fb7d9854595d8f39f1d6b03e5a42d05a1bb714802d7159470d1392"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\primary_structure.csv",
+      "destination": "data/evaluation/GSE74000_primary_structure.csv",
+      "sha256": "ecd6d8bf28cf0dda1f3a5aa9cf8a07e9cd1f161ec0adeb68a06b2ee70df57fa0"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\expression_pearson\\clusters.csv",
+      "destination": "tests/reference/expression_pearson_clusters.csv",
+      "sha256": "4369ca37a6ae30b140e56d55248224722dbaeed29b96bb9c6a24bdbaa1dd0115"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\expression_pearson\\graph.npz",
+      "destination": "tests/reference/expression_pearson_graph.npz",
+      "sha256": "f9ea54ca21f9312357c984e03bc6c393b29f87712ef44ab2030c742818d49781"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\family_only\\clusters.csv",
+      "destination": "tests/reference/family_only_clusters.csv",
+      "sha256": "b62dfe132c5509b0e013ad80dfed744dbcb53f8aa11642388d99a873a5bbb1a3"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\family_only\\graph.npz",
+      "destination": "tests/reference/family_only_graph.npz",
+      "sha256": "b56acfa8265084fe38d321d8daa109a25d0660b2de745dd44ef4e616f84c5e9d"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\hierarchy\\clusters.csv",
+      "destination": "tests/reference/hierarchy_clusters.csv",
+      "sha256": "7cbe0bee0af09c5990140ebad57aefa938ec6b2698ce6672478355eef939dc3f"
+    },
+    {
+      "source": "dependencies\\GSE74000_Baseline_Comparison_Project_2026-10-23\\server_baseline_full_01\\hierarchy\\graph.npz",
+      "destination": "tests/reference/hierarchy_graph.npz",
+      "sha256": "934bbea271bcd8e6a0aec1ff161f2b3530dd10053af7469c650380c7cde0c37d"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\results\\comparison_to_hierarchy.csv",
+      "destination": "data/evaluation/GSE241735_comparison_to_hierarchy.csv",
+      "sha256": "0a8dcd366cd838d2a615ad2285d10ee4458af30738d60911497364d3a86495d7"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\results\\ranking_metrics.csv",
+      "destination": "data/evaluation/GSE241735_ranking_metrics.csv",
+      "sha256": "e743f64f834cfeca15fa0731305f2eb9518983f9ac333083ce1deaf38f7b533c"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\results\\all_gene_rankings.csv",
+      "destination": "data/evaluation/GSE241735_all_gene_rankings.csv",
+      "sha256": "aeefef938f8ca14c8d0825c6dcc92fe168268214d1d680a19fb43b556fb61156"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\results\\graph_structure.csv",
+      "destination": "data/evaluation/GSE241735_graph_structure.csv",
+      "sha256": "c9f01c51cb28405807b327f3d177ba659156daf97e8ffca52ef86158e3766bce"
+    },
+    {
+      "source": "dependencies\\GSE241735_Baseline_Comparison_Figures_Project_2026-10-23\\server_full_01\\results\\run_metadata.json",
+      "destination": "data/evaluation/GSE241735_run_metadata.json",
+      "sha256": "e48effac3073817f4c63520ac7d268d8f033cb9ebc706dc873eb4414f40ab491"
+    },
+    {
+      "source": "server_full_01\\results\\gse74000_mechanism_summary.csv",
+      "destination": "data/evaluation/gse74000_mechanism_summary.csv",
+      "sha256": "3c81cdc6e51db9df949d5bc0682fb0aea50cfe1988d6d4ec6f401e923b8a9020"
+    },
+    {
+      "source": "server_full_01\\results\\gse74000_hierarchy_added_edge_details.csv",
+      "destination": "data/evaluation/gse74000_hierarchy_added_edge_details.csv",
+      "sha256": "fd2d952bc77fc5700024275e14a325a323dc0b9fd77605973d3527fe53466d47"
+    },
+    {
+      "source": "server_full_01\\results\\gse74000_rescued_gene_details.csv",
+      "destination": "data/evaluation/gse74000_rescued_gene_details.csv",
+      "sha256": "0140a413b25c15861a4509c07e6b85f4e9ecb908dd65c1967e37bb33a0b233d6"
+    },
+    {
+      "source": "server_full_01\\supplementary_tables\\Table_S2_GSE74000_Hierarchy_Added_Edges_with_HGNC_Family_Paths.csv",
+      "destination": "data/evaluation/GSE74000_added_edges_with_paths.csv",
+      "sha256": "e0f30f348867343c4da5bad6c1558527889a9edec412d8e30812a80963366398"
+    },
+    {
+      "source": "Original GitHub commit 17cd955:APAP_healthy_apap_human(fold_change).csv",
+      "destination": "APAP_healthy_apap_human(fold_change).csv",
+      "sha256": "8d14ab0d6a32f15a5cf381852293dac71dc87a9ec6c6d46955633628518bdc17"
+    }
+  ],
+  "adaptations": [
+    "_frozen_core.py copied unchanged; legacy raw-intensity expression_graph is not called by the app",
+    "_frozen_graph.py changes only its relative import",
+    "RNA-seq arithmetic uses math.sqrt family weights to match the ranking project; liver uses the core numpy.sqrt weights",
+    "No raw-data DE filtering has been changed; RNA-seq shared-universe limitation remains explicit"
+  ]
+}

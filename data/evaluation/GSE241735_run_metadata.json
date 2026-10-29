@@ -1,0 +1,99 @@
+{
+  "analysis_plan": {
+    "de_method": "edgeR quasi-likelihood negative-binomial model; robust dispersion and QL fitting",
+    "discovery_contrast": "ICC13-7, 75 nM futibatinib 24 h versus DMSO, n=3+3",
+    "evaluation_top_k": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "gene_universe": "HGNC-mapped genes with a family annotation that pass edgeR filterByExpr in all three contrasts",
+    "graph_top_k": 50,
+    "hierarchy_alpha": 0.5,
+    "hierarchy_max_distance": 3,
+    "limitations": "Two PDX models with three replicates per arm provide an application case, not general proof of algorithm superiority. No PDX information is used to construct rankings.",
+    "methods": {
+      "Degree-only": "Discovery direction combined with weighted hierarchy-graph degree rank; hub control",
+      "Direct DE": "Signed edgeR quasi-likelihood statistic in the discovery contrast",
+      "Expression correlation": "Direct discovery statistic mixed with propagation over a positive Pearson-expression graph",
+      "Family-only": "Direct discovery statistic mixed with propagation over row-normalized A A^T",
+      "Hierarchy": "Direct discovery statistic mixed with propagation over row-normalized A K A^T",
+      "Random": "Uniform random ranking summarized over 2,000 fixed-seed permutations"
+    },
+    "normalization": "reference_inverse_sqrt",
+    "primary_endpoint": "Number of same-direction validation DE genes among the top 50 recommendations",
+    "propagation_lambda": 0.5,
+    "random_repeats": 2000,
+    "random_seed": 20261023,
+    "response_definition": "FDR <= 0.05 and absolute log2 fold change >= 1 in a validation PDX",
+    "secondary_endpoints": [
+      "precision at 10, 25, 50 and 100",
+      "average precision across the complete ranking",
+      "genes responding in the same direction in both PDX models",
+      "rank stability under prespecified hierarchy parameter changes"
+    ],
+    "status": "Frozen before the new baseline outcomes were computed",
+    "validation_contrasts": {
+      "MG212": "PDX MG212, pemigatinib 11 d versus vehicle, n=3+3",
+      "MG69": "PDX MG69, futibatinib 14 d versus vehicle, n=3+3"
+    }
+  },
+  "constant_expression_rows": 0,
+  "elapsed_seconds": 10.637658415362239,
+  "environment": {
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scipy": "1.16.3"
+    },
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "python": "3.12.15"
+  },
+  "gene_universe": 8861,
+  "graph_block_audits": {
+    "family_only": {
+      "block_size": 256,
+      "blocks": 35,
+      "directed_topk_nnz": 254144,
+      "final_graph_nnz": 353368,
+      "final_graph_sparse_bytes": 4275864,
+      "peak_unsparsified_block_nnz": 80970,
+      "peak_unsparsified_block_sparse_bytes": 972668
+    },
+    "hierarchy": {
+      "block_size": 256,
+      "blocks": 35,
+      "directed_topk_nnz": 273506,
+      "final_graph_nnz": 383102,
+      "final_graph_sparse_bytes": 4632672,
+      "peak_unsparsified_block_nnz": 85931,
+      "peak_unsparsified_block_sparse_bytes": 1032200
+    }
+  },
+  "input_sha256": {
+    "data/SOURCE_URLS.txt": "e9229b64516718b3b585b321ef7dc023f7c6d1a4a94dc15946789c79c69b0cb4",
+    "data/raw/GSE241735_YZb2_allSamples_raw.txt.gz": "59fbb7a53b3c3872a00f59455420fb91f5c626b3500a4b9f237d6042920e13dd",
+    "data/raw/GSE241735_family.soft.gz": "b193d066990a2391606b582e1895f0ae8d2f7fe30707b9e2e4e926376f8c0b17",
+    "data/raw/GSE241735_raw_counts_MG212.txt.gz": "68faf1d75b51e7b2926f8a6ec9f92cbf67eb411b49e1ad3617c7525d111268cc",
+    "data/raw/GSE241735_rawcnt_allSamples_icc13-7.tsv.txt.gz": "1ab66f960578cbd06a17afaacaa7d8467d3e745ac144fc24f54074c2abab19b3",
+    "data/reference/hgnc_complete_set.txt": "0e0e04c1a5dcfe0f02a9e448fc808e5407d2a8f3cc359b7f6856362bb6a93dcb",
+    "data/reference/hierarchy_closure.csv": "a868da942cfbc69a65ec4268ac9ae039a3ca36b1ba94111f358cafed3f855972"
+  },
+  "kernel_audit": {
+    "beyond_max_distance": 12,
+    "off_diagonal_pairs_used": 545,
+    "repeated_unordered_pairs": 1,
+    "rows_without_reference_endpoints": 1418,
+    "self_rows_ignored": 1845
+  },
+  "random_repeats_used": 2000,
+  "validation_truth_counts": {
+    "Both PDX_down": 34,
+    "Both PDX_up": 10,
+    "MG212_down": 107,
+    "MG212_up": 51,
+    "MG69_down": 261,
+    "MG69_up": 184
+  }
+}

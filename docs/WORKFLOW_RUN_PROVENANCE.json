@@ -1,0 +1,86 @@
+{
+  "application_commit": "849c7495a9d5a1bc2e6101a1721d30b19d0922a4",
+  "application_entry": "streamlit_app_0303.py",
+  "application_source_edited": false,
+  "run_id": "097a358f1c679d96",
+  "app_version": "2026.10.29",
+  "run_created_utc": "2026-10-29T04:44:31.344983+00:00",
+  "settings": {
+    "alpha": 0.5,
+    "max_distance": 3,
+    "top_k": 25,
+    "resolution": 1.0,
+    "seed": 42,
+    "iterations": 2,
+    "mixture": 0.5,
+    "make_layout": true
+  },
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "igraph": "0.11.9",
+    "leidenalg": "0.10.2",
+    "streamlit": "1.50.0",
+    "umap-learn": "0.5.9.post2"
+  },
+  "embedding": {
+    "representation": "sparse symmetric graph affinity rows",
+    "isolates_omitted_from_layout": 200,
+    "metric": "cosine",
+    "random_state": 42,
+    "init": "random",
+    "min_dist": 0.1,
+    "n_jobs": 1,
+    "n_neighbors": 15,
+    "algorithm": "UMAP"
+  },
+  "genes": 2523,
+  "clusters": 397,
+  "positioned_genes": 2323,
+  "cluster_249_members": [
+    "SAMM50",
+    "MTX2",
+    "MTX3"
+  ],
+  "outside_input_seed": {
+    "seed": "SAMM50",
+    "result": [
+      {
+        "hgnc_id": "HGNC:7504",
+        "symbol": "MTX1",
+        "score": "0.2886751345948129",
+        "same_family_score": "0.0",
+        "hierarchy_score": "0.2886751345948129",
+        "seed_HGNC:24276": "0.2886751345948129"
+      }
+    ]
+  },
+  "enrichment": {
+    "query": [
+      "MTX2",
+      "MTX3",
+      "SAMM50"
+    ],
+    "background_size": 2523,
+    "requested_utc": "2026-10-29T04:46:22.573589+00:00",
+    "database_version": "e114_eg62_p19_9dc92ac8",
+    "returned_terms": 40,
+    "purpose": "live interface illustration; not frozen performance evaluation"
+  },
+  "screenshots": {
+    "01_overview.png": "56d98e43a6b258d23e6a6b00831dbea1708a87eb784bff01b905a4f3b1c7e319",
+    "02_umap.png": "dcbfd0de3c04b6eae59e5add5051b3bbb9a2e32ea799a66422775ad9ab81be3e",
+    "03_cluster_enrichment.png": "93f62b8d82b0a1a6b4777863db78d48dc8efc9277f43c9f152467fa916dfd1ee",
+    "04_enrichment_chart.png": "e5c3aa5aa3a5074edd86459a575656f162a820b74dac526d7db578eba8e28696",
+    "05_seed_exploration.png": "18e11dbbc69688dec6cf7e3c518f7b47cb6e5277df61bd1c5ee7b82b973dab2c",
+    "06_seed_explanation.png": "cd2c4bdeab7821bfd723bf63ec6fc5d181db9f5eabfd5e6d17e1b0461aacd240",
+    "07_reproducibility.png": "d65122b180ca3cbd2cf2c04e6efe4dbf91aa3799bb2f04efb6f8304f14fbc6a5",
+    "08_settings_export.png": "7cffac671e0f77258c7bd4e00daffc3de38898db9f59a0c2450c6d7a4455f428",
+    "09_compact_export.png": "d55a190e7cedb5cc21ea9cdaaf9a3ba0c68628c30b0db81a1dd4d307c5955625",
+    "10_export_panel.png": "79be1276253932f6bc6d70f683da8f3d409a66d567fae23654c3448cf0e6ed7c"
+  },
+  "complete_run_sha256": "846162bb2ed2bcda2659ce8e97a5bf0b3492dff49e631717698761b7624e2952",
+  "operations": "Browser screenshots; PDF region clipping and composition; no screenshot-pixel retouching.",
+  "paper_sources_edited": false
+}
